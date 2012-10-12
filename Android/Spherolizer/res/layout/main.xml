@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<Button android:id="@+id/btnLows" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/just_lows" android:onClick="onLowsClicked" />
+	
+	<Button android:id="@+id/btnMids" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/just_mids" android:onClick="onMidsClicked" />
+	
+	<Button android:id="@+id/btnHighs" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/just_highs" android:onClick="onHighsClicked" />
+	
+	<Button android:id="@+id/btnAll" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center"
+		android:text="@string/all_frequencies" android:onClick="onAllFrequenciesClicked" />
+
+</LinearLayout>

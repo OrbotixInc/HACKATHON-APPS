@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Spherolizer2</string>
+    <string name="just_lows"> Just Lows </string>
+    <string name="just_mids"> Just Mids </string>
+    <string name="just_highs"> Just Highs </string>
+    <string name="all_frequencies"> All Frequencies </string>
+    <string name="frequencyband">freq__band</string>
+    <string name="btn_done">Done</string>
+
+
+</resources>
