@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/menu_bg">
+    <RelativeLayout android:id="@+id/LeftPane"
+                    android:layout_width="200dip"
+                    android:layout_height="fill_parent">
+        <ImageView android:id="@+id/BluePane"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:scaleType="fitXY"
+                   android:layout_alignParentLeft="true"
+                   android:src="@drawable/aim_tutorial_blue_pane"/>
+        <ImageView android:id="@+id/VerticalLine"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_alignRight="@id/BluePane"
+                   android:src="@drawable/aim_tutorial_vertical_line"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_alignParentTop="true"
+                  android:layout_marginTop="30dip"
+                  android:layout_marginLeft="10dip"
+                  android:layout_marginRight="10dip"
+                  android:gravity="center_horizontal"
+                  android:textSize="30sp"
+                  android:textColor="@android:color/white"
+                  android:textStyle="bold"
+                  android:text="@string/Remember"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/LeftPane">
+        <Button android:id="@+id/DoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="40dip"
+                android:background="@drawable/next_button"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:text="@string/GotIt"
+                android:onClick="onDoneClicked"/>
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dip"
+                        android:clickable="true"
+                        android:onClick="onDontShowAgainClicked">
+            <ImageView android:id="@+id/CloseX"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/dont_show"
+                       android:layout_centerVertical="true"
+                       android:layout_alignParentLeft="true"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="10sp"
+                      android:textColor="@android:color/white"
+                      android:textStyle="bold"
+                      android:text="@string/DontShow"
+                      android:layout_toRightOf="@id/CloseX"
+                      android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

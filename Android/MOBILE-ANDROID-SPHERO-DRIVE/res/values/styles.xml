@@ -1,0 +1,93 @@
+<resources>
+    <!-- Main Menu Styles -->
+	<style name="Menu">
+	</style>
+	<style name="Menu.Button">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Menu.Button.NameText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="Menu.Button.NameSpace">
+        <item name="android:layout_marginTop">20dip</item>
+        <item name="android:layout_marginBottom">15dip</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="Menu.Button.SpheroLogo">
+        <item name="android:layout_marginTop">3dip</item>
+    </style>
+	<style name="Menu.Button.Background">
+		<item name="android:layout_margin">3dip</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="Menu.Button.MainMenu">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">25dip</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Menu.Button.MainMenu.Roll">
+        <item name="android:src">@drawable/roll_icon</item>
+        <item name="android:layout_marginLeft">22dip</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="Menu.Button.ImageButton">
+        <item name="android:background">@drawable/main_button_selector</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_margin">5dip</item>
+	</style>
+    <style name="Menu.Button.ImageButton.Left">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="Menu.Button.ImageButton.Right">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="Menu.Button.InfoButton">
+        <item name="android:src">@drawable/icon_sleep_white</item>
+        <item name="android:background">#0000</item>
+    </style>
+	<style name="Menu.Button.Text">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+	</style>
+    <style name="Menu.Button.Text.Bottom">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginBottom">10dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:paddingRight">2dip</item>
+    </style>
+    <style name="Menu.Button.LongButton">
+        <item name="android:src">@drawable/menu_button_background</item>
+    </style>
+    <style name="Menu.Button.Content">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="Menu.Button.Content.Icon">
+        <item name="android:layout_marginLeft">10dip</item>
+    </style>
+    <style name="Menu.Button.Content.Text">
+        <item name="android:layout_marginLeft">55dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Menu.Button.Content.Arrow">
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:src">@drawable/menu_button_arrow</item>
+    </style>
+    <style name="Menu.Button.Layout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="Drive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

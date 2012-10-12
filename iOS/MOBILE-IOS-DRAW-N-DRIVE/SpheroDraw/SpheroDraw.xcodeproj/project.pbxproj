@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811EF72E14085CD3009DE7FE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811EF72D14085CD3009DE7FE /* GameKit.framework */; };
+		812AD5E014478E5D002CCE03 /* SpheroDrawColorBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD5DF14478E5D002CCE03 /* SpheroDrawColorBG.png */; };
+		812AD5FF1447A799002CCE03 /* DND57.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD5FC1447A799002CCE03 /* DND57.png */; };
+		812AD6001447A799002CCE03 /* DND72.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD5FD1447A799002CCE03 /* DND72.png */; };
+		812AD6011447A799002CCE03 /* DND114.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD5FE1447A799002CCE03 /* DND114.png */; };
+		812AD6041447AB51002CCE03 /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 812AD6031447AB51002CCE03 /* libFlurryAnalytics.a */; };
+		8147F35614521651000D5675 /* SpheroDrawReplayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8147F35514521651000D5675 /* SpheroDrawReplayButton@2x.png */; };
+		814BB0EC144769AC00E237B0 /* SpheroDrawColorCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 814BB0E4144769AC00E237B0 /* SpheroDrawColorCircle.png */; };
+		814BB0ED144769AC00E237B0 /* SpheroDrawLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 814BB0E5144769AC00E237B0 /* SpheroDrawLogo.png */; };
+		814BB0EE144769AC00E237B0 /* SpheroDrawPaperBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 814BB0E6144769AC00E237B0 /* SpheroDrawPaperBG.png */; };
+		814BB0EF144769AC00E237B0 /* SpheroDrawReplayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 814BB0E7144769AC00E237B0 /* SpheroDrawReplayButton.png */; };
+		815B82CA14AE735700CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B82C914AE735700CBAA79 /* Sphero-WhatsNewIcon@2x.png */; };
+		815B82CF14AE779C00CBAA79 /* Draw N Drive User Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 815B82CD14AE779C00CBAA79 /* Draw N Drive User Guide.md */; };
+		815B82D014AE779C00CBAA79 /* DrawNDriveUserGuide.html in Resources */ = {isa = PBXBuildFile; fileRef = 815B82CE14AE779C00CBAA79 /* DrawNDriveUserGuide.html */; };
+		815B82D414AE77BB00CBAA79 /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B82D214AE77BB00CBAA79 /* UserGuideViewController.m */; };
+		815B82D514AE77BB00CBAA79 /* UserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815B82D314AE77BB00CBAA79 /* UserGuideViewController.xib */; };
+		815B82D814AE79C700CBAA79 /* Sphero-CalibrateReminderClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B82D614AE79C700CBAA79 /* Sphero-CalibrateReminderClose.png */; };
+		815B82D914AE79C700CBAA79 /* Sphero-CalibrateReminderClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B82D714AE79C700CBAA79 /* Sphero-CalibrateReminderClose@2x.png */; };
+		81C8C1A8146876BA00DDCFF0 /* SpheroItemSelect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81C8C1A2146876BA00DDCFF0 /* SpheroItemSelect.wav */; };
+		81C8C1A9146876BA00DDCFF0 /* SpheroTraySlide.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81C8C1A3146876BA00DDCFF0 /* SpheroTraySlide.wav */; };
+		81C8C1AA146876BA00DDCFF0 /* SpheroItemSelectSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8C1A5146876BA00DDCFF0 /* SpheroItemSelectSound.m */; };
+		81C8C1AB146876BA00DDCFF0 /* SpheroTraySlideSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C8C1A7146876BA00DDCFF0 /* SpheroTraySlideSound.m */; };
+		81C8C1AD146879F500DDCFF0 /* DrawNDrive-AimSpheroReminderCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C8C1AC146879F500DDCFF0 /* DrawNDrive-AimSpheroReminderCallout.png */; };
+		81DCA68E146453D600031FAD /* NoSpheroAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DCA68D146453D600031FAD /* NoSpheroAlertManager.m */; };
+		81DCA6921464733F00031FAD /* DrawNDriveColorWHandle.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCA6911464733F00031FAD /* DrawNDriveColorWHandle.png */; };
+		81DCA6961464751200031FAD /* DrawNDriveColorWHandle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCA6951464751100031FAD /* DrawNDriveColorWHandle@2x.png */; };
+		81DCA699146476CD00031FAD /* Sphero-CalibrateIndicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCA697146476CD00031FAD /* Sphero-CalibrateIndicator.png */; };
+		81DCA69A146476CD00031FAD /* Sphero-CalibrateIndicatorOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCA698146476CD00031FAD /* Sphero-CalibrateIndicatorOn.png */; };
+		81DCA6D71464A73B00031FAD /* RKCalibrateOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DCA6D61464A73B00031FAD /* RKCalibrateOverlayView.m */; };
+		81DCA6FF1464B09500031FAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DCA6FE1464B09500031FAD /* QuartzCore.framework */; };
+		81F6579A1465BDEA00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657991465BDEA00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */; };
+		81F657A11465C51700CB4402 /* OXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F6579E1465C51700CB4402 /* OXAudioManager.m */; };
+		81F657A21465C51700CB4402 /* OXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F657A01465C51700CB4402 /* OXAudioPlayer.m */; };
+		81F657A81465C57400CB4402 /* CalibrateOverlayStartSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F657A71465C57400CB4402 /* CalibrateOverlayStartSound.m */; };
+		81F657AB1465C58600CB4402 /* CalibrateOverlayLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F657AA1465C58600CB4402 /* CalibrateOverlayLoop.m */; };
+		81F657AE1465C59A00CB4402 /* CalibrateOverlayEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F657AD1465C59A00CB4402 /* CalibrateOverlayEnd.m */; };
+		81F657B31465C5C900CB4402 /* 2-finger HUD_in.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F657B01465C5C900CB4402 /* 2-finger HUD_in.wav */; };
+		81F657B41465C5C900CB4402 /* 2-finger HUD_out.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F657B11465C5C900CB4402 /* 2-finger HUD_out.wav */; };
+		81F657B71465C6D000CB4402 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F657B51465C6D000CB4402 /* AudioToolbox.framework */; };
+		81F657B81465C6D000CB4402 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F657B61465C6D000CB4402 /* AVFoundation.framework */; };
+		81F657BC1465CA2900CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657BB1465CA2900CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */; };
+		81F657C01465CFCF00CB4402 /* Sphero-InnerCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657BD1465CFCF00CB4402 /* Sphero-InnerCalibrateRing.png */; };
+		81F657C11465CFCF00CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657BE1465CFCF00CB4402 /* Sphero-MiddleCalibrateRing.png */; };
+		81F657C21465CFCF00CB4402 /* Sphero-OuterCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657BF1465CFCF00CB4402 /* Sphero-OuterCalibrateRing.png */; };
+		81F657C41465D9F000CB4402 /* 2-finger HUD_hum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F657C31465D9F000CB4402 /* 2-finger HUD_hum.wav */; };
+		CA0A85DD13FF1373009DA0EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0A85DC13FF1373009DA0EF /* UIKit.framework */; };
+		CA0A85DF13FF1373009DA0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0A85DE13FF1373009DA0EF /* Foundation.framework */; };
+		CA0A85E113FF1373009DA0EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0A85E013FF1373009DA0EF /* CoreGraphics.framework */; };
+		CA0A85E713FF1373009DA0EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA0A85E513FF1373009DA0EF /* InfoPlist.strings */; };
+		CA0A85E913FF1373009DA0EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A85E813FF1373009DA0EF /* main.m */; };
+		CA0A85ED13FF1373009DA0EF /* SpheroDrawAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A85EC13FF1373009DA0EF /* SpheroDrawAppDelegate.m */; };
+		CA0A85F013FF1373009DA0EF /* SpheroDrawViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA0A85EF13FF1373009DA0EF /* SpheroDrawViewController.mm */; };
+		CA0A85F313FF1373009DA0EF /* SpheroDrawViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A85F113FF1373009DA0EF /* SpheroDrawViewController_iPhone.xib */; };
+		CA0A85F613FF1373009DA0EF /* SpheroDrawViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA0A85F413FF1373009DA0EF /* SpheroDrawViewController_iPad.xib */; };
+		CA0A862E13FF2817009DA0EF /* DrawingView.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA0A862D13FF2817009DA0EF /* DrawingView.mm */; };
+		CA0ECA2A14080D42007CD924 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0ECA2914080D42007CD924 /* ExternalAccessory.framework */; };
+		CA0ECA2C14080D54007CD924 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0ECA2B14080D54007CD924 /* libsqlite3.dylib */; };
+		CAC7511D14081ADB0076FEB0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC7511C14081ADB0076FEB0 /* CoreMotion.framework */; };
+		D306805014A2443800359AB3 /* libRobotKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804E14A2443800359AB3 /* libRobotKit.a */; };
+		D306805114A2443800359AB3 /* libRobotUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804F14A2443800359AB3 /* libRobotUIKit.a */; };
+		D306805B14A2993C00359AB3 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D306805A14A2993C00359AB3 /* RobotUIKit.bundle */; };
+		D349AA8E14B534E30059A6DD /* Sphero-WhatsNewIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8D14B534E30059A6DD /* Sphero-WhatsNewIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		811EF72D14085CD3009DE7FE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		812AD5DF14478E5D002CCE03 /* SpheroDrawColorBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrawColorBG.png; sourceTree = "<group>"; };
+		812AD5FC1447A799002CCE03 /* DND57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DND57.png; sourceTree = "<group>"; };
+		812AD5FD1447A799002CCE03 /* DND72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DND72.png; sourceTree = "<group>"; };
+		812AD5FE1447A799002CCE03 /* DND114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DND114.png; sourceTree = "<group>"; };
+		812AD6021447AB51002CCE03 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
+		812AD6031447AB51002CCE03 /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
+		8147F35514521651000D5675 /* SpheroDrawReplayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrawReplayButton@2x.png"; sourceTree = "<group>"; };
+		814BB0E4144769AC00E237B0 /* SpheroDrawColorCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrawColorCircle.png; sourceTree = "<group>"; };
+		814BB0E5144769AC00E237B0 /* SpheroDrawLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrawLogo.png; sourceTree = "<group>"; };
+		814BB0E6144769AC00E237B0 /* SpheroDrawPaperBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrawPaperBG.png; sourceTree = "<group>"; };
+		814BB0E7144769AC00E237B0 /* SpheroDrawReplayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrawReplayButton.png; sourceTree = "<group>"; };
+		815B82C914AE735700CBAA79 /* Sphero-WhatsNewIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-WhatsNewIcon@2x.png"; sourceTree = "<group>"; };
+		815B82CD14AE779C00CBAA79 /* Draw N Drive User Guide.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Draw N Drive User Guide.md"; sourceTree = "<group>"; };
+		815B82CE14AE779C00CBAA79 /* DrawNDriveUserGuide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DrawNDriveUserGuide.html; sourceTree = "<group>"; };
+		815B82D114AE77BB00CBAA79 /* UserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGuideViewController.h; sourceTree = "<group>"; };
+		815B82D214AE77BB00CBAA79 /* UserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
+		815B82D314AE77BB00CBAA79 /* UserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserGuideViewController.xib; sourceTree = "<group>"; };
+		815B82D614AE79C700CBAA79 /* Sphero-CalibrateReminderClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose.png"; sourceTree = "<group>"; };
+		815B82D714AE79C700CBAA79 /* Sphero-CalibrateReminderClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose@2x.png"; sourceTree = "<group>"; };
+		81C8C1A2146876BA00DDCFF0 /* SpheroItemSelect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroItemSelect.wav; sourceTree = "<group>"; };
+		81C8C1A3146876BA00DDCFF0 /* SpheroTraySlide.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroTraySlide.wav; sourceTree = "<group>"; };
+		81C8C1A4146876BA00DDCFF0 /* SpheroItemSelectSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroItemSelectSound.h; sourceTree = "<group>"; };
+		81C8C1A5146876BA00DDCFF0 /* SpheroItemSelectSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroItemSelectSound.m; sourceTree = "<group>"; };
+		81C8C1A6146876BA00DDCFF0 /* SpheroTraySlideSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroTraySlideSound.h; sourceTree = "<group>"; };
+		81C8C1A7146876BA00DDCFF0 /* SpheroTraySlideSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroTraySlideSound.m; sourceTree = "<group>"; };
+		81C8C1AC146879F500DDCFF0 /* DrawNDrive-AimSpheroReminderCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DrawNDrive-AimSpheroReminderCallout.png"; sourceTree = "<group>"; };
+		81DCA68C146453D600031FAD /* NoSpheroAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoSpheroAlertManager.h; sourceTree = "<group>"; };
+		81DCA68D146453D600031FAD /* NoSpheroAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoSpheroAlertManager.m; sourceTree = "<group>"; };
+		81DCA6911464733F00031FAD /* DrawNDriveColorWHandle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrawNDriveColorWHandle.png; sourceTree = "<group>"; };
+		81DCA6951464751100031FAD /* DrawNDriveColorWHandle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DrawNDriveColorWHandle@2x.png"; sourceTree = "<group>"; };
+		81DCA697146476CD00031FAD /* Sphero-CalibrateIndicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateIndicator.png"; sourceTree = "<group>"; };
+		81DCA698146476CD00031FAD /* Sphero-CalibrateIndicatorOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateIndicatorOn.png"; sourceTree = "<group>"; };
+		81DCA6D51464A73B00031FAD /* RKCalibrateOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCalibrateOverlayView.h; sourceTree = "<group>"; };
+		81DCA6D61464A73B00031FAD /* RKCalibrateOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCalibrateOverlayView.m; sourceTree = "<group>"; };
+		81DCA6FE1464B09500031FAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		81F657991465BDEA00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowBlue.png"; sourceTree = "<group>"; };
+		81F6579D1465C51700CB4402 /* OXAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioManager.h; sourceTree = "<group>"; };
+		81F6579E1465C51700CB4402 /* OXAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioManager.m; sourceTree = "<group>"; };
+		81F6579F1465C51700CB4402 /* OXAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioPlayer.h; sourceTree = "<group>"; };
+		81F657A01465C51700CB4402 /* OXAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioPlayer.m; sourceTree = "<group>"; };
+		81F657A61465C57400CB4402 /* CalibrateOverlayStartSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayStartSound.h; sourceTree = "<group>"; };
+		81F657A71465C57400CB4402 /* CalibrateOverlayStartSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayStartSound.m; sourceTree = "<group>"; };
+		81F657A91465C58600CB4402 /* CalibrateOverlayLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayLoop.h; sourceTree = "<group>"; };
+		81F657AA1465C58600CB4402 /* CalibrateOverlayLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayLoop.m; sourceTree = "<group>"; };
+		81F657AC1465C59A00CB4402 /* CalibrateOverlayEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayEnd.h; sourceTree = "<group>"; };
+		81F657AD1465C59A00CB4402 /* CalibrateOverlayEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayEnd.m; sourceTree = "<group>"; };
+		81F657B01465C5C900CB4402 /* 2-finger HUD_in.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_in.wav"; sourceTree = "<group>"; };
+		81F657B11465C5C900CB4402 /* 2-finger HUD_out.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_out.wav"; sourceTree = "<group>"; };
+		81F657B51465C6D000CB4402 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81F657B61465C6D000CB4402 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81F657BB1465CA2900CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowWhite.png"; sourceTree = "<group>"; };
+		81F657BD1465CFCF00CB4402 /* Sphero-InnerCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-InnerCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657BE1465CFCF00CB4402 /* Sphero-MiddleCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-MiddleCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657BF1465CFCF00CB4402 /* Sphero-OuterCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-OuterCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657C31465D9F000CB4402 /* 2-finger HUD_hum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_hum.wav"; sourceTree = "<group>"; };
+		CA0A85D813FF1373009DA0EF /* SpheroDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0A85DC13FF1373009DA0EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA0A85DE13FF1373009DA0EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA0A85E013FF1373009DA0EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA0A85E413FF1373009DA0EF /* SpheroDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroDraw-Info.plist"; sourceTree = "<group>"; };
+		CA0A85E613FF1373009DA0EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA0A85E813FF1373009DA0EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA0A85EA13FF1373009DA0EF /* SpheroDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpheroDraw-Prefix.pch"; sourceTree = "<group>"; };
+		CA0A85EB13FF1373009DA0EF /* SpheroDrawAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpheroDrawAppDelegate.h; sourceTree = "<group>"; };
+		CA0A85EC13FF1373009DA0EF /* SpheroDrawAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroDrawAppDelegate.m; sourceTree = "<group>"; };
+		CA0A85EE13FF1373009DA0EF /* SpheroDrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpheroDrawViewController.h; sourceTree = "<group>"; };
+		CA0A85EF13FF1373009DA0EF /* SpheroDrawViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SpheroDrawViewController.mm; sourceTree = "<group>"; };
+		CA0A85F213FF1373009DA0EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpheroDrawViewController_iPhone.xib; sourceTree = "<group>"; };
+		CA0A85F513FF1373009DA0EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpheroDrawViewController_iPad.xib; sourceTree = "<group>"; };
+		CA0A862C13FF2817009DA0EF /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		CA0A862D13FF2817009DA0EF /* DrawingView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DrawingView.mm; sourceTree = "<group>"; };
+		CA0ECA2914080D42007CD924 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		CA0ECA2B14080D54007CD924 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CAC7511C14081ADB0076FEB0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D306804E14A2443800359AB3 /* libRobotKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos/libRobotKit.a"; sourceTree = "<group>"; };
+		D306804F14A2443800359AB3 /* libRobotUIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotUIKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos/libRobotUIKit.a"; sourceTree = "<group>"; };
+		D306805A14A2993C00359AB3 /* RobotUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RobotUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349AA8D14B534E30059A6DD /* Sphero-WhatsNewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-WhatsNewIcon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0A85D513FF1373009DA0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306805014A2443800359AB3 /* libRobotKit.a in Frameworks */,
+				D306805114A2443800359AB3 /* libRobotUIKit.a in Frameworks */,
+				81F657B71465C6D000CB4402 /* AudioToolbox.framework in Frameworks */,
+				81F657B81465C6D000CB4402 /* AVFoundation.framework in Frameworks */,
+				81DCA6FF1464B09500031FAD /* QuartzCore.framework in Frameworks */,
+				811EF72E14085CD3009DE7FE /* GameKit.framework in Frameworks */,
+				CAC7511D14081ADB0076FEB0 /* CoreMotion.framework in Frameworks */,
+				CA0ECA2C14080D54007CD924 /* libsqlite3.dylib in Frameworks */,
+				CA0ECA2A14080D42007CD924 /* ExternalAccessory.framework in Frameworks */,
+				CA0A85DD13FF1373009DA0EF /* UIKit.framework in Frameworks */,
+				CA0A85DF13FF1373009DA0EF /* Foundation.framework in Frameworks */,
+				CA0A85E113FF1373009DA0EF /* CoreGraphics.framework in Frameworks */,
+				812AD6041447AB51002CCE03 /* libFlurryAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		815B82CC14AE736400CBAA79 /* User Guide */ = {
+			isa = PBXGroup;
+			children = (
+				815B82D114AE77BB00CBAA79 /* UserGuideViewController.h */,
+				815B82D214AE77BB00CBAA79 /* UserGuideViewController.m */,
+				815B82D614AE79C700CBAA79 /* Sphero-CalibrateReminderClose.png */,
+				815B82D714AE79C700CBAA79 /* Sphero-CalibrateReminderClose@2x.png */,
+				815B82D314AE77BB00CBAA79 /* UserGuideViewController.xib */,
+				815B82CD14AE779C00CBAA79 /* Draw N Drive User Guide.md */,
+				815B82CE14AE779C00CBAA79 /* DrawNDriveUserGuide.html */,
+			);
+			name = "User Guide";
+			sourceTree = "<group>";
+		};
+		81DCA6D81464A79500031FAD /* RKCalibrateOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				81F657991465BDEA00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */,
+				81F657BB1465CA2900CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */,
+				81F657BD1465CFCF00CB4402 /* Sphero-InnerCalibrateRing.png */,
+				81F657BE1465CFCF00CB4402 /* Sphero-MiddleCalibrateRing.png */,
+				81F657BF1465CFCF00CB4402 /* Sphero-OuterCalibrateRing.png */,
+				81DCA6D51464A73B00031FAD /* RKCalibrateOverlayView.h */,
+				81DCA6D61464A73B00031FAD /* RKCalibrateOverlayView.m */,
+			);
+			name = RKCalibrateOverlay;
+			sourceTree = "<group>";
+		};
+		81F6579C1465C4CC00CB4402 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				81F6579D1465C51700CB4402 /* OXAudioManager.h */,
+				81F6579E1465C51700CB4402 /* OXAudioManager.m */,
+				81F6579F1465C51700CB4402 /* OXAudioPlayer.h */,
+				81F657A01465C51700CB4402 /* OXAudioPlayer.m */,
+				81F657A61465C57400CB4402 /* CalibrateOverlayStartSound.h */,
+				81F657A71465C57400CB4402 /* CalibrateOverlayStartSound.m */,
+				81F657A91465C58600CB4402 /* CalibrateOverlayLoop.h */,
+				81F657AA1465C58600CB4402 /* CalibrateOverlayLoop.m */,
+				81F657AC1465C59A00CB4402 /* CalibrateOverlayEnd.h */,
+				81F657AD1465C59A00CB4402 /* CalibrateOverlayEnd.m */,
+				81F657C31465D9F000CB4402 /* 2-finger HUD_hum.wav */,
+				81F657B01465C5C900CB4402 /* 2-finger HUD_in.wav */,
+				81F657B11465C5C900CB4402 /* 2-finger HUD_out.wav */,
+				81C8C1A2146876BA00DDCFF0 /* SpheroItemSelect.wav */,
+				81C8C1A3146876BA00DDCFF0 /* SpheroTraySlide.wav */,
+				81C8C1A4146876BA00DDCFF0 /* SpheroItemSelectSound.h */,
+				81C8C1A5146876BA00DDCFF0 /* SpheroItemSelectSound.m */,
+				81C8C1A6146876BA00DDCFF0 /* SpheroTraySlideSound.h */,
+				81C8C1A7146876BA00DDCFF0 /* SpheroTraySlideSound.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		CA0A85CD13FF1373009DA0EF = {
+			isa = PBXGroup;
+			children = (
+				D306805A14A2993C00359AB3 /* RobotUIKit.bundle */,
+				CA0A85E213FF1373009DA0EF /* SpheroDraw */,
+				CA0A85DB13FF1373009DA0EF /* Frameworks */,
+				CA0A85D913FF1373009DA0EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0A85D913FF1373009DA0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0A85D813FF1373009DA0EF /* SpheroDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0A85DB13FF1373009DA0EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0ECA2B14080D54007CD924 /* libsqlite3.dylib */,
+				D306804E14A2443800359AB3 /* libRobotKit.a */,
+				D306804F14A2443800359AB3 /* libRobotUIKit.a */,
+				81F657B51465C6D000CB4402 /* AudioToolbox.framework */,
+				81F657B61465C6D000CB4402 /* AVFoundation.framework */,
+				81DCA6FE1464B09500031FAD /* QuartzCore.framework */,
+				811EF72D14085CD3009DE7FE /* GameKit.framework */,
+				CAC7511C14081ADB0076FEB0 /* CoreMotion.framework */,
+				CA0ECA2914080D42007CD924 /* ExternalAccessory.framework */,
+				CA0A85DC13FF1373009DA0EF /* UIKit.framework */,
+				CA0A85DE13FF1373009DA0EF /* Foundation.framework */,
+				CA0A85E013FF1373009DA0EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0A85E213FF1373009DA0EF /* SpheroDraw */ = {
+			isa = PBXGroup;
+			children = (
+				815B82CC14AE736400CBAA79 /* User Guide */,
+				81F6579C1465C4CC00CB4402 /* Audio */,
+				81DCA6D81464A79500031FAD /* RKCalibrateOverlay */,
+				CA0A862C13FF2817009DA0EF /* DrawingView.h */,
+				D349AA8D14B534E30059A6DD /* Sphero-WhatsNewIcon.png */,
+				815B82C914AE735700CBAA79 /* Sphero-WhatsNewIcon@2x.png */,
+				CA0A862D13FF2817009DA0EF /* DrawingView.mm */,
+				CA0A85EB13FF1373009DA0EF /* SpheroDrawAppDelegate.h */,
+				CA0A85EC13FF1373009DA0EF /* SpheroDrawAppDelegate.m */,
+				CA0A85EE13FF1373009DA0EF /* SpheroDrawViewController.h */,
+				CA0A85EF13FF1373009DA0EF /* SpheroDrawViewController.mm */,
+				81DCA68C146453D600031FAD /* NoSpheroAlertManager.h */,
+				81DCA68D146453D600031FAD /* NoSpheroAlertManager.m */,
+				CA0A85F113FF1373009DA0EF /* SpheroDrawViewController_iPhone.xib */,
+				CA0A85F413FF1373009DA0EF /* SpheroDrawViewController_iPad.xib */,
+				CA0A85E313FF1373009DA0EF /* Supporting Files */,
+			);
+			path = SpheroDraw;
+			sourceTree = "<group>";
+		};
+		CA0A85E313FF1373009DA0EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81C8C1AC146879F500DDCFF0 /* DrawNDrive-AimSpheroReminderCallout.png */,
+				81DCA697146476CD00031FAD /* Sphero-CalibrateIndicator.png */,
+				81DCA698146476CD00031FAD /* Sphero-CalibrateIndicatorOn.png */,
+				812AD6021447AB51002CCE03 /* FlurryAnalytics.h */,
+				812AD6031447AB51002CCE03 /* libFlurryAnalytics.a */,
+				812AD5FC1447A799002CCE03 /* DND57.png */,
+				812AD5FD1447A799002CCE03 /* DND72.png */,
+				812AD5FE1447A799002CCE03 /* DND114.png */,
+				81DCA6911464733F00031FAD /* DrawNDriveColorWHandle.png */,
+				814BB0E4144769AC00E237B0 /* SpheroDrawColorCircle.png */,
+				81DCA6951464751100031FAD /* DrawNDriveColorWHandle@2x.png */,
+				812AD5DF14478E5D002CCE03 /* SpheroDrawColorBG.png */,
+				814BB0E5144769AC00E237B0 /* SpheroDrawLogo.png */,
+				814BB0E6144769AC00E237B0 /* SpheroDrawPaperBG.png */,
+				814BB0E7144769AC00E237B0 /* SpheroDrawReplayButton.png */,
+				8147F35514521651000D5675 /* SpheroDrawReplayButton@2x.png */,
+				CA0A85E413FF1373009DA0EF /* SpheroDraw-Info.plist */,
+				CA0A85E513FF1373009DA0EF /* InfoPlist.strings */,
+				CA0A85E813FF1373009DA0EF /* main.m */,
+				CA0A85EA13FF1373009DA0EF /* SpheroDraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0A85D713FF1373009DA0EF /* SpheroDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0A85F913FF1373009DA0EF /* Build configuration list for PBXNativeTarget "SpheroDraw" */;
+			buildPhases = (
+				CA0A85D413FF1373009DA0EF /* Sources */,
+				CA0A85D513FF1373009DA0EF /* Frameworks */,
+				CA0A85D613FF1373009DA0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroDraw;
+			productName = SpheroDraw;
+			productReference = CA0A85D813FF1373009DA0EF /* SpheroDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0A85CF13FF1373009DA0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Orbotix;
+			};
+			buildConfigurationList = CA0A85D213FF1373009DA0EF /* Build configuration list for PBXProject "SpheroDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA0A85CD13FF1373009DA0EF;
+			productRefGroup = CA0A85D913FF1373009DA0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0A85D713FF1373009DA0EF /* SpheroDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0A85D613FF1373009DA0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306805B14A2993C00359AB3 /* RobotUIKit.bundle in Resources */,
+				CA0A85E713FF1373009DA0EF /* InfoPlist.strings in Resources */,
+				CA0A85F313FF1373009DA0EF /* SpheroDrawViewController_iPhone.xib in Resources */,
+				CA0A85F613FF1373009DA0EF /* SpheroDrawViewController_iPad.xib in Resources */,
+				814BB0EC144769AC00E237B0 /* SpheroDrawColorCircle.png in Resources */,
+				814BB0ED144769AC00E237B0 /* SpheroDrawLogo.png in Resources */,
+				814BB0EE144769AC00E237B0 /* SpheroDrawPaperBG.png in Resources */,
+				814BB0EF144769AC00E237B0 /* SpheroDrawReplayButton.png in Resources */,
+				812AD5E014478E5D002CCE03 /* SpheroDrawColorBG.png in Resources */,
+				812AD5FF1447A799002CCE03 /* DND57.png in Resources */,
+				812AD6001447A799002CCE03 /* DND72.png in Resources */,
+				812AD6011447A799002CCE03 /* DND114.png in Resources */,
+				8147F35614521651000D5675 /* SpheroDrawReplayButton@2x.png in Resources */,
+				81DCA6921464733F00031FAD /* DrawNDriveColorWHandle.png in Resources */,
+				81DCA6961464751200031FAD /* DrawNDriveColorWHandle@2x.png in Resources */,
+				81DCA699146476CD00031FAD /* Sphero-CalibrateIndicator.png in Resources */,
+				81DCA69A146476CD00031FAD /* Sphero-CalibrateIndicatorOn.png in Resources */,
+				81F6579A1465BDEA00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */,
+				81F657B31465C5C900CB4402 /* 2-finger HUD_in.wav in Resources */,
+				81F657B41465C5C900CB4402 /* 2-finger HUD_out.wav in Resources */,
+				81F657BC1465CA2900CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */,
+				81F657C01465CFCF00CB4402 /* Sphero-InnerCalibrateRing.png in Resources */,
+				81F657C11465CFCF00CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */,
+				81F657C21465CFCF00CB4402 /* Sphero-OuterCalibrateRing.png in Resources */,
+				81F657C41465D9F000CB4402 /* 2-finger HUD_hum.wav in Resources */,
+				81C8C1A8146876BA00DDCFF0 /* SpheroItemSelect.wav in Resources */,
+				81C8C1A9146876BA00DDCFF0 /* SpheroTraySlide.wav in Resources */,
+				81C8C1AD146879F500DDCFF0 /* DrawNDrive-AimSpheroReminderCallout.png in Resources */,
+				815B82CA14AE735700CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */,
+				815B82CF14AE779C00CBAA79 /* Draw N Drive User Guide.md in Resources */,
+				815B82D014AE779C00CBAA79 /* DrawNDriveUserGuide.html in Resources */,
+				815B82D514AE77BB00CBAA79 /* UserGuideViewController.xib in Resources */,
+				815B82D814AE79C700CBAA79 /* Sphero-CalibrateReminderClose.png in Resources */,
+				815B82D914AE79C700CBAA79 /* Sphero-CalibrateReminderClose@2x.png in Resources */,
+				D349AA8E14B534E30059A6DD /* Sphero-WhatsNewIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0A85D413FF1373009DA0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0A85E913FF1373009DA0EF /* main.m in Sources */,
+				CA0A85ED13FF1373009DA0EF /* SpheroDrawAppDelegate.m in Sources */,
+				CA0A85F013FF1373009DA0EF /* SpheroDrawViewController.mm in Sources */,
+				CA0A862E13FF2817009DA0EF /* DrawingView.mm in Sources */,
+				81DCA68E146453D600031FAD /* NoSpheroAlertManager.m in Sources */,
+				81DCA6D71464A73B00031FAD /* RKCalibrateOverlayView.m in Sources */,
+				81F657A11465C51700CB4402 /* OXAudioManager.m in Sources */,
+				81F657A21465C51700CB4402 /* OXAudioPlayer.m in Sources */,
+				81F657A81465C57400CB4402 /* CalibrateOverlayStartSound.m in Sources */,
+				81F657AB1465C58600CB4402 /* CalibrateOverlayLoop.m in Sources */,
+				81F657AE1465C59A00CB4402 /* CalibrateOverlayEnd.m in Sources */,
+				81C8C1AA146876BA00DDCFF0 /* SpheroItemSelectSound.m in Sources */,
+				81C8C1AB146876BA00DDCFF0 /* SpheroTraySlideSound.m in Sources */,
+				815B82D414AE77BB00CBAA79 /* UserGuideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA0A85E513FF1373009DA0EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0A85E613FF1373009DA0EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA0A85F113FF1373009DA0EF /* SpheroDrawViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0A85F213FF1373009DA0EF /* en */,
+			);
+			name = SpheroDrawViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		CA0A85F413FF1373009DA0EF /* SpheroDrawViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA0A85F513FF1373009DA0EF /* en */,
+			);
+			name = SpheroDrawViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA0A85F713FF1373009DA0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA0A85F813FF1373009DA0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0A85FA13FF1373009DA0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_IDENTIFIER = com.orbotix.DrawNDrive;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroDraw/SpheroDraw-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT/**";
+				INFOPLIST_FILE = "SpheroDraw/SpheroDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/SpheroDrawProof-dxpuptejexebaxgrofnfrhzeqmdd/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/SpheroDraw\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA0A85FB13FF1373009DA0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				BUNDLE_IDENTIFIER = com.orbotix.DrawNDrive;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orbotix Inc.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroDraw/SpheroDraw-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT/**";
+				INFOPLIST_FILE = "SpheroDraw/SpheroDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/SpheroDrawProof-dxpuptejexebaxgrofnfrhzeqmdd/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/SpheroDraw\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7C83428E-A0A4-4B46-A4B4-8A4CDA6F60C8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D3FE3EDE141C1B6000B9B750 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C377FF54-2FA5-412B-86F1-B55BA6C179AA";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		D3FE3EDF141C1B6000B9B750 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_IDENTIFIER = com.orbotix.brian.SpheroDraw;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroDraw/SpheroDraw-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT/**";
+				INFOPLIST_FILE = "SpheroDraw/SpheroDraw-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/SpheroDrawProof-dxpuptejexebaxgrofnfrhzeqmdd/Build/Products/Debug-iphoneos\"",
+					"\"$(SRCROOT)/SpheroDraw\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5FFA2B20-14BB-4FCF-9282-A73E3A8E17D0";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0A85D213FF1373009DA0EF /* Build configuration list for PBXProject "SpheroDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0A85F713FF1373009DA0EF /* Debug */,
+				CA0A85F813FF1373009DA0EF /* Release */,
+				D3FE3EDE141C1B6000B9B750 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0A85F913FF1373009DA0EF /* Build configuration list for PBXNativeTarget "SpheroDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0A85FA13FF1373009DA0EF /* Debug */,
+				CA0A85FB13FF1373009DA0EF /* Release */,
+				D3FE3EDF141C1B6000B9B750 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0A85CF13FF1373009DA0EF /* Project object */;
+}

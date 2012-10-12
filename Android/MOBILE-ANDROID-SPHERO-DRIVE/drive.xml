@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="drive" default="all">
+
+
+  <property file="drive.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!--
+  <property name="skip.tests" value="true"/>
+   -->
+
+  <!-- Compiler options -->
+
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.pyc/**"/>
+    <exclude name="**/.pyo/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/*.lib/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/.bundle/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.zip"/>
+    <include name="*.war"/>
+    <include name="*.egg"/>
+    <include name="*.ear"/>
+    <include name="*.swc"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <include name="**/?*.properties"/>
+    <include name="**/?*.xml"/>
+    <include name="**/?*.gif"/>
+    <include name="**/?*.png"/>
+    <include name="**/?*.jpeg"/>
+    <include name="**/?*.jpg"/>
+    <include name="**/?*.html"/>
+    <include name="**/?*.dtd"/>
+    <include name="**/?*.tld"/>
+    <include name="**/?*.ftl"/>
+  </patternset>
+
+  <!-- JDK definitions -->
+
+  <property name="jdk.bin.android_2.2_platform" value="${jdk.home.android_2.2_platform}/../../../../System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin"/>
+  <path id="jdk.classpath.android_2.2_platform">
+    <fileset dir="${jdk.home.android_2.2_platform}">
+      <include name="platforms/android-8/android.jar"/>
+    </fileset>
+  </path>
+
+  <property name="project.jdk.home" value="${jdk.home.android_2.2_platform}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.android_2.2_platform}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.android_2.2_platform"/>
+
+  <!-- Modules -->
+
+
+  <!-- Module RobotLibrary -->
+
+  <dirname property="module.robotlibrary.basedir" file="${ant.file}"/>
+
+
+  <property name="module.jdk.home.robotlibrary" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.robotlibrary" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.robotlibrary" value="${project.jdk.classpath}"/>
+
+  <property name="compiler.args.robotlibrary" value="${compiler.args}"/>
+
+  <property name="robotlibrary.output.dir" value="${module.robotlibrary.basedir}/out/production/RobotLibrary"/>
+  <property name="robotlibrary.testoutput.dir" value="${module.robotlibrary.basedir}/out/test/RobotLibrary"/>
+
+  <path id="robotlibrary.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="robotlibrary.module.production.classpath">
+    <path refid="${module.jdk.classpath.robotlibrary}"/>
+  </path>
+
+  <path id="robotlibrary.runtime.production.module.classpath">
+    <pathelement location="${robotlibrary.output.dir}"/>
+  </path>
+
+  <path id="robotlibrary.module.classpath">
+    <path refid="${module.jdk.classpath.robotlibrary}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+  </path>
+
+  <path id="robotlibrary.runtime.module.classpath">
+    <pathelement location="${robotlibrary.testoutput.dir}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.robotlibrary">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.robotlibrary">
+    <patternset refid="excluded.from.module.robotlibrary"/>
+  </patternset>
+
+  <path id="robotlibrary.module.sourcepath">
+    <dirset dir="${module.robotlibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotLibrary">
+      <include name="src"/>
+      <include name="gen"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.robotlibrary" depends="compile.module.robotlibrary.production,compile.module.robotlibrary.tests" description="Compile module RobotLibrary"/>
+
+  <target name="compile.module.robotlibrary.production" description="Compile module RobotLibrary; production classes">
+    <mkdir dir="${robotlibrary.output.dir}"/>
+    <javac destdir="${robotlibrary.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.robotlibrary}/javac">
+      <compilerarg line="${compiler.args.robotlibrary}"/>
+      <bootclasspath refid="robotlibrary.module.bootclasspath"/>
+      <classpath refid="robotlibrary.module.production.classpath"/>
+      <src refid="robotlibrary.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.robotlibrary"/>
+    </javac>
+
+    <copy todir="${robotlibrary.output.dir}">
+      <fileset dir="${module.robotlibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotLibrary/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.robotlibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotLibrary/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.robotlibrary.tests" depends="compile.module.robotlibrary.production" description="compile module RobotLibrary; test classes" unless="skip.tests"/>
+
+  <target name="clean.module.robotlibrary" description="cleanup module">
+    <delete dir="${robotlibrary.output.dir}"/>
+    <delete dir="${robotlibrary.testoutput.dir}"/>
+  </target>
+
+
+  <!-- Module RobotUILibrary -->
+
+  <dirname property="module.robotuilibrary.basedir" file="${ant.file}"/>
+
+
+  <property name="module.jdk.home.robotuilibrary" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.robotuilibrary" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.robotuilibrary" value="${project.jdk.classpath}"/>
+
+  <property name="compiler.args.robotuilibrary" value="${compiler.args}"/>
+
+  <property name="robotuilibrary.output.dir" value="${module.robotuilibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotUILibrary/bin"/>
+  <property name="robotuilibrary.testoutput.dir" value="${module.robotuilibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotUILibrary/bin"/>
+
+  <path id="robotuilibrary.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="robotuilibrary.module.production.classpath">
+    <path refid="${module.jdk.classpath.robotuilibrary}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+  </path>
+
+  <path id="robotuilibrary.runtime.production.module.classpath">
+    <pathelement location="${robotuilibrary.output.dir}"/>
+    <path refid="robotlibrary.runtime.production.module.classpath"/>
+  </path>
+
+  <path id="robotuilibrary.module.classpath">
+    <path refid="${module.jdk.classpath.robotuilibrary}"/>
+    <pathelement location="${robotuilibrary.output.dir}"/>
+    <pathelement location="${robotlibrary.testoutput.dir}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+  </path>
+
+  <path id="robotuilibrary.runtime.module.classpath">
+    <pathelement location="${robotuilibrary.output.dir}"/>
+    <path refid="robotlibrary.runtime.module.classpath"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.robotuilibrary">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.robotuilibrary">
+    <patternset refid="excluded.from.module.robotuilibrary"/>
+  </patternset>
+
+  <path id="robotuilibrary.module.sourcepath">
+    <dirset dir="${module.robotuilibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotUILibrary">
+      <include name="src"/>
+      <include name="gen"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.robotuilibrary" depends="compile.module.robotuilibrary.production,compile.module.robotuilibrary.tests" description="Compile module RobotUILibrary"/>
+
+  <target name="compile.module.robotuilibrary.production" depends="compile.module.robotlibrary" description="Compile module RobotUILibrary; production classes">
+    <mkdir dir="${robotuilibrary.output.dir}"/>
+    <javac destdir="${robotuilibrary.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.robotuilibrary}/javac">
+      <compilerarg line="${compiler.args.robotuilibrary}"/>
+      <bootclasspath refid="robotuilibrary.module.bootclasspath"/>
+      <classpath refid="robotuilibrary.module.production.classpath"/>
+      <src refid="robotuilibrary.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.robotuilibrary"/>
+    </javac>
+
+    <copy todir="${robotuilibrary.output.dir}">
+      <fileset dir="${module.robotuilibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotUILibrary/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.robotuilibrary.basedir}/../MOBILE-ANDROID-ROBOTLIBRARY/RobotUILibrary/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.robotuilibrary.tests" depends="compile.module.robotuilibrary.production" description="compile module RobotUILibrary; test classes" unless="skip.tests"/>
+
+  <target name="clean.module.robotuilibrary" description="cleanup module">
+    <delete dir="${robotuilibrary.output.dir}"/>
+    <delete dir="${robotuilibrary.testoutput.dir}"/>
+  </target>
+
+  <!--<target name="clean.directory.hdpi" description="deletes all assets in the hdpi directory in preparation for new ones">
+    <delete dir="res/drawable-hdpi"/>
+  </target>
+
+  <target name="prepare.9" depends="clean.directory.hdpi" description="prepares for a highres build (960x540 screen size currently)">
+      <copy todir="res/drawable-hdpi">
+          <fileset dir="res/drawable-xhdpi"/>
+      </copy>
+      <copy file="manifests/9/AndroidManifest.xml" todir="." overwrite="true"/>
+  </target>
+
+  <target name="prepare.8" depends="clean.directory.hdpi" description="prepares for a highres build (960x540 screen size currently)">
+      <copy todir="res/drawable-hdpi">
+          <fileset dir="assets_8"/>
+      </copy>
+      <copy file="manifests/8/AndroidManifest.xml" todir="." overwrite="true"/>
+  </target>-->
+
+  <!-- Module MOBILE-ANDROID-SPHERO-DRIVE -->
+
+  <dirname property="module.mobile-android-sphero-drive.basedir" file="${ant.file}"/>
+
+
+  <property name="module.jdk.home.mobile-android-sphero-drive" value="${jdk.home.android_2.2_platform}"/>
+  <property name="module.jdk.bin.mobile-android-sphero-drive" value="${jdk.bin.android_2.2_platform}"/>
+  <property name="module.jdk.classpath.mobile-android-sphero-drive" value="jdk.classpath.android_2.2_platform"/>
+
+  <property name="compiler.args.mobile-android-sphero-drive" value="${compiler.args}"/>
+
+  <property name="mobile-android-sphero-drive.output.dir" value="${module.mobile-android-sphero-drive.basedir}/out/production/MOBILE-ANDROID-SPHERO-DRIVE"/>
+  <property name="mobile-android-sphero-drive.testoutput.dir" value="${module.mobile-android-sphero-drive.basedir}/out/test/MOBILE-ANDROID-SPHERO-DRIVE"/>
+
+  <path id="mobile-android-sphero-drive.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+
+  <path id="mobile-android-sphero-drive.module.production.classpath">
+    <path refid="${module.jdk.classpath.mobile-android-sphero-drive}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+    <pathelement location="${robotuilibrary.output.dir}"/>
+  </path>
+
+  <path id="mobile-android-sphero-drive.runtime.production.module.classpath">
+    <pathelement location="${mobile-android-sphero-drive.output.dir}"/>
+    <path refid="robotlibrary.runtime.production.module.classpath"/>
+    <path refid="robotuilibrary.runtime.production.module.classpath"/>
+  </path>
+
+  <path id="mobile-android-sphero-drive.module.classpath">
+    <path refid="${module.jdk.classpath.mobile-android-sphero-drive}"/>
+    <pathelement location="${mobile-android-sphero-drive.output.dir}"/>
+    <pathelement location="${robotlibrary.testoutput.dir}"/>
+    <pathelement location="${robotlibrary.output.dir}"/>
+    <pathelement location="${robotuilibrary.output.dir}"/>
+  </path>
+
+  <path id="mobile-android-sphero-drive.runtime.module.classpath">
+    <pathelement location="${mobile-android-sphero-drive.testoutput.dir}"/>
+    <pathelement location="${mobile-android-sphero-drive.output.dir}"/>
+    <path refid="robotlibrary.runtime.module.classpath"/>
+    <path refid="robotuilibrary.runtime.module.classpath"/>
+  </path>
+
+
+  <patternset id="excluded.from.module.mobile-android-sphero-drive">
+    <patternset refid="ignored.files"/>
+  </patternset>
+
+  <patternset id="excluded.from.compilation.mobile-android-sphero-drive">
+    <patternset refid="excluded.from.module.mobile-android-sphero-drive"/>
+  </patternset>
+
+  <path id="mobile-android-sphero-drive.module.sourcepath">
+    <dirset dir="${module.mobile-android-sphero-drive.basedir}">
+      <include name="src"/>
+      <include name="gen"/>
+    </dirset>
+  </path>
+
+
+  <target name="compile.module.mobile-android-sphero-drive" depends="compile.module.mobile-android-sphero-drive.production,compile.module.mobile-android-sphero-drive.tests" description="Compile module MOBILE-ANDROID-SPHERO-DRIVE"/>
+
+  <target name="compile.module.mobile-android-sphero-drive.production" depends="compile.module.robotlibrary,compile.module.robotuilibrary" description="Compile module MOBILE-ANDROID-SPHERO-DRIVE; production classes">
+    <mkdir dir="${mobile-android-sphero-drive.output.dir}"/>
+    <javac destdir="${mobile-android-sphero-drive.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mobile-android-sphero-drive}/javac">
+      <compilerarg line="${compiler.args.mobile-android-sphero-drive}"/>
+      <bootclasspath refid="mobile-android-sphero-drive.module.bootclasspath"/>
+      <classpath refid="mobile-android-sphero-drive.module.production.classpath"/>
+      <src refid="mobile-android-sphero-drive.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mobile-android-sphero-drive"/>
+    </javac>
+
+    <copy todir="${mobile-android-sphero-drive.output.dir}">
+      <fileset dir="${module.mobile-android-sphero-drive.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.mobile-android-sphero-drive.basedir}/gen">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="compile.module.mobile-android-sphero-drive.tests" depends="compile.module.mobile-android-sphero-drive.production" description="compile module MOBILE-ANDROID-SPHERO-DRIVE; test classes" unless="skip.tests"/>
+
+  <target name="clean.module.mobile-android-sphero-drive" description="cleanup module">
+    <delete dir="${mobile-android-sphero-drive.output.dir}"/>
+    <delete dir="${mobile-android-sphero-drive.testoutput.dir}"/>
+  </target>
+
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+
+  <target name="clean" depends="clean.module.robotlibrary, clean.module.robotuilibrary, clean.module.mobile-android-sphero-drive" description="cleanup all"/>
+
+  <target name="build.modules" depends="init, clean, compile.module.robotlibrary, compile.module.robotuilibrary, compile.module.mobile-android-sphero-drive" description="build all modules"/>
+
+  <target name="all" depends="build.modules" description="build all"/>
+</project>

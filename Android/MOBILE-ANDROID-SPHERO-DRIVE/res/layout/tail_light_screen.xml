@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/menu_bg">
+    <RelativeLayout android:id="@+id/LeftPane"
+                    android:layout_width="200dip"
+                    android:layout_height="fill_parent">
+        <ImageView android:id="@+id/BluePane"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:scaleType="fitXY"
+                   android:layout_alignParentLeft="true"
+                   android:src="@drawable/aim_tutorial_blue_pane"/>
+        <ImageView android:id="@+id/VerticalLine"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_alignRight="@id/BluePane"
+                   android:src="@drawable/aim_tutorial_vertical_line"/>
+        <RelativeLayout android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="8dip">
+            <ImageView android:id="@+id/Ball"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/aim_tutorial_ball"/>
+            <ImageView android:id="@+id/Dot"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_centerInParent="true"
+                       android:src="@drawable/aim_tutorial_blue_dot"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/LeftPane"
+                    android:background="@null">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="20dip"
+                  android:layout_marginRight="20dip"
+                  android:textSize="28sp"
+                  android:textColor="@android:color/white"
+                  android:textStyle="bold"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="60dip"
+                  android:gravity="center"
+                  android:text="@string/TailLight"/>
+        <Button android:id="@+id/TailNextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/next_button"
+                android:text="@string/Next"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dip"
+                android:onClick="onNextClicked"/>
+    </RelativeLayout>
+
+</RelativeLayout>

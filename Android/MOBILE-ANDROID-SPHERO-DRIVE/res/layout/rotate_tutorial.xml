@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <ViewAnimator android:id="@+id/TutorialAnimator"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+        <include layout="@layout/place_sphero_screen"/>
+        <include layout="@layout/tail_light_screen"/>
+        <include layout="@layout/two_finger_rotate_screen"/>
+        <include layout="@layout/straight_ahead_screen"/>
+        <include layout="@layout/remember_screen"/>
+                  </ViewAnimator>
+</LinearLayout>

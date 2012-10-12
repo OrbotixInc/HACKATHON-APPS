@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Dialog.Background">
+    <include layout="@layout/title_space"/>
+    <TextView android:id="@+id/CurrentNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_name_text"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="35dip"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/TitleSpace"
+        android:layout_alignParentLeft="true"/>
+    <TextView android:id="@+id/NewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="@string/new_name_text"
+        android:layout_below="@id/CurrentNameLabel"
+        android:layout_alignRight="@id/CurrentNameLabel"
+        android:layout_marginTop="10dip"/>
+    <TextView android:id="@+id/CurrentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dip"
+        android:text="@string/no_sphero_connected"
+        android:layout_toRightOf="@id/CurrentNameLabel"
+        android:layout_alignBaseline="@id/CurrentNameLabel"/>
+    <EditText android:id="@+id/NewNameEditText"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/NewNameLabel"
+        android:layout_alignLeft="@id/CurrentName"/>
+    <!-- Bottom Bar - done button -->
+    <RelativeLayout  android:layout_weight="0.1"
+        android:id="@+id/BottomBar"
+		style="@style/ColorPicker.DoneButtonLayout">
+		<Button android:id="@+id/SensitivityDoneButton"
+			style="@style/ColorPicker.DoneButton"
+            android:onClick="onDoneButtonClicked"/>
+	</RelativeLayout>
+
+</RelativeLayout>

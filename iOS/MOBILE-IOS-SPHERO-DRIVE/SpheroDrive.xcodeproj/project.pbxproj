@@ -1,0 +1,2100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DriveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DriveAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		471DDE1712CD3FFD00E1342A /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 471DDE1612CD3FFD00E1342A /* iTunesArtwork */; };
+		47292B0012BA78BA00666564 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47292AFE12BA78BA00666564 /* OptionsViewController.m */; };
+		47292B0112BA78BA00666564 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47292AFF12BA78BA00666564 /* OptionsViewController.xib */; };
+		47292B0212BA78BA00666564 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47292AFE12BA78BA00666564 /* OptionsViewController.m */; };
+		47292B0312BA78BA00666564 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47292AFF12BA78BA00666564 /* OptionsViewController.xib */; };
+		47292B7012BAF4F000666564 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47292B6F12BAF4F000666564 /* UserDefaults.plist */; };
+		47292B7112BAF4F000666564 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47292B6F12BAF4F000666564 /* UserDefaults.plist */; };
+		472D8B601295A1EE00B9D9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		472D8B611295A1EE00B9D9B7 /* DriveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DriveAppDelegate.m */; };
+		472D8B641295A1EE00B9D9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		472D8B651295A1EE00B9D9B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		472D8B661295A1EE00B9D9B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		472D8B7A1295A55700B9D9B7 /* SpheroDriveTests.octest in Resources */ = {isa = PBXBuildFile; fileRef = 472D8B721295A51600B9D9B7 /* SpheroDriveTests.octest */; };
+		475A980112B1BC840057CF03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A97FE12B1BC840057CF03 /* Icon.png */; };
+		475A980212B1BC840057CF03 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A97FF12B1BC840057CF03 /* Icon-72.png */; };
+		475A980312B1BC840057CF03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A980012B1BC840057CF03 /* Icon@2x.png */; };
+		475A980412B1BC840057CF03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A97FE12B1BC840057CF03 /* Icon.png */; };
+		475A980512B1BC840057CF03 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A97FF12B1BC840057CF03 /* Icon-72.png */; };
+		475A980612B1BC840057CF03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475A980012B1BC840057CF03 /* Icon@2x.png */; };
+		475E9F8812A5992D0037AF87 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475E9F8712A5992D0037AF87 /* CoreMotion.framework */; };
+		476474761296E512003B4524 /* DriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476474751296E512003B4524 /* DriveViewController.m */; };
+		476474771296E512003B4524 /* DriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476474751296E512003B4524 /* DriveViewController.m */; };
+		477F3FA61295F3C200F07BBC /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3FA41295F3C200F07BBC /* MainMenuViewController.m */; };
+		477F3FA81295F3C200F07BBC /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477F3FA41295F3C200F07BBC /* MainMenuViewController.m */; };
+		477F402D1296126900F07BBC /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477F402C1296126900F07BBC /* ExternalAccessory.framework */; };
+		477F40331296127900F07BBC /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477F402C1296126900F07BBC /* ExternalAccessory.framework */; };
+		477F403E129612AB00F07BBC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477F403D129612AB00F07BBC /* GameKit.framework */; };
+		477F4044129612D800F07BBC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477F403D129612AB00F07BBC /* GameKit.framework */; };
+		47851F4912C2B0CB0096C994 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47851F4812C2B0CB0096C994 /* QuartzCore.framework */; };
+		478ACC3712C2E79B00320F00 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 478ACC3612C2E79B00320F00 /* AudioToolbox.framework */; };
+		47EA5C2612DE750200D80A5B /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EA5C2512DE750200D80A5B /* MainWindow-iPad.xib */; };
+		47F56C2712DFB61A00C934B3 /* DriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2212DFB61A00C934B3 /* DriveViewController.xib */; };
+		47F56C2812DFB61A00C934B3 /* DriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2212DFB61A00C934B3 /* DriveViewController.xib */; };
+		47F56C2912DFB61A00C934B3 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2312DFB61A00C934B3 /* MainMenuViewController.xib */; };
+		47F56C2A12DFB61A00C934B3 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2312DFB61A00C934B3 /* MainMenuViewController.xib */; };
+		47F56C2B12DFB61A00C934B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2412DFB61A00C934B3 /* MainWindow.xib */; };
+		47F56C2C12DFB61A00C934B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F56C2412DFB61A00C934B3 /* MainWindow.xib */; };
+		47F56C3212DFB98400C934B3 /* DriveViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F56C3112DFB98400C934B3 /* DriveViewController_iPhone.m */; };
+		47F56C3312DFB98400C934B3 /* DriveViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F56C3112DFB98400C934B3 /* DriveViewController_iPhone.m */; };
+		47F56C3612DFB9BE00C934B3 /* DriveViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F56C3512DFB9BE00C934B3 /* DriveViewController_iPad.m */; };
+		47F56C3712DFB9BE00C934B3 /* DriveViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F56C3512DFB9BE00C934B3 /* DriveViewController_iPad.m */; };
+		811771A4146B526300FF3FAD /* Sphero-PopoverItemSelectedBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 811771A3146B526300FF3FAD /* Sphero-PopoverItemSelectedBlue.png */; };
+		814C2F13143D1522004E34F5 /* OXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C2F10143D1522004E34F5 /* OXAudioManager.m */; };
+		814C2F14143D1522004E34F5 /* OXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C2F12143D1522004E34F5 /* OXAudioPlayer.m */; };
+		814C2F18143D1545004E34F5 /* SpheroDropDownAlert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 814C2F15143D1545004E34F5 /* SpheroDropDownAlert.wav */; };
+		814C2F19143D1545004E34F5 /* SpheroDropDownAlertSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C2F17143D1545004E34F5 /* SpheroDropDownAlertSound.m */; };
+		814C2F1B143D15BE004E34F5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814C2F1A143D15BE004E34F5 /* AVFoundation.framework */; };
+		81521DF513D8DF4C00698253 /* SpheroDrive-menuButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE313D8DF4C00698253 /* SpheroDrive-menuButtonBG.png */; };
+		81521DF613D8DF4C00698253 /* SpheroDrive-menuButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE413D8DF4C00698253 /* SpheroDrive-menuButtonBG@2x.png */; };
+		81521DF713D8DF4C00698253 /* SpheroDrive-menuColorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE513D8DF4C00698253 /* SpheroDrive-menuColorIcon.png */; };
+		81521DF813D8DF4C00698253 /* SpheroDrive-menuColorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE613D8DF4C00698253 /* SpheroDrive-menuColorIcon@2x.png */; };
+		81521DF913D8DF4C00698253 /* SpheroDrive-menuInfoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE713D8DF4C00698253 /* SpheroDrive-menuInfoButton.png */; };
+		81521DFA13D8DF4C00698253 /* SpheroDrive-menuInfoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE813D8DF4C00698253 /* SpheroDrive-menuInfoButton@2x.png */; };
+		81521DFB13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DE913D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon.png */; };
+		81521DFC13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DEA13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon@2x.png */; };
+		81521DFD13D8DF4C00698253 /* SpheroDrive-menuRollButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DEB13D8DF4C00698253 /* SpheroDrive-menuRollButton.png */; };
+		81521DFE13D8DF4C00698253 /* SpheroDrive-menuRollButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DEC13D8DF4C00698253 /* SpheroDrive-menuRollButton@2x.png */; };
+		81521DFF13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DED13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon.png */; };
+		81521E0013D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DEE13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon@2x.png */; };
+		81521E0113D8DF4C00698253 /* SpheroDrive-menuSettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DEF13D8DF4C00698253 /* SpheroDrive-menuSettingsButton.png */; };
+		81521E0213D8DF4C00698253 /* SpheroDrive-menuSettingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DF013D8DF4C00698253 /* SpheroDrive-menuSettingsButton@2x.png */; };
+		81521E0313D8DF4C00698253 /* SpheroDrive-menuSpheroLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DF113D8DF4C00698253 /* SpheroDrive-menuSpheroLogo.png */; };
+		81521E0413D8DF4C00698253 /* SpheroDrive-menuSpheroLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DF213D8DF4C00698253 /* SpheroDrive-menuSpheroLogo@2x.png */; };
+		81521E0513D8DF4C00698253 /* SpheroDrive-menuTutorialIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DF313D8DF4C00698253 /* SpheroDrive-menuTutorialIcon.png */; };
+		81521E0613D8DF4C00698253 /* SpheroDrive-menuTutorialIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81521DF413D8DF4C00698253 /* SpheroDrive-menuTutorialIcon@2x.png */; };
+		81521EC713D9DFA200698253 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81521EC613D9DFA200698253 /* libFlurry.a */; };
+		8152212C13DE12BB00698253 /* SpheroDrive-ipad-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211713DE12BB00698253 /* SpheroDrive-ipad-BG.png */; };
+		8152212D13DE12BB00698253 /* SpheroDrive-ipad-colorBtnBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211813DE12BB00698253 /* SpheroDrive-ipad-colorBtnBG.png */; };
+		8152212E13DE12BB00698253 /* SpheroDrive-ipad-colorWand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211913DE12BB00698253 /* SpheroDrive-ipad-colorWand.png */; };
+		8152212F13DE12BB00698253 /* SpheroDrive-ipad-driveTypeBtnBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211A13DE12BB00698253 /* SpheroDrive-ipad-driveTypeBtnBG.png */; };
+		8152213013DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211B13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickBtn.png */; };
+		8152213113DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickInset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211C13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickInset.png */; };
+		8152213213DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211D13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCBtn.png */; };
+		8152213313DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCInset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211E13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCInset.png */; };
+		8152213413DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152211F13DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltBtn.png */; };
+		8152213513DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltInset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212013DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltInset.png */; };
+		8152213613DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBLBoostBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212113DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBLBoostBG.png */; };
+		8152213713DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBRBoostBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212213DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBRBoostBG.png */; };
+		8152213813DE12BB00698253 /* SpheroDrive-ipad-JoystickControlColorBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212313DE12BB00698253 /* SpheroDrive-ipad-JoystickControlColorBG.png */; };
+		8152213913DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212413DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuck.png */; };
+		8152213B13DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuckRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212613DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuckRing.png */; };
+		8152213C13DE12BB00698253 /* SpheroDrive-ipad-menuButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212713DE12BB00698253 /* SpheroDrive-ipad-menuButton.png */; };
+		8152213D13DE12BB00698253 /* SpheroDrive-ipad-RCControlBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212813DE12BB00698253 /* SpheroDrive-ipad-RCControlBG.png */; };
+		8152213E13DE12BB00698253 /* SpheroDrive-ipad-RCControlSlider.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212913DE12BB00698253 /* SpheroDrive-ipad-RCControlSlider.png */; };
+		8152213F13DE12BB00698253 /* SpheroDrive-ipad-TiltControlBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212A13DE12BB00698253 /* SpheroDrive-ipad-TiltControlBG.png */; };
+		8152214013DE12BB00698253 /* SpheroDrive-ipad-TiltControlPuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152212B13DE12BB00698253 /* SpheroDrive-ipad-TiltControlPuck.png */; };
+		8152214513DE178400698253 /* SpheroDrive-ipad-boostRoundOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152214313DE178400698253 /* SpheroDrive-ipad-boostRoundOff.png */; };
+		8152214613DE178400698253 /* SpheroDrive-ipad-boostRoundOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8152214413DE178400698253 /* SpheroDrive-ipad-boostRoundOn.png */; };
+		815221C613DE204F00698253 /* SpheroDrive-ipad-TiltBoostOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 815221C413DE204F00698253 /* SpheroDrive-ipad-TiltBoostOff.png */; };
+		815221C713DE204F00698253 /* SpheroDrive-ipad-TiltBoostOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 815221C513DE204F00698253 /* SpheroDrive-ipad-TiltBoostOn.png */; };
+		8152220113DE30D500698253 /* CircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152220013DE30D500698253 /* CircularSlider.m */; };
+		8152220713DE3B3D00698253 /* RCDriveViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152220613DE3B3D00698253 /* RCDriveViewController_iPad.m */; };
+		815223A813DF324400698253 /* JoystickDriveViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 815223A713DF324400698253 /* JoystickDriveViewController_iPad.m */; };
+		815223C713DF39DE00698253 /* SpheroDrive-ipad-JoystickRingComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = 815223C613DF39DE00698253 /* SpheroDrive-ipad-JoystickRingComplete.png */; };
+		815224A313DF7AB100698253 /* ColorWandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 815224A213DF7AB100698253 /* ColorWandView.m */; };
+		815B827414AE536100CBAA79 /* joystick_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826914AE536100CBAA79 /* joystick_button.png */; };
+		815B827514AE536100CBAA79 /* joystick_puck.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826A14AE536100CBAA79 /* joystick_puck.png */; };
+		815B827614AE536100CBAA79 /* joystick_select_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826B14AE536100CBAA79 /* joystick_select_button.png */; };
+		815B827714AE536100CBAA79 /* menu_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826C14AE536100CBAA79 /* menu_button.png */; };
+		815B827814AE536100CBAA79 /* rc_select_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826D14AE536100CBAA79 /* rc_select_button.png */; };
+		815B827914AE536100CBAA79 /* settings_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826E14AE536100CBAA79 /* settings_button.png */; };
+		815B827A14AE536100CBAA79 /* speed_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B826F14AE536100CBAA79 /* speed_button.png */; };
+		815B827B14AE536100CBAA79 /* tilt_puck.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B827014AE536100CBAA79 /* tilt_puck.png */; };
+		815B827C14AE536100CBAA79 /* tilt_select_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B827114AE536100CBAA79 /* tilt_select_button.png */; };
+		815B827E14AE536100CBAA79 /* SpheroDriveGuide.html in Resources */ = {isa = PBXBuildFile; fileRef = 815B827314AE536100CBAA79 /* SpheroDriveGuide.html */; };
+		815B828314AE537A00CBAA79 /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B828014AE537A00CBAA79 /* UserGuideViewController.m */; };
+		815B828414AE537A00CBAA79 /* Sphero-UserGuideRollButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B828114AE537A00CBAA79 /* Sphero-UserGuideRollButton.png */; };
+		815B828514AE537A00CBAA79 /* UserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815B828214AE537A00CBAA79 /* UserGuideViewController.xib */; };
+		815B828714AE53A300CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B828614AE53A300CBAA79 /* Sphero-WhatsNewIcon@2x.png */; };
+		816CE49B144602010040F097 /* SpheroDriveWheelIn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 816CE498144602010040F097 /* SpheroDriveWheelIn.wav */; };
+		816CE49C144602010040F097 /* SpheroDriveWheelIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 816CE49A144602010040F097 /* SpheroDriveWheelIn.m */; };
+		816CE4BA14460DA20040F097 /* SpheroButtonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 816CE4B414460DA20040F097 /* SpheroButtonPress.wav */; };
+		816CE4BB14460DA20040F097 /* SpheroItemSelect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 816CE4B514460DA20040F097 /* SpheroItemSelect.wav */; };
+		816CE4BC14460DA20040F097 /* SpheroButtonPressSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 816CE4B714460DA20040F097 /* SpheroButtonPressSound.m */; };
+		816CE4BD14460DA20040F097 /* SpheroItemSelectSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 816CE4B914460DA20040F097 /* SpheroItemSelectSound.m */; };
+		81A14D5D14631703007DDCC0 /* SpheroDrive-ColorCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D5A14631703007DDCC0 /* SpheroDrive-ColorCallout.png */; };
+		81A14D5E14631703007DDCC0 /* SpheroDrive-DriveStyleCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D5B14631703007DDCC0 /* SpheroDrive-DriveStyleCallout.png */; };
+		81A14D5F14631703007DDCC0 /* SpheroDrive-SpeedCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D5C14631703007DDCC0 /* SpheroDrive-SpeedCallout.png */; };
+		81A14DBA14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCautious.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14DB714636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCautious.png */; };
+		81A14DBB14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonComfort.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14DB814636DE4007DDCC0 /* SpheroDrive-SensitivityButtonComfort.png */; };
+		81A14DBC14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCrazy.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14DB914636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCrazy.png */; };
+		81A44D0213E9D890003C997C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A44D0113E9D88F003C997C /* libsqlite3.dylib */; };
+		81B3236C14609525008EBDB1 /* NoSpheroAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B3236B14609524008EBDB1 /* NoSpheroAlertManager.m */; };
+		81BCFCAF13A7E5C400639060 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BCFCAE13A7E5C400639060 /* CoreLocation.framework */; };
+		81F56BBE13E722C50075C094 /* DriveTypeSelectorViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F56BBD13E722C50075C094 /* DriveTypeSelectorViewController~ipad.xib */; };
+		81F657FD1465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657F61465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */; };
+		81F657FE1465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657F71465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */; };
+		81F657FF1465E6C400CB4402 /* Sphero-InnerCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657F81465E6C400CB4402 /* Sphero-InnerCalibrateRing.png */; };
+		81F658001465E6C400CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657F91465E6C400CB4402 /* Sphero-MiddleCalibrateRing.png */; };
+		81F658011465E6C400CB4402 /* Sphero-OuterCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F657FA1465E6C400CB4402 /* Sphero-OuterCalibrateRing.png */; };
+		81F658021465E6C400CB4402 /* RKCalibrateOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F657FC1465E6C400CB4402 /* RKCalibrateOverlayView.m */; };
+		81F6580C1465E6F400CB4402 /* CalibrateOverlayStartSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658041465E6F400CB4402 /* CalibrateOverlayStartSound.m */; };
+		81F6580D1465E6F400CB4402 /* CalibrateOverlayLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658061465E6F400CB4402 /* CalibrateOverlayLoop.m */; };
+		81F6580E1465E6F400CB4402 /* CalibrateOverlayEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658081465E6F400CB4402 /* CalibrateOverlayEnd.m */; };
+		81F6580F1465E6F400CB4402 /* 2-finger HUD_hum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F658091465E6F400CB4402 /* 2-finger HUD_hum.wav */; };
+		81F658101465E6F400CB4402 /* 2-finger HUD_in.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F6580A1465E6F400CB4402 /* 2-finger HUD_in.wav */; };
+		81F658111465E6F400CB4402 /* 2-finger HUD_out.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F6580B1465E6F400CB4402 /* 2-finger HUD_out.wav */; };
+		81F7C5651484767200CA696A /* CalibrationTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F7C5601484767200CA696A /* CalibrationTutorialViewController.m */; };
+		81F7C5661484767200CA696A /* CalibrationTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5611484767200CA696A /* CalibrationTutorialViewController.xib */; };
+		81F7C5671484767200CA696A /* calibrateSpin.sphero in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5621484767200CA696A /* calibrateSpin.sphero */; };
+		81F7C5681484767200CA696A /* CalibrateTutorialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F7C5641484767200CA696A /* CalibrateTutorialView.m */; };
+		81F7C5761484768000CA696A /* SpheroBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5691484768000CA696A /* SpheroBall.png */; };
+		81F7C5771484768000CA696A /* FirstRunButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56A1484768000CA696A /* FirstRunButtonBG.png */; };
+		81F7C5781484768000CA696A /* Sphero-CalibrateReminderClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56B1484768000CA696A /* Sphero-CalibrateReminderClose.png */; };
+		81F7C5791484768000CA696A /* Sphero-CalibrateReminderClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56C1484768000CA696A /* Sphero-CalibrateReminderClose@2x.png */; };
+		81F7C57A1484768000CA696A /* Sphero-CalibrateTutorialHandBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56D1484768000CA696A /* Sphero-CalibrateTutorialHandBall.png */; };
+		81F7C57B1484768000CA696A /* Sphero-Calibrate-Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56E1484768000CA696A /* Sphero-Calibrate-Arrow.png */; };
+		81F7C57C1484768000CA696A /* Sphero-Calibrate-StraightAhead.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C56F1484768000CA696A /* Sphero-Calibrate-StraightAhead.png */; };
+		81F7C57D1484768000CA696A /* Sphero-Calibrate-VertialLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5701484768000CA696A /* Sphero-Calibrate-VertialLine.png */; };
+		81F7C57E1484768000CA696A /* Sphero-Calibrate-NoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5711484768000CA696A /* Sphero-Calibrate-NoButton.png */; };
+		81F7C57F1484768000CA696A /* Sphero-Calibrate-YesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5721484768000CA696A /* Sphero-Calibrate-YesButton.png */; };
+		81F7C5801484768000CA696A /* Sphero-TwoFingerCalibrateBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5731484768000CA696A /* Sphero-TwoFingerCalibrateBackground.png */; };
+		81F7C5811484768000CA696A /* Sphero-TwoFingerCalibrateTouchGlow.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5741484768000CA696A /* Sphero-TwoFingerCalibrateTouchGlow.png */; };
+		81F7C5821484768000CA696A /* SpheroCalibrateTutorialPane1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F7C5751484768000CA696A /* SpheroCalibrateTutorialPane1.png */; };
+		D306804714A23D3800359AB3 /* libRobotKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804514A23D3800359AB3 /* libRobotKit.a */; };
+		D306804814A23D3800359AB3 /* libRobotUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804614A23D3800359AB3 /* libRobotUIKit.a */; };
+		D306805914A2947B00359AB3 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D306805814A2947A00359AB3 /* RobotUIKit.bundle */; };
+		D30BB109143139BD00F460A2 /* SpheroDrive_CalibrateBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB0FB143139BD00F460A2 /* SpheroDrive_CalibrateBtn.png */; };
+		D30BB10A143139BD00F460A2 /* SpheroDrive_CalibrateBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB0FC143139BD00F460A2 /* SpheroDrive_CalibrateBtn@2x.png */; };
+		D30BB10B143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB0FD143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed.png */; };
+		D30BB10C143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB0FE143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed@2x.png */; };
+		D30BB10D143139BD00F460A2 /* SpheroDrive_CautiousSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB0FF143139BD00F460A2 /* SpheroDrive_CautiousSettings.png */; };
+		D30BB10E143139BD00F460A2 /* SpheroDrive_CautiousSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB100143139BD00F460A2 /* SpheroDrive_CautiousSettings@2x.png */; };
+		D30BB10F143139BD00F460A2 /* SpheroDrive_ComfortSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB101143139BD00F460A2 /* SpheroDrive_ComfortSettings.png */; };
+		D30BB110143139BD00F460A2 /* SpheroDrive_ComfortSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB102143139BD00F460A2 /* SpheroDrive_ComfortSettings@2x.png */; };
+		D30BB111143139BD00F460A2 /* SpheroDrive_CrazySettings.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB103143139BD00F460A2 /* SpheroDrive_CrazySettings.png */; };
+		D30BB112143139BD00F460A2 /* SpheroDrive_CrazySettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB104143139BD00F460A2 /* SpheroDrive_CrazySettings@2x.png */; };
+		D30BB113143139BD00F460A2 /* SpheroDrive_SensitivityBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB105143139BD00F460A2 /* SpheroDrive_SensitivityBtn.png */; };
+		D30BB114143139BD00F460A2 /* SpheroDrive_SensitivityBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB106143139BD00F460A2 /* SpheroDrive_SensitivityBtn@2x.png */; };
+		D30BB115143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB107143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed.png */; };
+		D30BB116143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30BB108143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed@2x.png */; };
+		D30BB11A14313F8A00F460A2 /* SensitivitySelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30BB11814313F8900F460A2 /* SensitivitySelectorViewController.m */; };
+		D30BB11B14313F8A00F460A2 /* SensitivitySelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30BB11914313F8A00F460A2 /* SensitivitySelectorViewController.xib */; };
+		D30BB11D14314BDB00F460A2 /* SensitivitySelectorViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30BB11C14314BDB00F460A2 /* SensitivitySelectorViewController~ipad.xib */; };
+		D31DC0F614A3FA580041488C /* DriveControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31DC0F514A3FA580041488C /* DriveControlViewController.m */; };
+		D33728CE1343E3DC00B29D98 /* DriveAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D33728CD1343E3DC00B29D98 /* DriveAppSettings.m */; };
+		D3479F9D13FC2BC7002D0984 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3479F9B13FC2BC7002D0984 /* TutorialViewController.m */; };
+		D3479F9E13FC2BC7002D0984 /* TutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3479F9C13FC2BC7002D0984 /* TutorialViewController.xib */; };
+		D3479FAC13FC3E32002D0984 /* TutorialViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3479FAB13FC3E31002D0984 /* TutorialViewController~ipad.xib */; };
+		D3479FB713FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FAE13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01.png */; };
+		D3479FB813FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FAF13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01@2x.png */; };
+		D3479FB913FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB013FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01~ipad.png */; };
+		D3479FBA13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB113FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02.png */; };
+		D3479FBB13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB213FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02@2x.png */; };
+		D3479FBD13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB413FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03.png */; };
+		D3479FBE13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB513FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03@2x.png */; };
+		D3479FBF13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FB613FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03~ipad.png */; };
+		D3479FD813FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC013FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01.png */; };
+		D3479FD913FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC113FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01@2x.png */; };
+		D3479FDA13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC213FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01~ipad.png */; };
+		D3479FDB13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC313FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02.png */; };
+		D3479FDC13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC413FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02@2x.png */; };
+		D3479FDD13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC513FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02~ipad.png */; };
+		D3479FE113FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FC913FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01.png */; };
+		D3479FE213FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FCA13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01@2x.png */; };
+		D3479FE313FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D3479FCB13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01~ipad.png */; };
+		D347B85B137310D400E2E382 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D347B85A137310D400E2E382 /* Settings.bundle */; };
+		D347B86F1373198500E2E382 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D347B86D1373198500E2E382 /* Localizable.strings */; };
+		D35474ED141549A6008967FA /* SpheroDrive-ipad-joystickColorBG.png in Resources */ = {isa = PBXBuildFile; fileRef = D35474EC141549A6008967FA /* SpheroDrive-ipad-joystickColorBG.png */; };
+		D35474F114156511008967FA /* SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D35474EE14156510008967FA /* SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png */; };
+		D35474F214156511008967FA /* SpheroDrive-ipad-driveTypeRCBtn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D35474EF14156510008967FA /* SpheroDrive-ipad-driveTypeRCBtn-pressed.png */; };
+		D35474F314156511008967FA /* SpheroDrive-ipad-driveTypeTiltBtn-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D35474F014156511008967FA /* SpheroDrive-ipad-driveTypeTiltBtn-pressed.png */; };
+		D3554BA813D3E006008C4F88 /* JoystickDriveViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3554BA513D3E006008C4F88 /* JoystickDriveViewController_iPad.xib */; };
+		D3554BA913D3E006008C4F88 /* RCDriveViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3554BA613D3E006008C4F88 /* RCDriveViewController_iPad.xib */; };
+		D3554BAA13D3E006008C4F88 /* TiltDriveViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3554BA713D3E006008C4F88 /* TiltDriveViewController~ipad.xib */; };
+		D35844EA13429E0C009CB995 /* Orbotix-Sphero-Popup-Bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = D35844E813429E0C009CB995 /* Orbotix-Sphero-Popup-Bkg.png */; };
+		D388AF84141589B700F7DA01 /* Helvetica Rounded LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D388AF83141589B700F7DA01 /* Helvetica Rounded LT Bold.ttf */; };
+		D38B91241358BC9C00AC0496 /* Sphero_Btn_Wide.png in Resources */ = {isa = PBXBuildFile; fileRef = D38B91221358BC9C00AC0496 /* Sphero_Btn_Wide.png */; };
+		D38B91251358BC9C00AC0496 /* Sphero_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D38B91231358BC9C00AC0496 /* Sphero_Btn.png */; };
+		D3AB9ECB1348EF87007B1D29 /* Orbotix-Sphero-Level1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9EC61348EF87007B1D29 /* Orbotix-Sphero-Level1.png */; };
+		D3AB9ECC1348EF87007B1D29 /* Orbotix-Sphero-Level2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9EC71348EF87007B1D29 /* Orbotix-Sphero-Level2.png */; };
+		D3AB9ECD1348EF87007B1D29 /* Orbotix-Sphero-Level3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9EC81348EF87007B1D29 /* Orbotix-Sphero-Level3.png */; };
+		D3AB9ECE1348EF87007B1D29 /* Sphero_Sensitivity_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9EC91348EF87007B1D29 /* Sphero_Sensitivity_01.png */; };
+		D3AB9ECF1348EF87007B1D29 /* Sphero_Title.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9ECA1348EF87007B1D29 /* Sphero_Title.png */; };
+		D3AB9F011348F7AD007B1D29 /* SensitivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AB9EFF1348F7AD007B1D29 /* SensitivityViewController.m */; };
+		D3AB9F021348F7AD007B1D29 /* SensitivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3AB9F001348F7AD007B1D29 /* SensitivityViewController.xib */; };
+		D3B79883136F858F00524935 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B79881136F858F00524935 /* InfoViewController.m */; };
+		D3B79884136F858F00524935 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B79882136F858F00524935 /* InfoViewController.xib */; };
+		D3B798F31371E92000524935 /* Sphero_Info.html in Resources */ = {isa = PBXBuildFile; fileRef = D3B798F21371E92000524935 /* Sphero_Info.html */; };
+		D3D12C6F136660BD005D8D33 /* CircularUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D12C6E136660BD005D8D33 /* CircularUIView.m */; };
+		D3D12C7913666561005D8D33 /* CircularUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D12C7813666561005D8D33 /* CircularUIButton.m */; };
+		D3D763FD13CB75B100EDF967 /* BoostButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D763F913CB75B100EDF967 /* BoostButton.png */; };
+		D3D763FF13CB75B100EDF967 /* BoostButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D763FB13CB75B100EDF967 /* BoostButtonPressed.png */; };
+		D3D7640D13CB75CC00EDF967 /* Joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640113CB75CC00EDF967 /* Joystick.png */; };
+		D3D7640F13CB75CC00EDF967 /* JoystickBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640313CB75CC00EDF967 /* JoystickBackground.png */; };
+		D3D7641113CB75CC00EDF967 /* JoystickButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640513CB75CC00EDF967 /* JoystickButton.png */; };
+		D3D7641313CB75CC00EDF967 /* JoystickButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640713CB75CC00EDF967 /* JoystickButtonPressed.png */; };
+		D3D7641513CB75CC00EDF967 /* JoystickChoice.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640913CB75CC00EDF967 /* JoystickChoice.png */; };
+		D3D7641713CB75CC00EDF967 /* JoystickChoiceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7640B13CB75CC00EDF967 /* JoystickChoiceSelected.png */; };
+		D3D7641D13CB75DA00EDF967 /* MenuBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7641913CB75DA00EDF967 /* MenuBtn.png */; };
+		D3D7641F13CB75DA00EDF967 /* MenuBtnPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7641B13CB75DA00EDF967 /* MenuBtnPressed.png */; };
+		D3D7643513CB760200EDF967 /* Puck.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642113CB760200EDF967 /* Puck.png */; };
+		D3D7643713CB760200EDF967 /* RCBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642313CB760200EDF967 /* RCBackground.png */; };
+		D3D7643B13CB760200EDF967 /* RCBoostActive.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642713CB760200EDF967 /* RCBoostActive.png */; };
+		D3D7643D13CB760200EDF967 /* RCButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642913CB760200EDF967 /* RCButton.png */; };
+		D3D7643F13CB760200EDF967 /* RCButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642B13CB760200EDF967 /* RCButtonPressed.png */; };
+		D3D7644113CB760200EDF967 /* RCChoice.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642D13CB760200EDF967 /* RCChoice.png */; };
+		D3D7644313CB760200EDF967 /* RCChoiceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7642F13CB760200EDF967 /* RCChoiceSelected.png */; };
+		D3D7644513CB760200EDF967 /* RCControlSpeed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7643113CB760200EDF967 /* RCControlSpeed.png */; };
+		D3D7644713CB760200EDF967 /* RCControlTurn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7643313CB760200EDF967 /* RCControlTurn.png */; };
+		D3D7645513CB762300EDF967 /* TiltBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7644913CB762300EDF967 /* TiltBackground.png */; };
+		D3D7645713CB762300EDF967 /* TiltButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7644B13CB762300EDF967 /* TiltButton.png */; };
+		D3D7645913CB762300EDF967 /* TiltButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7644D13CB762300EDF967 /* TiltButtonPressed.png */; };
+		D3D7645B13CB762300EDF967 /* TiltChoice.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7644F13CB762300EDF967 /* TiltChoice.png */; };
+		D3D7645D13CB762300EDF967 /* TiltChoiceSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7645113CB762300EDF967 /* TiltChoiceSelected.png */; };
+		D3D7645F13CB762300EDF967 /* TiltPuck.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7645313CB762300EDF967 /* TiltPuck.png */; };
+		D3D7647B13CB826300EDF967 /* BoostButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646113CB826300EDF967 /* BoostButton@2x.png */; };
+		D3D7647C13CB826300EDF967 /* BoostButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646213CB826300EDF967 /* BoostButtonPressed@2x.png */; };
+		D3D7647D13CB826300EDF967 /* Joystick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646313CB826300EDF967 /* Joystick@2x.png */; };
+		D3D7647E13CB826300EDF967 /* JoystickBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646413CB826300EDF967 /* JoystickBackground@2x.png */; };
+		D3D7647F13CB826300EDF967 /* JoystickButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646513CB826300EDF967 /* JoystickButton@2x.png */; };
+		D3D7648013CB826300EDF967 /* JoystickButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646613CB826300EDF967 /* JoystickButtonPressed@2x.png */; };
+		D3D7648113CB826300EDF967 /* JoystickChoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646713CB826300EDF967 /* JoystickChoice@2x.png */; };
+		D3D7648213CB826300EDF967 /* JoystickChoiceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646813CB826300EDF967 /* JoystickChoiceSelected@2x.png */; };
+		D3D7648313CB826300EDF967 /* MenuBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646913CB826300EDF967 /* MenuBtn@2x.png */; };
+		D3D7648413CB826300EDF967 /* MenuBtnPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646A13CB826300EDF967 /* MenuBtnPressed@2x.png */; };
+		D3D7648513CB826300EDF967 /* Puck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646B13CB826300EDF967 /* Puck@2x.png */; };
+		D3D7648613CB826300EDF967 /* RCBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646C13CB826300EDF967 /* RCBackground@2x.png */; };
+		D3D7648813CB826300EDF967 /* RCBoostActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646E13CB826300EDF967 /* RCBoostActive@2x.png */; };
+		D3D7648913CB826300EDF967 /* RCButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7646F13CB826300EDF967 /* RCButton@2x.png */; };
+		D3D7648A13CB826300EDF967 /* RCButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647013CB826300EDF967 /* RCButtonPressed@2x.png */; };
+		D3D7648B13CB826300EDF967 /* RCChoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647113CB826300EDF967 /* RCChoice@2x.png */; };
+		D3D7648C13CB826300EDF967 /* RCChoiceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647213CB826300EDF967 /* RCChoiceSelected@2x.png */; };
+		D3D7648D13CB826300EDF967 /* RCControlSpeed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647313CB826300EDF967 /* RCControlSpeed@2x.png */; };
+		D3D7648E13CB826300EDF967 /* RCControlTurn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647413CB826300EDF967 /* RCControlTurn@2x.png */; };
+		D3D7648F13CB826300EDF967 /* TiltBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647513CB826300EDF967 /* TiltBackground@2x.png */; };
+		D3D7649013CB826300EDF967 /* TiltButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647613CB826300EDF967 /* TiltButton@2x.png */; };
+		D3D7649113CB826300EDF967 /* TiltButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647713CB826300EDF967 /* TiltButtonPressed@2x.png */; };
+		D3D7649213CB826300EDF967 /* TiltChoice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647813CB826300EDF967 /* TiltChoice@2x.png */; };
+		D3D7649313CB826300EDF967 /* TiltChoiceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647913CB826300EDF967 /* TiltChoiceSelected@2x.png */; };
+		D3D7649413CB826300EDF967 /* TiltPuck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D7647A13CB826300EDF967 /* TiltPuck@2x.png */; };
+		D3D764B513CB996600EDF967 /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764AD13CB996600EDF967 /* UIBarButtonItem+WEPopover.m */; };
+		D3D764B613CB996600EDF967 /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764AF13CB996600EDF967 /* WEPopoverContainerView.m */; };
+		D3D764B713CB996600EDF967 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764B113CB996600EDF967 /* WEPopoverController.m */; };
+		D3D764B813CB996600EDF967 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764B413CB996600EDF967 /* WETouchableView.m */; };
+		D3D764C113CB9A3600EDF967 /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764BC13CB9A3600EDF967 /* popoverArrowDownSimple.png */; };
+		D3D764C213CB9A3600EDF967 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764BD13CB9A3600EDF967 /* popoverArrowLeftSimple.png */; };
+		D3D764C313CB9A3600EDF967 /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764BE13CB9A3600EDF967 /* popoverArrowRightSimple.png */; };
+		D3D764C413CB9A3600EDF967 /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764BF13CB9A3600EDF967 /* popoverArrowUpSimple.png */; };
+		D3D764C513CB9A3600EDF967 /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764C013CB9A3600EDF967 /* popoverBgSimple.png */; };
+		D3D764D013CB9A4E00EDF967 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764C613CB9A4E00EDF967 /* popoverArrowDown.png */; };
+		D3D764D113CB9A4E00EDF967 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764C713CB9A4E00EDF967 /* popoverArrowDown@2x.png */; };
+		D3D764D213CB9A4E00EDF967 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764C813CB9A4E00EDF967 /* popoverArrowLeft.png */; };
+		D3D764D313CB9A4E00EDF967 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764C913CB9A4E00EDF967 /* popoverArrowLeft@2x.png */; };
+		D3D764D413CB9A4E00EDF967 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CA13CB9A4E00EDF967 /* popoverArrowRight.png */; };
+		D3D764D513CB9A4E00EDF967 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CB13CB9A4E00EDF967 /* popoverArrowRight@2x.png */; };
+		D3D764D613CB9A4E00EDF967 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CC13CB9A4E00EDF967 /* popoverArrowUp.png */; };
+		D3D764D713CB9A4E00EDF967 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CD13CB9A4E00EDF967 /* popoverArrowUp@2x.png */; };
+		D3D764D813CB9A4E00EDF967 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CE13CB9A4E00EDF967 /* popoverBg.png */; };
+		D3D764D913CB9A4E00EDF967 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764CF13CB9A4E00EDF967 /* popoverBg@2x.png */; };
+		D3D764DD13CB9C7E00EDF967 /* DriveViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D764DC13CB9C7E00EDF967 /* DriveViewController-iPad.xib */; };
+		D3D764E113CB9D3100EDF967 /* DriveTypeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764DF13CB9D3100EDF967 /* DriveTypeSelectorViewController.m */; };
+		D3D764E213CB9D3100EDF967 /* DriveTypeSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D764E013CB9D3100EDF967 /* DriveTypeSelectorViewController.xib */; };
+		D3D764EF13CBBA3C00EDF967 /* RCDriveAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764EE13CBBA3C00EDF967 /* RCDriveAlgorithm.m */; };
+		D3D764F213CFA56C00EDF967 /* DriveBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764F013CFA56C00EDF967 /* DriveBackground.png */; };
+		D3D764F313CFA56C00EDF967 /* DriveBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D764F113CFA56C00EDF967 /* DriveBackground@2x.png */; };
+		D3D764FC13CFA99F00EDF967 /* JoystickDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764FA13CFA99E00EDF967 /* JoystickDriveViewController.m */; };
+		D3D764FD13CFA99F00EDF967 /* JoystickDriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D764FB13CFA99E00EDF967 /* JoystickDriveViewController.xib */; };
+		D3D7650113CFAA2700EDF967 /* TiltDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D764FF13CFAA2600EDF967 /* TiltDriveViewController.m */; };
+		D3D7650213CFAA2700EDF967 /* TiltDriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D7650013CFAA2700EDF967 /* TiltDriveViewController.xib */; };
+		D3D7650613CFAA4000EDF967 /* RCDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7650413CFAA3E00EDF967 /* RCDriveViewController.m */; };
+		D3D7650713CFAA4000EDF967 /* RCDriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D7650513CFAA3F00EDF967 /* RCDriveViewController.xib */; };
+		D3F6D4A81415A53800F7C250 /* SliderLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A21415A53800F7C250 /* SliderLeftCap.png */; };
+		D3F6D4A91415A53800F7C250 /* SliderLeftCap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A31415A53800F7C250 /* SliderLeftCap@2x.png */; };
+		D3F6D4AA1415A53800F7C250 /* SliderRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A41415A53800F7C250 /* SliderRightCap.png */; };
+		D3F6D4AB1415A53800F7C250 /* SliderRightCap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A51415A53800F7C250 /* SliderRightCap@2x.png */; };
+		D3F6D4AC1415A53800F7C250 /* SliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A61415A53800F7C250 /* SliderThumb.png */; };
+		D3F6D4AD1415A53800F7C250 /* SliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4A71415A53800F7C250 /* SliderThumb@2x.png */; };
+		D3F6D4B01415C61F00F7C250 /* SpheroDrive-menuSettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4AE1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon.png */; };
+		D3F6D4B11415C61F00F7C250 /* SpheroDrive-menuSettingsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F6D4AF1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon@2x.png */; };
+		F173E4CF143E1B53003FD152 /* SpheroDrive-menuBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F173E4CD143E1B53003FD152 /* SpheroDrive-menuBackButton.png */; };
+		F173E4D0143E1B53003FD152 /* SpheroDrive-menuBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F173E4CE143E1B53003FD152 /* SpheroDrive-menuBackButton@2x.png */; };
+		F173E4DF143E443C003FD152 /* SpheroDrive_CloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F173E4DD143E443C003FD152 /* SpheroDrive_CloseBtn.png */; };
+		F173E4E0143E443C003FD152 /* SpheroDrive_CloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F173E4DE143E443C003FD152 /* SpheroDrive_CloseBtn@2x.png */; };
+		F1F66FD5141E60A800E755B7 /* SpheroDrive-menuSleepIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F66FD3141E60A800E755B7 /* SpheroDrive-menuSleepIcon.png */; };
+		F1F66FD6141E60A800E755B7 /* SpheroDrive-menuSleepIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F66FD4141E60A800E755B7 /* SpheroDrive-menuSleepIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		472D8B771295A51C00B9D9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 472D8B711295A51600B9D9B7;
+			remoteInfo = DriveTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DriveAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DriveAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveAppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
+		1D6058910D05DD3D006BFB54 /* SpheroDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SpheroDrive_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroDrive_Prefix.pch; sourceTree = "<group>"; };
+		471DDE1612CD3FFD00E1342A /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		47292AFD12BA78BA00666564 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		47292AFE12BA78BA00666564 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		47292AFF12BA78BA00666564 /* OptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OptionsViewController.xib; path = ../OptionsViewController.xib; sourceTree = "<group>"; };
+		47292B6F12BAF4F000666564 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		472D8B6A1295A1EE00B9D9B7 /* SpheroDriveTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroDriveTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		472D8B6C1295A1EE00B9D9B7 /* SpheroDriveTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroDriveTesting-Info.plist"; sourceTree = "<group>"; };
+		472D8B721295A51600B9D9B7 /* SpheroDriveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroDriveTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		472D8B731295A51600B9D9B7 /* SpheroDriveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroDriveTests-Info.plist"; sourceTree = "<group>"; };
+		475A97FE12B1BC840057CF03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		475A97FF12B1BC840057CF03 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		475A980012B1BC840057CF03 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		475E9F8712A5992D0037AF87 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		476474741296E512003B4524 /* DriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveViewController.h; sourceTree = "<group>"; };
+		476474751296E512003B4524 /* DriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveViewController.m; sourceTree = "<group>"; };
+		477F3FA31295F3C200F07BBC /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		477F3FA41295F3C200F07BBC /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		477F402C1296126900F07BBC /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		477F403D129612AB00F07BBC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		47851EAC12C188480096C994 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		47851F4812C2B0CB0096C994 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		478ACC3612C2E79B00320F00 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		47EA5C2512DE750200D80A5B /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		47F56C2212DFB61A00C934B3 /* DriveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriveViewController.xib; sourceTree = "<group>"; };
+		47F56C2312DFB61A00C934B3 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		47F56C2412DFB61A00C934B3 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		47F56C3012DFB98400C934B3 /* DriveViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DriveViewController_iPhone.h; path = iPhone/DriveViewController_iPhone.h; sourceTree = SOURCE_ROOT; };
+		47F56C3112DFB98400C934B3 /* DriveViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveViewController_iPhone.m; sourceTree = "<group>"; };
+		47F56C3412DFB9BE00C934B3 /* DriveViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveViewController_iPad.h; sourceTree = "<group>"; };
+		47F56C3512DFB9BE00C934B3 /* DriveViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveViewController_iPad.m; sourceTree = "<group>"; };
+		811771A3146B526300FF3FAD /* Sphero-PopoverItemSelectedBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-PopoverItemSelectedBlue.png"; sourceTree = "<group>"; };
+		814C2F0F143D1522004E34F5 /* OXAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioManager.h; sourceTree = "<group>"; };
+		814C2F10143D1522004E34F5 /* OXAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioManager.m; sourceTree = "<group>"; };
+		814C2F11143D1522004E34F5 /* OXAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioPlayer.h; sourceTree = "<group>"; };
+		814C2F12143D1522004E34F5 /* OXAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioPlayer.m; sourceTree = "<group>"; };
+		814C2F15143D1545004E34F5 /* SpheroDropDownAlert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroDropDownAlert.wav; sourceTree = "<group>"; };
+		814C2F16143D1545004E34F5 /* SpheroDropDownAlertSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroDropDownAlertSound.h; sourceTree = "<group>"; };
+		814C2F17143D1545004E34F5 /* SpheroDropDownAlertSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroDropDownAlertSound.m; sourceTree = "<group>"; };
+		814C2F1A143D15BE004E34F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81521DE313D8DF4C00698253 /* SpheroDrive-menuButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuButtonBG.png"; sourceTree = "<group>"; };
+		81521DE413D8DF4C00698253 /* SpheroDrive-menuButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuButtonBG@2x.png"; sourceTree = "<group>"; };
+		81521DE513D8DF4C00698253 /* SpheroDrive-menuColorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuColorIcon.png"; sourceTree = "<group>"; };
+		81521DE613D8DF4C00698253 /* SpheroDrive-menuColorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuColorIcon@2x.png"; sourceTree = "<group>"; };
+		81521DE713D8DF4C00698253 /* SpheroDrive-menuInfoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuInfoButton.png"; sourceTree = "<group>"; };
+		81521DE813D8DF4C00698253 /* SpheroDrive-menuInfoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuInfoButton@2x.png"; sourceTree = "<group>"; };
+		81521DE913D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuLeaderboardIcon.png"; sourceTree = "<group>"; };
+		81521DEA13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuLeaderboardIcon@2x.png"; sourceTree = "<group>"; };
+		81521DEB13D8DF4C00698253 /* SpheroDrive-menuRollButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuRollButton.png"; sourceTree = "<group>"; };
+		81521DEC13D8DF4C00698253 /* SpheroDrive-menuRollButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuRollButton@2x.png"; sourceTree = "<group>"; };
+		81521DED13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSensitivityIcon.png"; sourceTree = "<group>"; };
+		81521DEE13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSensitivityIcon@2x.png"; sourceTree = "<group>"; };
+		81521DEF13D8DF4C00698253 /* SpheroDrive-menuSettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsButton.png"; sourceTree = "<group>"; };
+		81521DF013D8DF4C00698253 /* SpheroDrive-menuSettingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsButton@2x.png"; sourceTree = "<group>"; };
+		81521DF113D8DF4C00698253 /* SpheroDrive-menuSpheroLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSpheroLogo.png"; sourceTree = "<group>"; };
+		81521DF213D8DF4C00698253 /* SpheroDrive-menuSpheroLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSpheroLogo@2x.png"; sourceTree = "<group>"; };
+		81521DF313D8DF4C00698253 /* SpheroDrive-menuTutorialIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuTutorialIcon.png"; sourceTree = "<group>"; };
+		81521DF413D8DF4C00698253 /* SpheroDrive-menuTutorialIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuTutorialIcon@2x.png"; sourceTree = "<group>"; };
+		81521EC513D9DFA200698253 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		81521EC613D9DFA200698253 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		8152211713DE12BB00698253 /* SpheroDrive-ipad-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-BG.png"; sourceTree = "<group>"; };
+		8152211813DE12BB00698253 /* SpheroDrive-ipad-colorBtnBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-colorBtnBG.png"; sourceTree = "<group>"; };
+		8152211913DE12BB00698253 /* SpheroDrive-ipad-colorWand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-colorWand.png"; sourceTree = "<group>"; };
+		8152211A13DE12BB00698253 /* SpheroDrive-ipad-driveTypeBtnBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeBtnBG.png"; sourceTree = "<group>"; };
+		8152211B13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeJoystickBtn.png"; sourceTree = "<group>"; };
+		8152211C13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickInset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeJoystickInset.png"; sourceTree = "<group>"; };
+		8152211D13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeRCBtn.png"; sourceTree = "<group>"; };
+		8152211E13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCInset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeRCInset.png"; sourceTree = "<group>"; };
+		8152211F13DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeTiltBtn.png"; sourceTree = "<group>"; };
+		8152212013DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltInset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeTiltInset.png"; sourceTree = "<group>"; };
+		8152212113DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBLBoostBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickControlBLBoostBG.png"; sourceTree = "<group>"; };
+		8152212213DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBRBoostBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickControlBRBoostBG.png"; sourceTree = "<group>"; };
+		8152212313DE12BB00698253 /* SpheroDrive-ipad-JoystickControlColorBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickControlColorBG.png"; sourceTree = "<group>"; };
+		8152212413DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickControlPuck.png"; sourceTree = "<group>"; };
+		8152212613DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuckRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickControlPuckRing.png"; sourceTree = "<group>"; };
+		8152212713DE12BB00698253 /* SpheroDrive-ipad-menuButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-menuButton.png"; sourceTree = "<group>"; };
+		8152212813DE12BB00698253 /* SpheroDrive-ipad-RCControlBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-RCControlBG.png"; sourceTree = "<group>"; };
+		8152212913DE12BB00698253 /* SpheroDrive-ipad-RCControlSlider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-RCControlSlider.png"; sourceTree = "<group>"; };
+		8152212A13DE12BB00698253 /* SpheroDrive-ipad-TiltControlBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-TiltControlBG.png"; sourceTree = "<group>"; };
+		8152212B13DE12BB00698253 /* SpheroDrive-ipad-TiltControlPuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-TiltControlPuck.png"; sourceTree = "<group>"; };
+		8152214313DE178400698253 /* SpheroDrive-ipad-boostRoundOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-boostRoundOff.png"; sourceTree = "<group>"; };
+		8152214413DE178400698253 /* SpheroDrive-ipad-boostRoundOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-boostRoundOn.png"; sourceTree = "<group>"; };
+		815221C413DE204F00698253 /* SpheroDrive-ipad-TiltBoostOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-TiltBoostOff.png"; sourceTree = "<group>"; };
+		815221C513DE204F00698253 /* SpheroDrive-ipad-TiltBoostOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-TiltBoostOn.png"; sourceTree = "<group>"; };
+		815221FF13DE30D500698253 /* CircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularSlider.h; sourceTree = "<group>"; };
+		8152220013DE30D500698253 /* CircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularSlider.m; sourceTree = "<group>"; };
+		8152220513DE3B3D00698253 /* RCDriveViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDriveViewController_iPad.h; sourceTree = "<group>"; };
+		8152220613DE3B3D00698253 /* RCDriveViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDriveViewController_iPad.m; sourceTree = "<group>"; };
+		815223A613DF324400698253 /* JoystickDriveViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickDriveViewController_iPad.h; sourceTree = "<group>"; };
+		815223A713DF324400698253 /* JoystickDriveViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickDriveViewController_iPad.m; sourceTree = "<group>"; };
+		815223C613DF39DE00698253 /* SpheroDrive-ipad-JoystickRingComplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-JoystickRingComplete.png"; sourceTree = "<group>"; };
+		815224A113DF7AB100698253 /* ColorWandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWandView.h; sourceTree = "<group>"; };
+		815224A213DF7AB100698253 /* ColorWandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWandView.m; sourceTree = "<group>"; };
+		815B826914AE536100CBAA79 /* joystick_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_button.png; sourceTree = "<group>"; };
+		815B826A14AE536100CBAA79 /* joystick_puck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_puck.png; sourceTree = "<group>"; };
+		815B826B14AE536100CBAA79 /* joystick_select_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystick_select_button.png; sourceTree = "<group>"; };
+		815B826C14AE536100CBAA79 /* menu_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_button.png; sourceTree = "<group>"; };
+		815B826D14AE536100CBAA79 /* rc_select_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rc_select_button.png; sourceTree = "<group>"; };
+		815B826E14AE536100CBAA79 /* settings_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_button.png; sourceTree = "<group>"; };
+		815B826F14AE536100CBAA79 /* speed_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speed_button.png; sourceTree = "<group>"; };
+		815B827014AE536100CBAA79 /* tilt_puck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilt_puck.png; sourceTree = "<group>"; };
+		815B827114AE536100CBAA79 /* tilt_select_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tilt_select_button.png; sourceTree = "<group>"; };
+		815B827314AE536100CBAA79 /* SpheroDriveGuide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SpheroDriveGuide.html; sourceTree = "<group>"; };
+		815B827F14AE537A00CBAA79 /* UserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGuideViewController.h; sourceTree = "<group>"; };
+		815B828014AE537A00CBAA79 /* UserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
+		815B828114AE537A00CBAA79 /* Sphero-UserGuideRollButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-UserGuideRollButton.png"; sourceTree = "<group>"; };
+		815B828214AE537A00CBAA79 /* UserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserGuideViewController.xib; sourceTree = "<group>"; };
+		815B828614AE53A300CBAA79 /* Sphero-WhatsNewIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-WhatsNewIcon@2x.png"; sourceTree = "<group>"; };
+		816CE498144602010040F097 /* SpheroDriveWheelIn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroDriveWheelIn.wav; sourceTree = "<group>"; };
+		816CE499144602010040F097 /* SpheroDriveWheelIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroDriveWheelIn.h; sourceTree = "<group>"; };
+		816CE49A144602010040F097 /* SpheroDriveWheelIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroDriveWheelIn.m; sourceTree = "<group>"; };
+		816CE4B414460DA20040F097 /* SpheroButtonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroButtonPress.wav; sourceTree = "<group>"; };
+		816CE4B514460DA20040F097 /* SpheroItemSelect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroItemSelect.wav; sourceTree = "<group>"; };
+		816CE4B614460DA20040F097 /* SpheroButtonPressSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroButtonPressSound.h; sourceTree = "<group>"; };
+		816CE4B714460DA20040F097 /* SpheroButtonPressSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroButtonPressSound.m; sourceTree = "<group>"; };
+		816CE4B814460DA20040F097 /* SpheroItemSelectSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroItemSelectSound.h; sourceTree = "<group>"; };
+		816CE4B914460DA20040F097 /* SpheroItemSelectSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroItemSelectSound.m; sourceTree = "<group>"; };
+		81A14D5A14631703007DDCC0 /* SpheroDrive-ColorCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ColorCallout.png"; sourceTree = "<group>"; };
+		81A14D5B14631703007DDCC0 /* SpheroDrive-DriveStyleCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-DriveStyleCallout.png"; sourceTree = "<group>"; };
+		81A14D5C14631703007DDCC0 /* SpheroDrive-SpeedCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-SpeedCallout.png"; sourceTree = "<group>"; };
+		81A14DB714636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCautious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-SensitivityButtonCautious.png"; sourceTree = "<group>"; };
+		81A14DB814636DE4007DDCC0 /* SpheroDrive-SensitivityButtonComfort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-SensitivityButtonComfort.png"; sourceTree = "<group>"; };
+		81A14DB914636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCrazy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-SensitivityButtonCrazy.png"; sourceTree = "<group>"; };
+		81A44D0113E9D88F003C997C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		81B3236A14609524008EBDB1 /* NoSpheroAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoSpheroAlertManager.h; sourceTree = "<group>"; };
+		81B3236B14609524008EBDB1 /* NoSpheroAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoSpheroAlertManager.m; sourceTree = "<group>"; };
+		81BCFCAE13A7E5C400639060 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		81F56BBD13E722C50075C094 /* DriveTypeSelectorViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DriveTypeSelectorViewController~ipad.xib"; sourceTree = "<group>"; };
+		81F657F61465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowBlue.png"; sourceTree = "<group>"; };
+		81F657F71465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowWhite.png"; sourceTree = "<group>"; };
+		81F657F81465E6C400CB4402 /* Sphero-InnerCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-InnerCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657F91465E6C400CB4402 /* Sphero-MiddleCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-MiddleCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657FA1465E6C400CB4402 /* Sphero-OuterCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-OuterCalibrateRing.png"; sourceTree = "<group>"; };
+		81F657FB1465E6C400CB4402 /* RKCalibrateOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCalibrateOverlayView.h; sourceTree = "<group>"; };
+		81F657FC1465E6C400CB4402 /* RKCalibrateOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCalibrateOverlayView.m; sourceTree = "<group>"; };
+		81F658031465E6F400CB4402 /* CalibrateOverlayStartSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayStartSound.h; sourceTree = "<group>"; };
+		81F658041465E6F400CB4402 /* CalibrateOverlayStartSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayStartSound.m; sourceTree = "<group>"; };
+		81F658051465E6F400CB4402 /* CalibrateOverlayLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayLoop.h; sourceTree = "<group>"; };
+		81F658061465E6F400CB4402 /* CalibrateOverlayLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayLoop.m; sourceTree = "<group>"; };
+		81F658071465E6F400CB4402 /* CalibrateOverlayEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayEnd.h; sourceTree = "<group>"; };
+		81F658081465E6F400CB4402 /* CalibrateOverlayEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayEnd.m; sourceTree = "<group>"; };
+		81F658091465E6F400CB4402 /* 2-finger HUD_hum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_hum.wav"; sourceTree = "<group>"; };
+		81F6580A1465E6F400CB4402 /* 2-finger HUD_in.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_in.wav"; sourceTree = "<group>"; };
+		81F6580B1465E6F400CB4402 /* 2-finger HUD_out.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_out.wav"; sourceTree = "<group>"; };
+		81F7C55F1484767200CA696A /* CalibrationTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationTutorialViewController.h; sourceTree = "<group>"; };
+		81F7C5601484767200CA696A /* CalibrationTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrationTutorialViewController.m; sourceTree = "<group>"; };
+		81F7C5611484767200CA696A /* CalibrationTutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalibrationTutorialViewController.xib; sourceTree = "<group>"; };
+		81F7C5621484767200CA696A /* calibrateSpin.sphero */ = {isa = PBXFileReference; lastKnownFileType = file; path = calibrateSpin.sphero; sourceTree = "<group>"; };
+		81F7C5631484767200CA696A /* CalibrateTutorialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateTutorialView.h; sourceTree = "<group>"; };
+		81F7C5641484767200CA696A /* CalibrateTutorialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateTutorialView.m; sourceTree = "<group>"; };
+		81F7C5691484768000CA696A /* SpheroBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroBall.png; sourceTree = "<group>"; };
+		81F7C56A1484768000CA696A /* FirstRunButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstRunButtonBG.png; sourceTree = "<group>"; };
+		81F7C56B1484768000CA696A /* Sphero-CalibrateReminderClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose.png"; sourceTree = "<group>"; };
+		81F7C56C1484768000CA696A /* Sphero-CalibrateReminderClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose@2x.png"; sourceTree = "<group>"; };
+		81F7C56D1484768000CA696A /* Sphero-CalibrateTutorialHandBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateTutorialHandBall.png"; sourceTree = "<group>"; };
+		81F7C56E1484768000CA696A /* Sphero-Calibrate-Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-Calibrate-Arrow.png"; sourceTree = "<group>"; };
+		81F7C56F1484768000CA696A /* Sphero-Calibrate-StraightAhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-Calibrate-StraightAhead.png"; sourceTree = "<group>"; };
+		81F7C5701484768000CA696A /* Sphero-Calibrate-VertialLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-Calibrate-VertialLine.png"; sourceTree = "<group>"; };
+		81F7C5711484768000CA696A /* Sphero-Calibrate-NoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-Calibrate-NoButton.png"; sourceTree = "<group>"; };
+		81F7C5721484768000CA696A /* Sphero-Calibrate-YesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-Calibrate-YesButton.png"; sourceTree = "<group>"; };
+		81F7C5731484768000CA696A /* Sphero-TwoFingerCalibrateBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateBackground.png"; sourceTree = "<group>"; };
+		81F7C5741484768000CA696A /* Sphero-TwoFingerCalibrateTouchGlow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlow.png"; sourceTree = "<group>"; };
+		81F7C5751484768000CA696A /* SpheroCalibrateTutorialPane1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCalibrateTutorialPane1.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SpheroDrive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpheroDrive-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D306804514A23D3800359AB3 /* libRobotKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotKit.a; path = "../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos/libRobotKit.a"; sourceTree = "<group>"; };
+		D306804614A23D3800359AB3 /* libRobotUIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotUIKit.a; path = "../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos/libRobotUIKit.a"; sourceTree = "<group>"; };
+		D306805814A2947A00359AB3 /* RobotUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RobotUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30BB0FB143139BD00F460A2 /* SpheroDrive_CalibrateBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_CalibrateBtn.png; sourceTree = "<group>"; };
+		D30BB0FC143139BD00F460A2 /* SpheroDrive_CalibrateBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_CalibrateBtn@2x.png"; sourceTree = "<group>"; };
+		D30BB0FD143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_CalibrateBtnPressed.png; sourceTree = "<group>"; };
+		D30BB0FE143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_CalibrateBtnPressed@2x.png"; sourceTree = "<group>"; };
+		D30BB0FF143139BD00F460A2 /* SpheroDrive_CautiousSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_CautiousSettings.png; sourceTree = "<group>"; };
+		D30BB100143139BD00F460A2 /* SpheroDrive_CautiousSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_CautiousSettings@2x.png"; sourceTree = "<group>"; };
+		D30BB101143139BD00F460A2 /* SpheroDrive_ComfortSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_ComfortSettings.png; sourceTree = "<group>"; };
+		D30BB102143139BD00F460A2 /* SpheroDrive_ComfortSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_ComfortSettings@2x.png"; sourceTree = "<group>"; };
+		D30BB103143139BD00F460A2 /* SpheroDrive_CrazySettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_CrazySettings.png; sourceTree = "<group>"; };
+		D30BB104143139BD00F460A2 /* SpheroDrive_CrazySettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_CrazySettings@2x.png"; sourceTree = "<group>"; };
+		D30BB105143139BD00F460A2 /* SpheroDrive_SensitivityBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_SensitivityBtn.png; sourceTree = "<group>"; };
+		D30BB106143139BD00F460A2 /* SpheroDrive_SensitivityBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_SensitivityBtn@2x.png"; sourceTree = "<group>"; };
+		D30BB107143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_SensitivityBtnPressed.png; sourceTree = "<group>"; };
+		D30BB108143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_SensitivityBtnPressed@2x.png"; sourceTree = "<group>"; };
+		D30BB11714313F8900F460A2 /* SensitivitySelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensitivitySelectorViewController.h; sourceTree = "<group>"; };
+		D30BB11814313F8900F460A2 /* SensitivitySelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensitivitySelectorViewController.m; sourceTree = "<group>"; };
+		D30BB11914313F8A00F460A2 /* SensitivitySelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensitivitySelectorViewController.xib; sourceTree = "<group>"; };
+		D30BB11C14314BDB00F460A2 /* SensitivitySelectorViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SensitivitySelectorViewController~ipad.xib"; sourceTree = "<group>"; };
+		D31DC0F414A3FA580041488C /* DriveControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveControlViewController.h; sourceTree = "<group>"; };
+		D31DC0F514A3FA580041488C /* DriveControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveControlViewController.m; sourceTree = "<group>"; };
+		D33728CC1343E3DC00B29D98 /* DriveAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveAppSettings.h; sourceTree = "<group>"; };
+		D33728CD1343E3DC00B29D98 /* DriveAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveAppSettings.m; sourceTree = "<group>"; };
+		D3479F9A13FC2BC7002D0984 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		D3479F9B13FC2BC7002D0984 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		D3479F9C13FC2BC7002D0984 /* TutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialViewController.xib; sourceTree = "<group>"; };
+		D3479FAB13FC3E31002D0984 /* TutorialViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TutorialViewController~ipad.xib"; sourceTree = "<group>"; };
+		D3479FAE13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-01.png"; sourceTree = "<group>"; };
+		D3479FAF13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-01@2x.png"; sourceTree = "<group>"; };
+		D3479FB013FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-01~ipad.png"; sourceTree = "<group>"; };
+		D3479FB113FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-02.png"; sourceTree = "<group>"; };
+		D3479FB213FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-02@2x.png"; sourceTree = "<group>"; };
+		D3479FB413FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-03.png"; sourceTree = "<group>"; };
+		D3479FB513FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-03@2x.png"; sourceTree = "<group>"; };
+		D3479FB613FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Joystick-Tutorial-03~ipad.png"; sourceTree = "<group>"; };
+		D3479FC013FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-01.png"; sourceTree = "<group>"; };
+		D3479FC113FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-01@2x.png"; sourceTree = "<group>"; };
+		D3479FC213FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-01~ipad.png"; sourceTree = "<group>"; };
+		D3479FC313FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-02.png"; sourceTree = "<group>"; };
+		D3479FC413FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-02@2x.png"; sourceTree = "<group>"; };
+		D3479FC513FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-RC-Tutorial-02~ipad.png"; sourceTree = "<group>"; };
+		D3479FC913FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Tilt-Tutorial-01.png"; sourceTree = "<group>"; };
+		D3479FCA13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Tilt-Tutorial-01@2x.png"; sourceTree = "<group>"; };
+		D3479FCB13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-Tilt-Tutorial-01~ipad.png"; sourceTree = "<group>"; };
+		D347B85A137310D400E2E382 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D347B86E1373198500E2E382 /* en */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 10; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D35474EC141549A6008967FA /* SpheroDrive-ipad-joystickColorBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-joystickColorBG.png"; sourceTree = "<group>"; };
+		D35474EE14156510008967FA /* SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png"; sourceTree = "<group>"; };
+		D35474EF14156510008967FA /* SpheroDrive-ipad-driveTypeRCBtn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeRCBtn-pressed.png"; sourceTree = "<group>"; };
+		D35474F014156511008967FA /* SpheroDrive-ipad-driveTypeTiltBtn-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-ipad-driveTypeTiltBtn-pressed.png"; sourceTree = "<group>"; };
+		D3554BA513D3E006008C4F88 /* JoystickDriveViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoystickDriveViewController_iPad.xib; sourceTree = "<group>"; };
+		D3554BA613D3E006008C4F88 /* RCDriveViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCDriveViewController_iPad.xib; sourceTree = "<group>"; };
+		D3554BA713D3E006008C4F88 /* TiltDriveViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TiltDriveViewController~ipad.xib"; sourceTree = "<group>"; };
+		D35844E813429E0C009CB995 /* Orbotix-Sphero-Popup-Bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Popup-Bkg.png"; sourceTree = "<group>"; };
+		D388AF83141589B700F7DA01 /* Helvetica Rounded LT Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Rounded LT Bold.ttf"; sourceTree = "<group>"; };
+		D38B91221358BC9C00AC0496 /* Sphero_Btn_Wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Btn_Wide.png; sourceTree = "<group>"; };
+		D38B91231358BC9C00AC0496 /* Sphero_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Btn.png; sourceTree = "<group>"; };
+		D3AB9EC61348EF87007B1D29 /* Orbotix-Sphero-Level1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level1.png"; sourceTree = "<group>"; };
+		D3AB9EC71348EF87007B1D29 /* Orbotix-Sphero-Level2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level2.png"; sourceTree = "<group>"; };
+		D3AB9EC81348EF87007B1D29 /* Orbotix-Sphero-Level3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level3.png"; sourceTree = "<group>"; };
+		D3AB9EC91348EF87007B1D29 /* Sphero_Sensitivity_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Sensitivity_01.png; sourceTree = "<group>"; };
+		D3AB9ECA1348EF87007B1D29 /* Sphero_Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Title.png; sourceTree = "<group>"; };
+		D3AB9EFE1348F7AD007B1D29 /* SensitivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensitivityViewController.h; sourceTree = "<group>"; };
+		D3AB9EFF1348F7AD007B1D29 /* SensitivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensitivityViewController.m; sourceTree = "<group>"; };
+		D3AB9F001348F7AD007B1D29 /* SensitivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SensitivityViewController.xib; sourceTree = "<group>"; };
+		D3B79880136F858F00524935 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		D3B79881136F858F00524935 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		D3B79882136F858F00524935 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		D3B798F21371E92000524935 /* Sphero_Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Sphero_Info.html; path = Images/Sphero_Info.html; sourceTree = "<group>"; };
+		D3D12C6D136660BD005D8D33 /* CircularUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularUIView.h; sourceTree = "<group>"; };
+		D3D12C6E136660BD005D8D33 /* CircularUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularUIView.m; sourceTree = "<group>"; };
+		D3D12C7713666561005D8D33 /* CircularUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularUIButton.h; sourceTree = "<group>"; };
+		D3D12C7813666561005D8D33 /* CircularUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularUIButton.m; sourceTree = "<group>"; };
+		D3D763F913CB75B100EDF967 /* BoostButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoostButton.png; sourceTree = "<group>"; };
+		D3D763FB13CB75B100EDF967 /* BoostButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoostButtonPressed.png; sourceTree = "<group>"; };
+		D3D7640113CB75CC00EDF967 /* Joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Joystick.png; sourceTree = "<group>"; };
+		D3D7640313CB75CC00EDF967 /* JoystickBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickBackground.png; sourceTree = "<group>"; };
+		D3D7640513CB75CC00EDF967 /* JoystickButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickButton.png; sourceTree = "<group>"; };
+		D3D7640713CB75CC00EDF967 /* JoystickButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickButtonPressed.png; sourceTree = "<group>"; };
+		D3D7640913CB75CC00EDF967 /* JoystickChoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickChoice.png; sourceTree = "<group>"; };
+		D3D7640B13CB75CC00EDF967 /* JoystickChoiceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JoystickChoiceSelected.png; sourceTree = "<group>"; };
+		D3D7641913CB75DA00EDF967 /* MenuBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBtn.png; sourceTree = "<group>"; };
+		D3D7641B13CB75DA00EDF967 /* MenuBtnPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBtnPressed.png; sourceTree = "<group>"; };
+		D3D7642113CB760200EDF967 /* Puck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Puck.png; sourceTree = "<group>"; };
+		D3D7642313CB760200EDF967 /* RCBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCBackground.png; sourceTree = "<group>"; };
+		D3D7642713CB760200EDF967 /* RCBoostActive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCBoostActive.png; sourceTree = "<group>"; };
+		D3D7642913CB760200EDF967 /* RCButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCButton.png; sourceTree = "<group>"; };
+		D3D7642B13CB760200EDF967 /* RCButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCButtonPressed.png; sourceTree = "<group>"; };
+		D3D7642D13CB760200EDF967 /* RCChoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCChoice.png; sourceTree = "<group>"; };
+		D3D7642F13CB760200EDF967 /* RCChoiceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCChoiceSelected.png; sourceTree = "<group>"; };
+		D3D7643113CB760200EDF967 /* RCControlSpeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCControlSpeed.png; sourceTree = "<group>"; };
+		D3D7643313CB760200EDF967 /* RCControlTurn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCControlTurn.png; sourceTree = "<group>"; };
+		D3D7644913CB762300EDF967 /* TiltBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltBackground.png; sourceTree = "<group>"; };
+		D3D7644B13CB762300EDF967 /* TiltButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltButton.png; sourceTree = "<group>"; };
+		D3D7644D13CB762300EDF967 /* TiltButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltButtonPressed.png; sourceTree = "<group>"; };
+		D3D7644F13CB762300EDF967 /* TiltChoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltChoice.png; sourceTree = "<group>"; };
+		D3D7645113CB762300EDF967 /* TiltChoiceSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltChoiceSelected.png; sourceTree = "<group>"; };
+		D3D7645313CB762300EDF967 /* TiltPuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiltPuck.png; sourceTree = "<group>"; };
+		D3D7646113CB826300EDF967 /* BoostButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BoostButton@2x.png"; sourceTree = "<group>"; };
+		D3D7646213CB826300EDF967 /* BoostButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BoostButtonPressed@2x.png"; sourceTree = "<group>"; };
+		D3D7646313CB826300EDF967 /* Joystick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Joystick@2x.png"; sourceTree = "<group>"; };
+		D3D7646413CB826300EDF967 /* JoystickBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JoystickBackground@2x.png"; sourceTree = "<group>"; };
+		D3D7646513CB826300EDF967 /* JoystickButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JoystickButton@2x.png"; sourceTree = "<group>"; };
+		D3D7646613CB826300EDF967 /* JoystickButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JoystickButtonPressed@2x.png"; sourceTree = "<group>"; };
+		D3D7646713CB826300EDF967 /* JoystickChoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JoystickChoice@2x.png"; sourceTree = "<group>"; };
+		D3D7646813CB826300EDF967 /* JoystickChoiceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JoystickChoiceSelected@2x.png"; sourceTree = "<group>"; };
+		D3D7646913CB826300EDF967 /* MenuBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBtn@2x.png"; sourceTree = "<group>"; };
+		D3D7646A13CB826300EDF967 /* MenuBtnPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuBtnPressed@2x.png"; sourceTree = "<group>"; };
+		D3D7646B13CB826300EDF967 /* Puck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Puck@2x.png"; sourceTree = "<group>"; };
+		D3D7646C13CB826300EDF967 /* RCBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCBackground@2x.png"; sourceTree = "<group>"; };
+		D3D7646E13CB826300EDF967 /* RCBoostActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCBoostActive@2x.png"; sourceTree = "<group>"; };
+		D3D7646F13CB826300EDF967 /* RCButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCButton@2x.png"; sourceTree = "<group>"; };
+		D3D7647013CB826300EDF967 /* RCButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCButtonPressed@2x.png"; sourceTree = "<group>"; };
+		D3D7647113CB826300EDF967 /* RCChoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCChoice@2x.png"; sourceTree = "<group>"; };
+		D3D7647213CB826300EDF967 /* RCChoiceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCChoiceSelected@2x.png"; sourceTree = "<group>"; };
+		D3D7647313CB826300EDF967 /* RCControlSpeed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCControlSpeed@2x.png"; sourceTree = "<group>"; };
+		D3D7647413CB826300EDF967 /* RCControlTurn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RCControlTurn@2x.png"; sourceTree = "<group>"; };
+		D3D7647513CB826300EDF967 /* TiltBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltBackground@2x.png"; sourceTree = "<group>"; };
+		D3D7647613CB826300EDF967 /* TiltButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltButton@2x.png"; sourceTree = "<group>"; };
+		D3D7647713CB826300EDF967 /* TiltButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltButtonPressed@2x.png"; sourceTree = "<group>"; };
+		D3D7647813CB826300EDF967 /* TiltChoice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltChoice@2x.png"; sourceTree = "<group>"; };
+		D3D7647913CB826300EDF967 /* TiltChoiceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltChoiceSelected@2x.png"; sourceTree = "<group>"; };
+		D3D7647A13CB826300EDF967 /* TiltPuck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TiltPuck@2x.png"; sourceTree = "<group>"; };
+		D3D764AC13CB996600EDF967 /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
+		D3D764AD13CB996600EDF967 /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
+		D3D764AE13CB996600EDF967 /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		D3D764AF13CB996600EDF967 /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		D3D764B013CB996600EDF967 /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		D3D764B113CB996600EDF967 /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		D3D764B213CB996600EDF967 /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		D3D764B313CB996600EDF967 /* WETouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETouchableView.h; sourceTree = "<group>"; };
+		D3D764B413CB996600EDF967 /* WETouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETouchableView.m; sourceTree = "<group>"; };
+		D3D764BC13CB9A3600EDF967 /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDownSimple.png; sourceTree = "<group>"; };
+		D3D764BD13CB9A3600EDF967 /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeftSimple.png; sourceTree = "<group>"; };
+		D3D764BE13CB9A3600EDF967 /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRightSimple.png; sourceTree = "<group>"; };
+		D3D764BF13CB9A3600EDF967 /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUpSimple.png; sourceTree = "<group>"; };
+		D3D764C013CB9A3600EDF967 /* popoverBgSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBgSimple.png; sourceTree = "<group>"; };
+		D3D764C613CB9A4E00EDF967 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		D3D764C713CB9A4E00EDF967 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		D3D764C813CB9A4E00EDF967 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		D3D764C913CB9A4E00EDF967 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		D3D764CA13CB9A4E00EDF967 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		D3D764CB13CB9A4E00EDF967 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		D3D764CC13CB9A4E00EDF967 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		D3D764CD13CB9A4E00EDF967 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		D3D764CE13CB9A4E00EDF967 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		D3D764CF13CB9A4E00EDF967 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		D3D764DC13CB9C7E00EDF967 /* DriveViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DriveViewController-iPad.xib"; sourceTree = "<group>"; };
+		D3D764DE13CB9D3100EDF967 /* DriveTypeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveTypeSelectorViewController.h; sourceTree = "<group>"; };
+		D3D764DF13CB9D3100EDF967 /* DriveTypeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveTypeSelectorViewController.m; sourceTree = "<group>"; };
+		D3D764E013CB9D3100EDF967 /* DriveTypeSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriveTypeSelectorViewController.xib; sourceTree = "<group>"; };
+		D3D764ED13CBBA3C00EDF967 /* RCDriveAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDriveAlgorithm.h; sourceTree = "<group>"; };
+		D3D764EE13CBBA3C00EDF967 /* RCDriveAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDriveAlgorithm.m; sourceTree = "<group>"; };
+		D3D764F013CFA56C00EDF967 /* DriveBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DriveBackground.png; sourceTree = "<group>"; };
+		D3D764F113CFA56C00EDF967 /* DriveBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DriveBackground@2x.png"; sourceTree = "<group>"; };
+		D3D764F913CFA99D00EDF967 /* JoystickDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickDriveViewController.h; sourceTree = "<group>"; };
+		D3D764FA13CFA99E00EDF967 /* JoystickDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickDriveViewController.m; sourceTree = "<group>"; };
+		D3D764FB13CFA99E00EDF967 /* JoystickDriveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoystickDriveViewController.xib; sourceTree = "<group>"; };
+		D3D764FE13CFAA2600EDF967 /* TiltDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiltDriveViewController.h; sourceTree = "<group>"; };
+		D3D764FF13CFAA2600EDF967 /* TiltDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiltDriveViewController.m; sourceTree = "<group>"; };
+		D3D7650013CFAA2700EDF967 /* TiltDriveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiltDriveViewController.xib; sourceTree = "<group>"; };
+		D3D7650313CFAA3E00EDF967 /* RCDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDriveViewController.h; sourceTree = "<group>"; };
+		D3D7650413CFAA3E00EDF967 /* RCDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDriveViewController.m; sourceTree = "<group>"; };
+		D3D7650513CFAA3F00EDF967 /* RCDriveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCDriveViewController.xib; sourceTree = "<group>"; };
+		D3D7650813CFD91200EDF967 /* DriveControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveControllerDelegate.h; sourceTree = "<group>"; };
+		D3D7650913CFE3C400EDF967 /* DriveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveController.h; sourceTree = "<group>"; };
+		D3F6D4A21415A53800F7C250 /* SliderLeftCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderLeftCap.png; sourceTree = "<group>"; };
+		D3F6D4A31415A53800F7C250 /* SliderLeftCap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderLeftCap@2x.png"; sourceTree = "<group>"; };
+		D3F6D4A41415A53800F7C250 /* SliderRightCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderRightCap.png; sourceTree = "<group>"; };
+		D3F6D4A51415A53800F7C250 /* SliderRightCap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderRightCap@2x.png"; sourceTree = "<group>"; };
+		D3F6D4A61415A53800F7C250 /* SliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderThumb.png; sourceTree = "<group>"; };
+		D3F6D4A71415A53800F7C250 /* SliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb@2x.png"; sourceTree = "<group>"; };
+		D3F6D4AE1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsIcon.png"; sourceTree = "<group>"; };
+		D3F6D4AF1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsIcon@2x.png"; sourceTree = "<group>"; };
+		F173E4CD143E1B53003FD152 /* SpheroDrive-menuBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuBackButton.png"; sourceTree = "<group>"; };
+		F173E4CE143E1B53003FD152 /* SpheroDrive-menuBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuBackButton@2x.png"; sourceTree = "<group>"; };
+		F173E4DD143E443C003FD152 /* SpheroDrive_CloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDrive_CloseBtn.png; sourceTree = "<group>"; };
+		F173E4DE143E443C003FD152 /* SpheroDrive_CloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive_CloseBtn@2x.png"; sourceTree = "<group>"; };
+		F1F66FD3141E60A800E755B7 /* SpheroDrive-menuSleepIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSleepIcon.png"; sourceTree = "<group>"; };
+		F1F66FD4141E60A800E755B7 /* SpheroDrive-menuSleepIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSleepIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306804714A23D3800359AB3 /* libRobotKit.a in Frameworks */,
+				D306804814A23D3800359AB3 /* libRobotUIKit.a in Frameworks */,
+				814C2F1B143D15BE004E34F5 /* AVFoundation.framework in Frameworks */,
+				478ACC3712C2E79B00320F00 /* AudioToolbox.framework in Frameworks */,
+				81A44D0213E9D890003C997C /* libsqlite3.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				477F402D1296126900F07BBC /* ExternalAccessory.framework in Frameworks */,
+				477F403E129612AB00F07BBC /* GameKit.framework in Frameworks */,
+				475E9F8812A5992D0037AF87 /* CoreMotion.framework in Frameworks */,
+				47851F4912C2B0CB0096C994 /* QuartzCore.framework in Frameworks */,
+				81BCFCAF13A7E5C400639060 /* CoreLocation.framework in Frameworks */,
+				81521EC713D9DFA200698253 /* libFlurry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B631295A1EE00B9D9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D8B641295A1EE00B9D9B7 /* Foundation.framework in Frameworks */,
+				472D8B651295A1EE00B9D9B7 /* UIKit.framework in Frameworks */,
+				472D8B661295A1EE00B9D9B7 /* CoreGraphics.framework in Frameworks */,
+				477F40331296127900F07BBC /* ExternalAccessory.framework in Frameworks */,
+				477F4044129612D800F07BBC /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B6F1295A51600B9D9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				815B826514AE52C600CBAA79 /* UserGuideViewController */,
+				81F657EB1465E68900CB4402 /* CalibrateOverlay */,
+				81B3237114609B93008EBDB1 /* CalibrationTutorial */,
+				814C2EFE143D14DA004E34F5 /* Audio */,
+				81521EC413D9DFA200698253 /* Flurry */,
+				D3D764AB13CB988100EDF967 /* WEPopover */,
+				D3D12C6D136660BD005D8D33 /* CircularUIView.h */,
+				D3D12C6E136660BD005D8D33 /* CircularUIView.m */,
+				D3D12C7713666561005D8D33 /* CircularUIButton.h */,
+				D3D12C7813666561005D8D33 /* CircularUIButton.m */,
+				1D3623240D0F684500981E51 /* DriveAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DriveAppDelegate.m */,
+				D33728CC1343E3DC00B29D98 /* DriveAppSettings.h */,
+				D33728CD1343E3DC00B29D98 /* DriveAppSettings.m */,
+				476474741296E512003B4524 /* DriveViewController.h */,
+				476474751296E512003B4524 /* DriveViewController.m */,
+				81B3236A14609524008EBDB1 /* NoSpheroAlertManager.h */,
+				81B3236B14609524008EBDB1 /* NoSpheroAlertManager.m */,
+				D3B79880136F858F00524935 /* InfoViewController.h */,
+				D3B79881136F858F00524935 /* InfoViewController.m */,
+				D3B79882136F858F00524935 /* InfoViewController.xib */,
+				477F3FA31295F3C200F07BBC /* MainMenuViewController.h */,
+				477F3FA41295F3C200F07BBC /* MainMenuViewController.m */,
+				47292AFD12BA78BA00666564 /* OptionsViewController.h */,
+				47292AFE12BA78BA00666564 /* OptionsViewController.m */,
+				47292AFF12BA78BA00666564 /* OptionsViewController.xib */,
+				D3AB9EFE1348F7AD007B1D29 /* SensitivityViewController.h */,
+				D3AB9EFF1348F7AD007B1D29 /* SensitivityViewController.m */,
+				D3AB9F001348F7AD007B1D29 /* SensitivityViewController.xib */,
+				D3D764DE13CB9D3100EDF967 /* DriveTypeSelectorViewController.h */,
+				D3D764DF13CB9D3100EDF967 /* DriveTypeSelectorViewController.m */,
+				D3D764E013CB9D3100EDF967 /* DriveTypeSelectorViewController.xib */,
+				D3D764ED13CBBA3C00EDF967 /* RCDriveAlgorithm.h */,
+				D3D764EE13CBBA3C00EDF967 /* RCDriveAlgorithm.m */,
+				D3D764F913CFA99D00EDF967 /* JoystickDriveViewController.h */,
+				D3D764FA13CFA99E00EDF967 /* JoystickDriveViewController.m */,
+				D3D764FB13CFA99E00EDF967 /* JoystickDriveViewController.xib */,
+				D3D764FE13CFAA2600EDF967 /* TiltDriveViewController.h */,
+				D3D764FF13CFAA2600EDF967 /* TiltDriveViewController.m */,
+				D3D7650013CFAA2700EDF967 /* TiltDriveViewController.xib */,
+				D3D7650313CFAA3E00EDF967 /* RCDriveViewController.h */,
+				D3D7650413CFAA3E00EDF967 /* RCDriveViewController.m */,
+				D3D7650513CFAA3F00EDF967 /* RCDriveViewController.xib */,
+				D3D7650813CFD91200EDF967 /* DriveControllerDelegate.h */,
+				D3D7650913CFE3C400EDF967 /* DriveController.h */,
+				815221FF13DE30D500698253 /* CircularSlider.h */,
+				8152220013DE30D500698253 /* CircularSlider.m */,
+				815224A113DF7AB100698253 /* ColorWandView.h */,
+				815224A213DF7AB100698253 /* ColorWandView.m */,
+				D3479F9A13FC2BC7002D0984 /* TutorialViewController.h */,
+				D3479F9B13FC2BC7002D0984 /* TutorialViewController.m */,
+				D3479F9C13FC2BC7002D0984 /* TutorialViewController.xib */,
+				D3479FAB13FC3E31002D0984 /* TutorialViewController~ipad.xib */,
+				D30BB11714313F8900F460A2 /* SensitivitySelectorViewController.h */,
+				D30BB11814313F8900F460A2 /* SensitivitySelectorViewController.m */,
+				D30BB11914313F8A00F460A2 /* SensitivitySelectorViewController.xib */,
+				D31DC0F414A3FA580041488C /* DriveControlViewController.h */,
+				D31DC0F514A3FA580041488C /* DriveControlViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SpheroDrive.app */,
+				472D8B6A1295A1EE00B9D9B7 /* SpheroDriveTesting.app */,
+				472D8B721295A51600B9D9B7 /* SpheroDriveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D306805814A2947A00359AB3 /* RobotUIKit.bundle */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				47A355F312DF64A9005E4826 /* iPhone */,
+				47EA5C2412DE750000D80A5B /* iPad */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D347B85A137310D400E2E382 /* Settings.bundle */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SpheroDrive_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				477F3FC91296051000F07BBC /* Images */,
+				D3B798F21371E92000524935 /* Sphero_Info.html */,
+				D388AF83141589B700F7DA01 /* Helvetica Rounded LT Bold.ttf */,
+				8D1107310486CEB800E47090 /* SpheroDrive-Info.plist */,
+				472D8B6C1295A1EE00B9D9B7 /* SpheroDriveTesting-Info.plist */,
+				472D8B731295A51600B9D9B7 /* SpheroDriveTests-Info.plist */,
+				47292B6F12BAF4F000666564 /* UserDefaults.plist */,
+				47851EAC12C188480096C994 /* Entitlements.plist */,
+				D347B86D1373198500E2E382 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D306804514A23D3800359AB3 /* libRobotKit.a */,
+				D306804614A23D3800359AB3 /* libRobotUIKit.a */,
+				814C2F1A143D15BE004E34F5 /* AVFoundation.framework */,
+				81A44D0113E9D88F003C997C /* libsqlite3.dylib */,
+				478ACC3612C2E79B00320F00 /* AudioToolbox.framework */,
+				47851F4812C2B0CB0096C994 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				477F402C1296126900F07BBC /* ExternalAccessory.framework */,
+				477F403D129612AB00F07BBC /* GameKit.framework */,
+				475E9F8712A5992D0037AF87 /* CoreMotion.framework */,
+				81BCFCAE13A7E5C400639060 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47292AE512BA761500666564 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				81A14DB714636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCautious.png */,
+				81A14DB814636DE4007DDCC0 /* SpheroDrive-SensitivityButtonComfort.png */,
+				81A14DB914636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCrazy.png */,
+				D38B91221358BC9C00AC0496 /* Sphero_Btn_Wide.png */,
+				D38B91231358BC9C00AC0496 /* Sphero_Btn.png */,
+				D35844E813429E0C009CB995 /* Orbotix-Sphero-Popup-Bkg.png */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		47292AE712BA762400666564 /* sensitivity view */ = {
+			isa = PBXGroup;
+			children = (
+				D3F6D4A21415A53800F7C250 /* SliderLeftCap.png */,
+				D3F6D4A31415A53800F7C250 /* SliderLeftCap@2x.png */,
+				D3F6D4A41415A53800F7C250 /* SliderRightCap.png */,
+				D3F6D4A51415A53800F7C250 /* SliderRightCap@2x.png */,
+				D3F6D4A61415A53800F7C250 /* SliderThumb.png */,
+				D3F6D4A71415A53800F7C250 /* SliderThumb@2x.png */,
+				D3AB9EC61348EF87007B1D29 /* Orbotix-Sphero-Level1.png */,
+				D3AB9EC71348EF87007B1D29 /* Orbotix-Sphero-Level2.png */,
+				D3AB9EC81348EF87007B1D29 /* Orbotix-Sphero-Level3.png */,
+				D3AB9EC91348EF87007B1D29 /* Sphero_Sensitivity_01.png */,
+				D3AB9ECA1348EF87007B1D29 /* Sphero_Title.png */,
+			);
+			name = "sensitivity view";
+			sourceTree = "<group>";
+		};
+		477F3FC91296051000F07BBC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				811771A3146B526300FF3FAD /* Sphero-PopoverItemSelectedBlue.png */,
+				D3479FAD13FC60A6002D0984 /* Tutorial */,
+				8152211613DE12BB00698253 /* ipad */,
+				47292AE512BA761500666564 /* common */,
+				47BCDF2B12BA71B200D0A0BE /* drive view */,
+				47BCDF1412BA6C9500D0A0BE /* menu view */,
+				47292AE712BA762400666564 /* sensitivity view */,
+				471DDE1612CD3FFD00E1342A /* iTunesArtwork */,
+				475A97FE12B1BC840057CF03 /* Icon.png */,
+				475A97FF12B1BC840057CF03 /* Icon-72.png */,
+				475A980012B1BC840057CF03 /* Icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		47A355F312DF64A9005E4826 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				47F56C2312DFB61A00C934B3 /* MainMenuViewController.xib */,
+				47F56C3012DFB98400C934B3 /* DriveViewController_iPhone.h */,
+				47F56C3112DFB98400C934B3 /* DriveViewController_iPhone.m */,
+				47F56C2212DFB61A00C934B3 /* DriveViewController.xib */,
+				47F56C2412DFB61A00C934B3 /* MainWindow.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		47BCDF1412BA6C9500D0A0BE /* menu view */ = {
+			isa = PBXGroup;
+			children = (
+				F173E4CD143E1B53003FD152 /* SpheroDrive-menuBackButton.png */,
+				F173E4CE143E1B53003FD152 /* SpheroDrive-menuBackButton@2x.png */,
+				F1F66FD3141E60A800E755B7 /* SpheroDrive-menuSleepIcon.png */,
+				F1F66FD4141E60A800E755B7 /* SpheroDrive-menuSleepIcon@2x.png */,
+				D3F6D4AE1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon.png */,
+				D3F6D4AF1415C61F00F7C250 /* SpheroDrive-menuSettingsIcon@2x.png */,
+				81521DE313D8DF4C00698253 /* SpheroDrive-menuButtonBG.png */,
+				81521DE413D8DF4C00698253 /* SpheroDrive-menuButtonBG@2x.png */,
+				81521DE513D8DF4C00698253 /* SpheroDrive-menuColorIcon.png */,
+				81521DE613D8DF4C00698253 /* SpheroDrive-menuColorIcon@2x.png */,
+				81521DE713D8DF4C00698253 /* SpheroDrive-menuInfoButton.png */,
+				81521DE813D8DF4C00698253 /* SpheroDrive-menuInfoButton@2x.png */,
+				81521DE913D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon.png */,
+				81521DEA13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon@2x.png */,
+				81521DEB13D8DF4C00698253 /* SpheroDrive-menuRollButton.png */,
+				81521DEC13D8DF4C00698253 /* SpheroDrive-menuRollButton@2x.png */,
+				81521DED13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon.png */,
+				81521DEE13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon@2x.png */,
+				81521DEF13D8DF4C00698253 /* SpheroDrive-menuSettingsButton.png */,
+				81521DF013D8DF4C00698253 /* SpheroDrive-menuSettingsButton@2x.png */,
+				81521DF113D8DF4C00698253 /* SpheroDrive-menuSpheroLogo.png */,
+				81521DF213D8DF4C00698253 /* SpheroDrive-menuSpheroLogo@2x.png */,
+				81521DF313D8DF4C00698253 /* SpheroDrive-menuTutorialIcon.png */,
+				81521DF413D8DF4C00698253 /* SpheroDrive-menuTutorialIcon@2x.png */,
+			);
+			name = "menu view";
+			sourceTree = "<group>";
+		};
+		47BCDF2B12BA71B200D0A0BE /* drive view */ = {
+			isa = PBXGroup;
+			children = (
+				D30BB0FB143139BD00F460A2 /* SpheroDrive_CalibrateBtn.png */,
+				D30BB0FC143139BD00F460A2 /* SpheroDrive_CalibrateBtn@2x.png */,
+				D30BB0FD143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed.png */,
+				D30BB0FE143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed@2x.png */,
+				D30BB0FF143139BD00F460A2 /* SpheroDrive_CautiousSettings.png */,
+				D30BB100143139BD00F460A2 /* SpheroDrive_CautiousSettings@2x.png */,
+				D30BB101143139BD00F460A2 /* SpheroDrive_ComfortSettings.png */,
+				D30BB102143139BD00F460A2 /* SpheroDrive_ComfortSettings@2x.png */,
+				D30BB103143139BD00F460A2 /* SpheroDrive_CrazySettings.png */,
+				D30BB104143139BD00F460A2 /* SpheroDrive_CrazySettings@2x.png */,
+				D30BB105143139BD00F460A2 /* SpheroDrive_SensitivityBtn.png */,
+				D30BB106143139BD00F460A2 /* SpheroDrive_SensitivityBtn@2x.png */,
+				D30BB107143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed.png */,
+				D30BB108143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed@2x.png */,
+				D3D764F013CFA56C00EDF967 /* DriveBackground.png */,
+				D3D764F113CFA56C00EDF967 /* DriveBackground@2x.png */,
+				D3D7646113CB826300EDF967 /* BoostButton@2x.png */,
+				D3D7646213CB826300EDF967 /* BoostButtonPressed@2x.png */,
+				D3D7646313CB826300EDF967 /* Joystick@2x.png */,
+				D3D7646413CB826300EDF967 /* JoystickBackground@2x.png */,
+				D3D7646513CB826300EDF967 /* JoystickButton@2x.png */,
+				D3D7646613CB826300EDF967 /* JoystickButtonPressed@2x.png */,
+				D3D7646713CB826300EDF967 /* JoystickChoice@2x.png */,
+				D3D7646813CB826300EDF967 /* JoystickChoiceSelected@2x.png */,
+				D3D7646913CB826300EDF967 /* MenuBtn@2x.png */,
+				D3D7646A13CB826300EDF967 /* MenuBtnPressed@2x.png */,
+				D3D7646B13CB826300EDF967 /* Puck@2x.png */,
+				D3D7646C13CB826300EDF967 /* RCBackground@2x.png */,
+				D3D7646E13CB826300EDF967 /* RCBoostActive@2x.png */,
+				D3D7646F13CB826300EDF967 /* RCButton@2x.png */,
+				D3D7647013CB826300EDF967 /* RCButtonPressed@2x.png */,
+				D3D7647113CB826300EDF967 /* RCChoice@2x.png */,
+				D3D7647213CB826300EDF967 /* RCChoiceSelected@2x.png */,
+				D3D7647313CB826300EDF967 /* RCControlSpeed@2x.png */,
+				D3D7647413CB826300EDF967 /* RCControlTurn@2x.png */,
+				D3D7647513CB826300EDF967 /* TiltBackground@2x.png */,
+				D3D7647613CB826300EDF967 /* TiltButton@2x.png */,
+				D3D7647713CB826300EDF967 /* TiltButtonPressed@2x.png */,
+				D3D7647813CB826300EDF967 /* TiltChoice@2x.png */,
+				D3D7647913CB826300EDF967 /* TiltChoiceSelected@2x.png */,
+				D3D7647A13CB826300EDF967 /* TiltPuck@2x.png */,
+				D3D7644913CB762300EDF967 /* TiltBackground.png */,
+				D3D7644B13CB762300EDF967 /* TiltButton.png */,
+				D3D7644D13CB762300EDF967 /* TiltButtonPressed.png */,
+				D3D7644F13CB762300EDF967 /* TiltChoice.png */,
+				D3D7645113CB762300EDF967 /* TiltChoiceSelected.png */,
+				D3D7645313CB762300EDF967 /* TiltPuck.png */,
+				D3D7642113CB760200EDF967 /* Puck.png */,
+				D3D7642313CB760200EDF967 /* RCBackground.png */,
+				D3D7642713CB760200EDF967 /* RCBoostActive.png */,
+				D3D7642913CB760200EDF967 /* RCButton.png */,
+				D3D7642B13CB760200EDF967 /* RCButtonPressed.png */,
+				D3D7642D13CB760200EDF967 /* RCChoice.png */,
+				D3D7642F13CB760200EDF967 /* RCChoiceSelected.png */,
+				D3D7643113CB760200EDF967 /* RCControlSpeed.png */,
+				D3D7643313CB760200EDF967 /* RCControlTurn.png */,
+				D3D7641913CB75DA00EDF967 /* MenuBtn.png */,
+				D3D7641B13CB75DA00EDF967 /* MenuBtnPressed.png */,
+				D3D7640113CB75CC00EDF967 /* Joystick.png */,
+				D3D7640313CB75CC00EDF967 /* JoystickBackground.png */,
+				D3D7640513CB75CC00EDF967 /* JoystickButton.png */,
+				D3D7640713CB75CC00EDF967 /* JoystickButtonPressed.png */,
+				D3D7640913CB75CC00EDF967 /* JoystickChoice.png */,
+				D3D7640B13CB75CC00EDF967 /* JoystickChoiceSelected.png */,
+				D3D763F913CB75B100EDF967 /* BoostButton.png */,
+				D3D763FB13CB75B100EDF967 /* BoostButtonPressed.png */,
+			);
+			name = "drive view";
+			sourceTree = "<group>";
+		};
+		47EA5C2412DE750000D80A5B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				81F56BBD13E722C50075C094 /* DriveTypeSelectorViewController~ipad.xib */,
+				D3554BA613D3E006008C4F88 /* RCDriveViewController_iPad.xib */,
+				D3554BA713D3E006008C4F88 /* TiltDriveViewController~ipad.xib */,
+				47F56C3412DFB9BE00C934B3 /* DriveViewController_iPad.h */,
+				47F56C3512DFB9BE00C934B3 /* DriveViewController_iPad.m */,
+				D3D764DC13CB9C7E00EDF967 /* DriveViewController-iPad.xib */,
+				47EA5C2512DE750200D80A5B /* MainWindow-iPad.xib */,
+				8152220513DE3B3D00698253 /* RCDriveViewController_iPad.h */,
+				8152220613DE3B3D00698253 /* RCDriveViewController_iPad.m */,
+				815223A613DF324400698253 /* JoystickDriveViewController_iPad.h */,
+				815223A713DF324400698253 /* JoystickDriveViewController_iPad.m */,
+				D3554BA513D3E006008C4F88 /* JoystickDriveViewController_iPad.xib */,
+				D30BB11C14314BDB00F460A2 /* SensitivitySelectorViewController~ipad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		814C2EFE143D14DA004E34F5 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				81F658031465E6F400CB4402 /* CalibrateOverlayStartSound.h */,
+				81F658041465E6F400CB4402 /* CalibrateOverlayStartSound.m */,
+				81F658051465E6F400CB4402 /* CalibrateOverlayLoop.h */,
+				81F658061465E6F400CB4402 /* CalibrateOverlayLoop.m */,
+				81F658071465E6F400CB4402 /* CalibrateOverlayEnd.h */,
+				81F658081465E6F400CB4402 /* CalibrateOverlayEnd.m */,
+				81F658091465E6F400CB4402 /* 2-finger HUD_hum.wav */,
+				81F6580A1465E6F400CB4402 /* 2-finger HUD_in.wav */,
+				81F6580B1465E6F400CB4402 /* 2-finger HUD_out.wav */,
+				814C2F15143D1545004E34F5 /* SpheroDropDownAlert.wav */,
+				816CE498144602010040F097 /* SpheroDriveWheelIn.wav */,
+				816CE4B414460DA20040F097 /* SpheroButtonPress.wav */,
+				816CE4B514460DA20040F097 /* SpheroItemSelect.wav */,
+				816CE4B614460DA20040F097 /* SpheroButtonPressSound.h */,
+				816CE4B714460DA20040F097 /* SpheroButtonPressSound.m */,
+				816CE4B814460DA20040F097 /* SpheroItemSelectSound.h */,
+				816CE4B914460DA20040F097 /* SpheroItemSelectSound.m */,
+				816CE499144602010040F097 /* SpheroDriveWheelIn.h */,
+				816CE49A144602010040F097 /* SpheroDriveWheelIn.m */,
+				814C2F16143D1545004E34F5 /* SpheroDropDownAlertSound.h */,
+				814C2F17143D1545004E34F5 /* SpheroDropDownAlertSound.m */,
+				814C2F0F143D1522004E34F5 /* OXAudioManager.h */,
+				814C2F10143D1522004E34F5 /* OXAudioManager.m */,
+				814C2F11143D1522004E34F5 /* OXAudioPlayer.h */,
+				814C2F12143D1522004E34F5 /* OXAudioPlayer.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		81521EC413D9DFA200698253 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				81521EC513D9DFA200698253 /* FlurryAPI.h */,
+				81521EC613D9DFA200698253 /* libFlurry.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		8152211613DE12BB00698253 /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				D35474EE14156510008967FA /* SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png */,
+				D35474EF14156510008967FA /* SpheroDrive-ipad-driveTypeRCBtn-pressed.png */,
+				D35474F014156511008967FA /* SpheroDrive-ipad-driveTypeTiltBtn-pressed.png */,
+				D35474EC141549A6008967FA /* SpheroDrive-ipad-joystickColorBG.png */,
+				815223C613DF39DE00698253 /* SpheroDrive-ipad-JoystickRingComplete.png */,
+				815221C413DE204F00698253 /* SpheroDrive-ipad-TiltBoostOff.png */,
+				815221C513DE204F00698253 /* SpheroDrive-ipad-TiltBoostOn.png */,
+				8152214313DE178400698253 /* SpheroDrive-ipad-boostRoundOff.png */,
+				8152214413DE178400698253 /* SpheroDrive-ipad-boostRoundOn.png */,
+				8152211713DE12BB00698253 /* SpheroDrive-ipad-BG.png */,
+				8152211813DE12BB00698253 /* SpheroDrive-ipad-colorBtnBG.png */,
+				8152211913DE12BB00698253 /* SpheroDrive-ipad-colorWand.png */,
+				8152211A13DE12BB00698253 /* SpheroDrive-ipad-driveTypeBtnBG.png */,
+				8152211B13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickBtn.png */,
+				8152211C13DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickInset.png */,
+				8152211D13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCBtn.png */,
+				8152211E13DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCInset.png */,
+				8152211F13DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltBtn.png */,
+				8152212013DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltInset.png */,
+				8152212113DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBLBoostBG.png */,
+				8152212213DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBRBoostBG.png */,
+				8152212313DE12BB00698253 /* SpheroDrive-ipad-JoystickControlColorBG.png */,
+				8152212413DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuck.png */,
+				8152212613DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuckRing.png */,
+				8152212713DE12BB00698253 /* SpheroDrive-ipad-menuButton.png */,
+				8152212813DE12BB00698253 /* SpheroDrive-ipad-RCControlBG.png */,
+				8152212913DE12BB00698253 /* SpheroDrive-ipad-RCControlSlider.png */,
+				8152212A13DE12BB00698253 /* SpheroDrive-ipad-TiltControlBG.png */,
+				8152212B13DE12BB00698253 /* SpheroDrive-ipad-TiltControlPuck.png */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		815B826514AE52C600CBAA79 /* UserGuideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				815B827F14AE537A00CBAA79 /* UserGuideViewController.h */,
+				815B828014AE537A00CBAA79 /* UserGuideViewController.m */,
+				815B828614AE53A300CBAA79 /* Sphero-WhatsNewIcon@2x.png */,
+				815B828114AE537A00CBAA79 /* Sphero-UserGuideRollButton.png */,
+				815B828214AE537A00CBAA79 /* UserGuideViewController.xib */,
+				815B826714AE530C00CBAA79 /* content */,
+			);
+			name = UserGuideViewController;
+			sourceTree = "<group>";
+		};
+		815B826714AE530C00CBAA79 /* content */ = {
+			isa = PBXGroup;
+			children = (
+				815B826814AE536100CBAA79 /* images */,
+				815B827314AE536100CBAA79 /* SpheroDriveGuide.html */,
+			);
+			name = content;
+			sourceTree = "<group>";
+		};
+		815B826814AE536100CBAA79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				815B826914AE536100CBAA79 /* joystick_button.png */,
+				815B826A14AE536100CBAA79 /* joystick_puck.png */,
+				815B826B14AE536100CBAA79 /* joystick_select_button.png */,
+				815B826C14AE536100CBAA79 /* menu_button.png */,
+				815B826D14AE536100CBAA79 /* rc_select_button.png */,
+				815B826E14AE536100CBAA79 /* settings_button.png */,
+				815B826F14AE536100CBAA79 /* speed_button.png */,
+				815B827014AE536100CBAA79 /* tilt_puck.png */,
+				815B827114AE536100CBAA79 /* tilt_select_button.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		81B3237114609B93008EBDB1 /* CalibrationTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				81F7C5691484768000CA696A /* SpheroBall.png */,
+				81F7C56A1484768000CA696A /* FirstRunButtonBG.png */,
+				81F657F71465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */,
+				81F7C56B1484768000CA696A /* Sphero-CalibrateReminderClose.png */,
+				81F7C56C1484768000CA696A /* Sphero-CalibrateReminderClose@2x.png */,
+				81F7C56D1484768000CA696A /* Sphero-CalibrateTutorialHandBall.png */,
+				81F7C56E1484768000CA696A /* Sphero-Calibrate-Arrow.png */,
+				81F7C56F1484768000CA696A /* Sphero-Calibrate-StraightAhead.png */,
+				81F7C5701484768000CA696A /* Sphero-Calibrate-VertialLine.png */,
+				81F7C5711484768000CA696A /* Sphero-Calibrate-NoButton.png */,
+				81F7C5721484768000CA696A /* Sphero-Calibrate-YesButton.png */,
+				81F7C5731484768000CA696A /* Sphero-TwoFingerCalibrateBackground.png */,
+				81F7C5741484768000CA696A /* Sphero-TwoFingerCalibrateTouchGlow.png */,
+				81F7C5751484768000CA696A /* SpheroCalibrateTutorialPane1.png */,
+				81F7C55F1484767200CA696A /* CalibrationTutorialViewController.h */,
+				81F7C5601484767200CA696A /* CalibrationTutorialViewController.m */,
+				81F7C5611484767200CA696A /* CalibrationTutorialViewController.xib */,
+				81F7C5621484767200CA696A /* calibrateSpin.sphero */,
+				81F7C5631484767200CA696A /* CalibrateTutorialView.h */,
+				81F7C5641484767200CA696A /* CalibrateTutorialView.m */,
+			);
+			name = CalibrationTutorial;
+			sourceTree = "<group>";
+		};
+		81F657EB1465E68900CB4402 /* CalibrateOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				81F657F61465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */,
+				81F657F81465E6C400CB4402 /* Sphero-InnerCalibrateRing.png */,
+				81F657F91465E6C400CB4402 /* Sphero-MiddleCalibrateRing.png */,
+				81F657FA1465E6C400CB4402 /* Sphero-OuterCalibrateRing.png */,
+				81F657FB1465E6C400CB4402 /* RKCalibrateOverlayView.h */,
+				81F657FC1465E6C400CB4402 /* RKCalibrateOverlayView.m */,
+			);
+			name = CalibrateOverlay;
+			sourceTree = "<group>";
+		};
+		D3479FAD13FC60A6002D0984 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				81A14D5A14631703007DDCC0 /* SpheroDrive-ColorCallout.png */,
+				81A14D5B14631703007DDCC0 /* SpheroDrive-DriveStyleCallout.png */,
+				81A14D5C14631703007DDCC0 /* SpheroDrive-SpeedCallout.png */,
+				F173E4DD143E443C003FD152 /* SpheroDrive_CloseBtn.png */,
+				F173E4DE143E443C003FD152 /* SpheroDrive_CloseBtn@2x.png */,
+				D3479FC013FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01.png */,
+				D3479FC113FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01@2x.png */,
+				D3479FC213FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01~ipad.png */,
+				D3479FC313FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02.png */,
+				D3479FC413FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02@2x.png */,
+				D3479FC513FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02~ipad.png */,
+				D3479FC913FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01.png */,
+				D3479FCA13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01@2x.png */,
+				D3479FCB13FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01~ipad.png */,
+				D3479FAE13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01.png */,
+				D3479FAF13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01@2x.png */,
+				D3479FB013FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01~ipad.png */,
+				D3479FB113FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02.png */,
+				D3479FB213FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02@2x.png */,
+				D3479FB413FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03.png */,
+				D3479FB513FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03@2x.png */,
+				D3479FB613FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03~ipad.png */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		D3D764AB13CB988100EDF967 /* WEPopover */ = {
+			isa = PBXGroup;
+			children = (
+				D3D764B913CB997000EDF967 /* Images */,
+				D3D764AC13CB996600EDF967 /* UIBarButtonItem+WEPopover.h */,
+				D3D764AD13CB996600EDF967 /* UIBarButtonItem+WEPopover.m */,
+				D3D764AE13CB996600EDF967 /* WEPopoverContainerView.h */,
+				D3D764AF13CB996600EDF967 /* WEPopoverContainerView.m */,
+				D3D764B013CB996600EDF967 /* WEPopoverController.h */,
+				D3D764B113CB996600EDF967 /* WEPopoverController.m */,
+				D3D764B213CB996600EDF967 /* WEPopoverParentView.h */,
+				D3D764B313CB996600EDF967 /* WETouchableView.h */,
+				D3D764B413CB996600EDF967 /* WETouchableView.m */,
+			);
+			path = WEPopover;
+			sourceTree = "<group>";
+		};
+		D3D764B913CB997000EDF967 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D3D764BA13CB99DD00EDF967 /* Simple */,
+				D3D764BB13CB99E800EDF967 /* Improved */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D3D764BA13CB99DD00EDF967 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				D3D764BC13CB9A3600EDF967 /* popoverArrowDownSimple.png */,
+				D3D764BD13CB9A3600EDF967 /* popoverArrowLeftSimple.png */,
+				D3D764BE13CB9A3600EDF967 /* popoverArrowRightSimple.png */,
+				D3D764BF13CB9A3600EDF967 /* popoverArrowUpSimple.png */,
+				D3D764C013CB9A3600EDF967 /* popoverBgSimple.png */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		D3D764BB13CB99E800EDF967 /* Improved */ = {
+			isa = PBXGroup;
+			children = (
+				D3D764C613CB9A4E00EDF967 /* popoverArrowDown.png */,
+				D3D764C713CB9A4E00EDF967 /* popoverArrowDown@2x.png */,
+				D3D764C813CB9A4E00EDF967 /* popoverArrowLeft.png */,
+				D3D764C913CB9A4E00EDF967 /* popoverArrowLeft@2x.png */,
+				D3D764CA13CB9A4E00EDF967 /* popoverArrowRight.png */,
+				D3D764CB13CB9A4E00EDF967 /* popoverArrowRight@2x.png */,
+				D3D764CC13CB9A4E00EDF967 /* popoverArrowUp.png */,
+				D3D764CD13CB9A4E00EDF967 /* popoverArrowUp@2x.png */,
+				D3D764CE13CB9A4E00EDF967 /* popoverBg.png */,
+				D3D764CF13CB9A4E00EDF967 /* popoverBg@2x.png */,
+			);
+			name = Improved;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SpheroDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SpheroDrive" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroDrive;
+			productName = Drive;
+			productReference = 1D6058910D05DD3D006BFB54 /* SpheroDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472D8B5B1295A1EE00B9D9B7 /* SpheroDriveTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472D8B671295A1EE00B9D9B7 /* Build configuration list for PBXNativeTarget "SpheroDriveTesting" */;
+			buildPhases = (
+				472D8B5C1295A1EE00B9D9B7 /* Resources */,
+				472D8B5F1295A1EE00B9D9B7 /* Sources */,
+				472D8B631295A1EE00B9D9B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				472D8B781295A51C00B9D9B7 /* PBXTargetDependency */,
+			);
+			name = SpheroDriveTesting;
+			productName = Drive;
+			productReference = 472D8B6A1295A1EE00B9D9B7 /* SpheroDriveTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		472D8B711295A51600B9D9B7 /* SpheroDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472D8B761295A51700B9D9B7 /* Build configuration list for PBXNativeTarget "SpheroDriveTests" */;
+			buildPhases = (
+				472D8B6D1295A51600B9D9B7 /* Resources */,
+				472D8B6E1295A51600B9D9B7 /* Sources */,
+				472D8B6F1295A51600B9D9B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroDriveTests;
+			productName = DriveTests;
+			productReference = 472D8B721295A51600B9D9B7 /* SpheroDriveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Orbotix Inc.";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpheroDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SpheroDrive */,
+				472D8B5B1295A1EE00B9D9B7 /* SpheroDriveTesting */,
+				472D8B711295A51600B9D9B7 /* SpheroDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306805914A2947B00359AB3 /* RobotUIKit.bundle in Resources */,
+				475A980412B1BC840057CF03 /* Icon.png in Resources */,
+				475A980512B1BC840057CF03 /* Icon-72.png in Resources */,
+				475A980612B1BC840057CF03 /* Icon@2x.png in Resources */,
+				47292B0112BA78BA00666564 /* OptionsViewController.xib in Resources */,
+				47292B7012BAF4F000666564 /* UserDefaults.plist in Resources */,
+				471DDE1712CD3FFD00E1342A /* iTunesArtwork in Resources */,
+				47EA5C2612DE750200D80A5B /* MainWindow-iPad.xib in Resources */,
+				47F56C2712DFB61A00C934B3 /* DriveViewController.xib in Resources */,
+				47F56C2912DFB61A00C934B3 /* MainMenuViewController.xib in Resources */,
+				47F56C2B12DFB61A00C934B3 /* MainWindow.xib in Resources */,
+				D35844EA13429E0C009CB995 /* Orbotix-Sphero-Popup-Bkg.png in Resources */,
+				D3AB9ECB1348EF87007B1D29 /* Orbotix-Sphero-Level1.png in Resources */,
+				D3AB9ECC1348EF87007B1D29 /* Orbotix-Sphero-Level2.png in Resources */,
+				D3AB9ECD1348EF87007B1D29 /* Orbotix-Sphero-Level3.png in Resources */,
+				D3AB9ECE1348EF87007B1D29 /* Sphero_Sensitivity_01.png in Resources */,
+				D3AB9ECF1348EF87007B1D29 /* Sphero_Title.png in Resources */,
+				D3AB9F021348F7AD007B1D29 /* SensitivityViewController.xib in Resources */,
+				D38B91241358BC9C00AC0496 /* Sphero_Btn_Wide.png in Resources */,
+				D38B91251358BC9C00AC0496 /* Sphero_Btn.png in Resources */,
+				D3B79884136F858F00524935 /* InfoViewController.xib in Resources */,
+				D3B798F31371E92000524935 /* Sphero_Info.html in Resources */,
+				D347B85B137310D400E2E382 /* Settings.bundle in Resources */,
+				D347B86F1373198500E2E382 /* Localizable.strings in Resources */,
+				D3D763FD13CB75B100EDF967 /* BoostButton.png in Resources */,
+				D3D763FF13CB75B100EDF967 /* BoostButtonPressed.png in Resources */,
+				D3D7640D13CB75CC00EDF967 /* Joystick.png in Resources */,
+				D3D7640F13CB75CC00EDF967 /* JoystickBackground.png in Resources */,
+				D3D7641113CB75CC00EDF967 /* JoystickButton.png in Resources */,
+				D3D7641313CB75CC00EDF967 /* JoystickButtonPressed.png in Resources */,
+				D3D7641513CB75CC00EDF967 /* JoystickChoice.png in Resources */,
+				D3D7641713CB75CC00EDF967 /* JoystickChoiceSelected.png in Resources */,
+				D3D7641D13CB75DA00EDF967 /* MenuBtn.png in Resources */,
+				D3D7641F13CB75DA00EDF967 /* MenuBtnPressed.png in Resources */,
+				D3D7643513CB760200EDF967 /* Puck.png in Resources */,
+				D3D7643713CB760200EDF967 /* RCBackground.png in Resources */,
+				D3D7643B13CB760200EDF967 /* RCBoostActive.png in Resources */,
+				D3D7643D13CB760200EDF967 /* RCButton.png in Resources */,
+				D3D7643F13CB760200EDF967 /* RCButtonPressed.png in Resources */,
+				D3D7644113CB760200EDF967 /* RCChoice.png in Resources */,
+				D3D7644313CB760200EDF967 /* RCChoiceSelected.png in Resources */,
+				D3D7644513CB760200EDF967 /* RCControlSpeed.png in Resources */,
+				D3D7644713CB760200EDF967 /* RCControlTurn.png in Resources */,
+				D3D7645513CB762300EDF967 /* TiltBackground.png in Resources */,
+				D3D7645713CB762300EDF967 /* TiltButton.png in Resources */,
+				D3D7645913CB762300EDF967 /* TiltButtonPressed.png in Resources */,
+				D3D7645B13CB762300EDF967 /* TiltChoice.png in Resources */,
+				D3D7645D13CB762300EDF967 /* TiltChoiceSelected.png in Resources */,
+				D3D7645F13CB762300EDF967 /* TiltPuck.png in Resources */,
+				D3D7647B13CB826300EDF967 /* BoostButton@2x.png in Resources */,
+				D3D7647C13CB826300EDF967 /* BoostButtonPressed@2x.png in Resources */,
+				D3D7647D13CB826300EDF967 /* Joystick@2x.png in Resources */,
+				D3D7647E13CB826300EDF967 /* JoystickBackground@2x.png in Resources */,
+				D3D7647F13CB826300EDF967 /* JoystickButton@2x.png in Resources */,
+				D3D7648013CB826300EDF967 /* JoystickButtonPressed@2x.png in Resources */,
+				D3D7648113CB826300EDF967 /* JoystickChoice@2x.png in Resources */,
+				D3D7648213CB826300EDF967 /* JoystickChoiceSelected@2x.png in Resources */,
+				D3D7648313CB826300EDF967 /* MenuBtn@2x.png in Resources */,
+				D3D7648413CB826300EDF967 /* MenuBtnPressed@2x.png in Resources */,
+				D3D7648513CB826300EDF967 /* Puck@2x.png in Resources */,
+				D3D7648613CB826300EDF967 /* RCBackground@2x.png in Resources */,
+				D3D7648813CB826300EDF967 /* RCBoostActive@2x.png in Resources */,
+				D3D7648913CB826300EDF967 /* RCButton@2x.png in Resources */,
+				D3D7648A13CB826300EDF967 /* RCButtonPressed@2x.png in Resources */,
+				D3D7648B13CB826300EDF967 /* RCChoice@2x.png in Resources */,
+				D3D7648C13CB826300EDF967 /* RCChoiceSelected@2x.png in Resources */,
+				D3D7648D13CB826300EDF967 /* RCControlSpeed@2x.png in Resources */,
+				D3D7648E13CB826300EDF967 /* RCControlTurn@2x.png in Resources */,
+				D3D7648F13CB826300EDF967 /* TiltBackground@2x.png in Resources */,
+				D3D7649013CB826300EDF967 /* TiltButton@2x.png in Resources */,
+				D3D7649113CB826300EDF967 /* TiltButtonPressed@2x.png in Resources */,
+				D3D7649213CB826300EDF967 /* TiltChoice@2x.png in Resources */,
+				D3D7649313CB826300EDF967 /* TiltChoiceSelected@2x.png in Resources */,
+				D3D7649413CB826300EDF967 /* TiltPuck@2x.png in Resources */,
+				D3D764C113CB9A3600EDF967 /* popoverArrowDownSimple.png in Resources */,
+				D3D764C213CB9A3600EDF967 /* popoverArrowLeftSimple.png in Resources */,
+				D3D764C313CB9A3600EDF967 /* popoverArrowRightSimple.png in Resources */,
+				D3D764C413CB9A3600EDF967 /* popoverArrowUpSimple.png in Resources */,
+				D3D764C513CB9A3600EDF967 /* popoverBgSimple.png in Resources */,
+				D3D764D013CB9A4E00EDF967 /* popoverArrowDown.png in Resources */,
+				D3D764D113CB9A4E00EDF967 /* popoverArrowDown@2x.png in Resources */,
+				D3D764D213CB9A4E00EDF967 /* popoverArrowLeft.png in Resources */,
+				D3D764D313CB9A4E00EDF967 /* popoverArrowLeft@2x.png in Resources */,
+				D3D764D413CB9A4E00EDF967 /* popoverArrowRight.png in Resources */,
+				D3D764D513CB9A4E00EDF967 /* popoverArrowRight@2x.png in Resources */,
+				D3D764D613CB9A4E00EDF967 /* popoverArrowUp.png in Resources */,
+				D3D764D713CB9A4E00EDF967 /* popoverArrowUp@2x.png in Resources */,
+				D3D764D813CB9A4E00EDF967 /* popoverBg.png in Resources */,
+				D3D764D913CB9A4E00EDF967 /* popoverBg@2x.png in Resources */,
+				D3D764DD13CB9C7E00EDF967 /* DriveViewController-iPad.xib in Resources */,
+				D3D764E213CB9D3100EDF967 /* DriveTypeSelectorViewController.xib in Resources */,
+				D3D764F213CFA56C00EDF967 /* DriveBackground.png in Resources */,
+				D3D764F313CFA56C00EDF967 /* DriveBackground@2x.png in Resources */,
+				D3D764FD13CFA99F00EDF967 /* JoystickDriveViewController.xib in Resources */,
+				D3D7650213CFAA2700EDF967 /* TiltDriveViewController.xib in Resources */,
+				D3D7650713CFAA4000EDF967 /* RCDriveViewController.xib in Resources */,
+				D3554BA813D3E006008C4F88 /* JoystickDriveViewController_iPad.xib in Resources */,
+				D3554BA913D3E006008C4F88 /* RCDriveViewController_iPad.xib in Resources */,
+				D3554BAA13D3E006008C4F88 /* TiltDriveViewController~ipad.xib in Resources */,
+				81521DF513D8DF4C00698253 /* SpheroDrive-menuButtonBG.png in Resources */,
+				81521DF613D8DF4C00698253 /* SpheroDrive-menuButtonBG@2x.png in Resources */,
+				81521DF713D8DF4C00698253 /* SpheroDrive-menuColorIcon.png in Resources */,
+				81521DF813D8DF4C00698253 /* SpheroDrive-menuColorIcon@2x.png in Resources */,
+				81521DF913D8DF4C00698253 /* SpheroDrive-menuInfoButton.png in Resources */,
+				81521DFA13D8DF4C00698253 /* SpheroDrive-menuInfoButton@2x.png in Resources */,
+				81521DFB13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon.png in Resources */,
+				81521DFC13D8DF4C00698253 /* SpheroDrive-menuLeaderboardIcon@2x.png in Resources */,
+				81521DFD13D8DF4C00698253 /* SpheroDrive-menuRollButton.png in Resources */,
+				81521DFE13D8DF4C00698253 /* SpheroDrive-menuRollButton@2x.png in Resources */,
+				81521DFF13D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon.png in Resources */,
+				81521E0013D8DF4C00698253 /* SpheroDrive-menuSensitivityIcon@2x.png in Resources */,
+				81521E0113D8DF4C00698253 /* SpheroDrive-menuSettingsButton.png in Resources */,
+				81521E0213D8DF4C00698253 /* SpheroDrive-menuSettingsButton@2x.png in Resources */,
+				81521E0313D8DF4C00698253 /* SpheroDrive-menuSpheroLogo.png in Resources */,
+				81521E0413D8DF4C00698253 /* SpheroDrive-menuSpheroLogo@2x.png in Resources */,
+				81521E0513D8DF4C00698253 /* SpheroDrive-menuTutorialIcon.png in Resources */,
+				81521E0613D8DF4C00698253 /* SpheroDrive-menuTutorialIcon@2x.png in Resources */,
+				8152212C13DE12BB00698253 /* SpheroDrive-ipad-BG.png in Resources */,
+				8152212D13DE12BB00698253 /* SpheroDrive-ipad-colorBtnBG.png in Resources */,
+				8152212E13DE12BB00698253 /* SpheroDrive-ipad-colorWand.png in Resources */,
+				8152212F13DE12BB00698253 /* SpheroDrive-ipad-driveTypeBtnBG.png in Resources */,
+				8152213013DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickBtn.png in Resources */,
+				8152213113DE12BB00698253 /* SpheroDrive-ipad-driveTypeJoystickInset.png in Resources */,
+				8152213213DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCBtn.png in Resources */,
+				8152213313DE12BB00698253 /* SpheroDrive-ipad-driveTypeRCInset.png in Resources */,
+				8152213413DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltBtn.png in Resources */,
+				8152213513DE12BB00698253 /* SpheroDrive-ipad-driveTypeTiltInset.png in Resources */,
+				8152213613DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBLBoostBG.png in Resources */,
+				8152213713DE12BB00698253 /* SpheroDrive-ipad-JoystickControlBRBoostBG.png in Resources */,
+				8152213813DE12BB00698253 /* SpheroDrive-ipad-JoystickControlColorBG.png in Resources */,
+				8152213913DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuck.png in Resources */,
+				8152213B13DE12BB00698253 /* SpheroDrive-ipad-JoystickControlPuckRing.png in Resources */,
+				8152213C13DE12BB00698253 /* SpheroDrive-ipad-menuButton.png in Resources */,
+				8152213D13DE12BB00698253 /* SpheroDrive-ipad-RCControlBG.png in Resources */,
+				8152213E13DE12BB00698253 /* SpheroDrive-ipad-RCControlSlider.png in Resources */,
+				8152213F13DE12BB00698253 /* SpheroDrive-ipad-TiltControlBG.png in Resources */,
+				8152214013DE12BB00698253 /* SpheroDrive-ipad-TiltControlPuck.png in Resources */,
+				8152214513DE178400698253 /* SpheroDrive-ipad-boostRoundOff.png in Resources */,
+				8152214613DE178400698253 /* SpheroDrive-ipad-boostRoundOn.png in Resources */,
+				815221C613DE204F00698253 /* SpheroDrive-ipad-TiltBoostOff.png in Resources */,
+				815221C713DE204F00698253 /* SpheroDrive-ipad-TiltBoostOn.png in Resources */,
+				815223C713DF39DE00698253 /* SpheroDrive-ipad-JoystickRingComplete.png in Resources */,
+				81F56BBE13E722C50075C094 /* DriveTypeSelectorViewController~ipad.xib in Resources */,
+				D3479F9E13FC2BC7002D0984 /* TutorialViewController.xib in Resources */,
+				D3479FAC13FC3E32002D0984 /* TutorialViewController~ipad.xib in Resources */,
+				D3479FB713FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01.png in Resources */,
+				D3479FB813FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01@2x.png in Resources */,
+				D3479FB913FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-01~ipad.png in Resources */,
+				D3479FBA13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02.png in Resources */,
+				D3479FBB13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-02@2x.png in Resources */,
+				D3479FBD13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03.png in Resources */,
+				D3479FBE13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03@2x.png in Resources */,
+				D3479FBF13FC60D6002D0984 /* SpheroDrive-Joystick-Tutorial-03~ipad.png in Resources */,
+				D3479FD813FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01.png in Resources */,
+				D3479FD913FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01@2x.png in Resources */,
+				D3479FDA13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-01~ipad.png in Resources */,
+				D3479FDB13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02.png in Resources */,
+				D3479FDC13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02@2x.png in Resources */,
+				D3479FDD13FC60EB002D0984 /* SpheroDrive-RC-Tutorial-02~ipad.png in Resources */,
+				D3479FE113FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01.png in Resources */,
+				D3479FE213FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01@2x.png in Resources */,
+				D3479FE313FC60EB002D0984 /* SpheroDrive-Tilt-Tutorial-01~ipad.png in Resources */,
+				D35474ED141549A6008967FA /* SpheroDrive-ipad-joystickColorBG.png in Resources */,
+				D35474F114156511008967FA /* SpheroDrive-ipad-driveTypeJoystickBtn-pressed.png in Resources */,
+				D35474F214156511008967FA /* SpheroDrive-ipad-driveTypeRCBtn-pressed.png in Resources */,
+				D35474F314156511008967FA /* SpheroDrive-ipad-driveTypeTiltBtn-pressed.png in Resources */,
+				D388AF84141589B700F7DA01 /* Helvetica Rounded LT Bold.ttf in Resources */,
+				D3F6D4A81415A53800F7C250 /* SliderLeftCap.png in Resources */,
+				D3F6D4A91415A53800F7C250 /* SliderLeftCap@2x.png in Resources */,
+				D3F6D4AA1415A53800F7C250 /* SliderRightCap.png in Resources */,
+				D3F6D4AB1415A53800F7C250 /* SliderRightCap@2x.png in Resources */,
+				D3F6D4AC1415A53800F7C250 /* SliderThumb.png in Resources */,
+				D3F6D4AD1415A53800F7C250 /* SliderThumb@2x.png in Resources */,
+				D3F6D4B01415C61F00F7C250 /* SpheroDrive-menuSettingsIcon.png in Resources */,
+				D3F6D4B11415C61F00F7C250 /* SpheroDrive-menuSettingsIcon@2x.png in Resources */,
+				F1F66FD5141E60A800E755B7 /* SpheroDrive-menuSleepIcon.png in Resources */,
+				F1F66FD6141E60A800E755B7 /* SpheroDrive-menuSleepIcon@2x.png in Resources */,
+				D30BB109143139BD00F460A2 /* SpheroDrive_CalibrateBtn.png in Resources */,
+				D30BB10A143139BD00F460A2 /* SpheroDrive_CalibrateBtn@2x.png in Resources */,
+				D30BB10B143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed.png in Resources */,
+				D30BB10C143139BD00F460A2 /* SpheroDrive_CalibrateBtnPressed@2x.png in Resources */,
+				D30BB10D143139BD00F460A2 /* SpheroDrive_CautiousSettings.png in Resources */,
+				D30BB10E143139BD00F460A2 /* SpheroDrive_CautiousSettings@2x.png in Resources */,
+				D30BB10F143139BD00F460A2 /* SpheroDrive_ComfortSettings.png in Resources */,
+				D30BB110143139BD00F460A2 /* SpheroDrive_ComfortSettings@2x.png in Resources */,
+				D30BB111143139BD00F460A2 /* SpheroDrive_CrazySettings.png in Resources */,
+				D30BB112143139BD00F460A2 /* SpheroDrive_CrazySettings@2x.png in Resources */,
+				D30BB113143139BD00F460A2 /* SpheroDrive_SensitivityBtn.png in Resources */,
+				D30BB114143139BD00F460A2 /* SpheroDrive_SensitivityBtn@2x.png in Resources */,
+				D30BB115143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed.png in Resources */,
+				D30BB116143139BD00F460A2 /* SpheroDrive_SensitivityBtnPressed@2x.png in Resources */,
+				D30BB11B14313F8A00F460A2 /* SensitivitySelectorViewController.xib in Resources */,
+				D30BB11D14314BDB00F460A2 /* SensitivitySelectorViewController~ipad.xib in Resources */,
+				F173E4CF143E1B53003FD152 /* SpheroDrive-menuBackButton.png in Resources */,
+				F173E4D0143E1B53003FD152 /* SpheroDrive-menuBackButton@2x.png in Resources */,
+				F173E4DF143E443C003FD152 /* SpheroDrive_CloseBtn.png in Resources */,
+				F173E4E0143E443C003FD152 /* SpheroDrive_CloseBtn@2x.png in Resources */,
+				814C2F18143D1545004E34F5 /* SpheroDropDownAlert.wav in Resources */,
+				816CE49B144602010040F097 /* SpheroDriveWheelIn.wav in Resources */,
+				816CE4BA14460DA20040F097 /* SpheroButtonPress.wav in Resources */,
+				816CE4BB14460DA20040F097 /* SpheroItemSelect.wav in Resources */,
+				81A14D5D14631703007DDCC0 /* SpheroDrive-ColorCallout.png in Resources */,
+				81A14D5E14631703007DDCC0 /* SpheroDrive-DriveStyleCallout.png in Resources */,
+				81A14D5F14631703007DDCC0 /* SpheroDrive-SpeedCallout.png in Resources */,
+				81A14DBA14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCautious.png in Resources */,
+				81A14DBB14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonComfort.png in Resources */,
+				81A14DBC14636DE4007DDCC0 /* SpheroDrive-SensitivityButtonCrazy.png in Resources */,
+				81F657FD1465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */,
+				81F657FE1465E6C400CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */,
+				81F657FF1465E6C400CB4402 /* Sphero-InnerCalibrateRing.png in Resources */,
+				81F658001465E6C400CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */,
+				81F658011465E6C400CB4402 /* Sphero-OuterCalibrateRing.png in Resources */,
+				81F6580F1465E6F400CB4402 /* 2-finger HUD_hum.wav in Resources */,
+				81F658101465E6F400CB4402 /* 2-finger HUD_in.wav in Resources */,
+				81F658111465E6F400CB4402 /* 2-finger HUD_out.wav in Resources */,
+				811771A4146B526300FF3FAD /* Sphero-PopoverItemSelectedBlue.png in Resources */,
+				81F7C5661484767200CA696A /* CalibrationTutorialViewController.xib in Resources */,
+				81F7C5671484767200CA696A /* calibrateSpin.sphero in Resources */,
+				81F7C5761484768000CA696A /* SpheroBall.png in Resources */,
+				81F7C5771484768000CA696A /* FirstRunButtonBG.png in Resources */,
+				81F7C5781484768000CA696A /* Sphero-CalibrateReminderClose.png in Resources */,
+				81F7C5791484768000CA696A /* Sphero-CalibrateReminderClose@2x.png in Resources */,
+				81F7C57A1484768000CA696A /* Sphero-CalibrateTutorialHandBall.png in Resources */,
+				81F7C57B1484768000CA696A /* Sphero-Calibrate-Arrow.png in Resources */,
+				81F7C57C1484768000CA696A /* Sphero-Calibrate-StraightAhead.png in Resources */,
+				81F7C57D1484768000CA696A /* Sphero-Calibrate-VertialLine.png in Resources */,
+				81F7C57E1484768000CA696A /* Sphero-Calibrate-NoButton.png in Resources */,
+				81F7C57F1484768000CA696A /* Sphero-Calibrate-YesButton.png in Resources */,
+				81F7C5801484768000CA696A /* Sphero-TwoFingerCalibrateBackground.png in Resources */,
+				81F7C5811484768000CA696A /* Sphero-TwoFingerCalibrateTouchGlow.png in Resources */,
+				81F7C5821484768000CA696A /* SpheroCalibrateTutorialPane1.png in Resources */,
+				815B827414AE536100CBAA79 /* joystick_button.png in Resources */,
+				815B827514AE536100CBAA79 /* joystick_puck.png in Resources */,
+				815B827614AE536100CBAA79 /* joystick_select_button.png in Resources */,
+				815B827714AE536100CBAA79 /* menu_button.png in Resources */,
+				815B827814AE536100CBAA79 /* rc_select_button.png in Resources */,
+				815B827914AE536100CBAA79 /* settings_button.png in Resources */,
+				815B827A14AE536100CBAA79 /* speed_button.png in Resources */,
+				815B827B14AE536100CBAA79 /* tilt_puck.png in Resources */,
+				815B827C14AE536100CBAA79 /* tilt_select_button.png in Resources */,
+				815B827E14AE536100CBAA79 /* SpheroDriveGuide.html in Resources */,
+				815B828414AE537A00CBAA79 /* Sphero-UserGuideRollButton.png in Resources */,
+				815B828514AE537A00CBAA79 /* UserGuideViewController.xib in Resources */,
+				815B828714AE53A300CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B5C1295A1EE00B9D9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D8B7A1295A55700B9D9B7 /* SpheroDriveTests.octest in Resources */,
+				475A980112B1BC840057CF03 /* Icon.png in Resources */,
+				475A980212B1BC840057CF03 /* Icon-72.png in Resources */,
+				475A980312B1BC840057CF03 /* Icon@2x.png in Resources */,
+				47292B0312BA78BA00666564 /* OptionsViewController.xib in Resources */,
+				47292B7112BAF4F000666564 /* UserDefaults.plist in Resources */,
+				47F56C2812DFB61A00C934B3 /* DriveViewController.xib in Resources */,
+				47F56C2A12DFB61A00C934B3 /* MainMenuViewController.xib in Resources */,
+				47F56C2C12DFB61A00C934B3 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B6D1295A51600B9D9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DriveAppDelegate.m in Sources */,
+				477F3FA61295F3C200F07BBC /* MainMenuViewController.m in Sources */,
+				476474761296E512003B4524 /* DriveViewController.m in Sources */,
+				47292B0012BA78BA00666564 /* OptionsViewController.m in Sources */,
+				47F56C3212DFB98400C934B3 /* DriveViewController_iPhone.m in Sources */,
+				47F56C3612DFB9BE00C934B3 /* DriveViewController_iPad.m in Sources */,
+				D33728CE1343E3DC00B29D98 /* DriveAppSettings.m in Sources */,
+				D3AB9F011348F7AD007B1D29 /* SensitivityViewController.m in Sources */,
+				D3D12C6F136660BD005D8D33 /* CircularUIView.m in Sources */,
+				D3D12C7913666561005D8D33 /* CircularUIButton.m in Sources */,
+				D3B79883136F858F00524935 /* InfoViewController.m in Sources */,
+				D3D764B513CB996600EDF967 /* UIBarButtonItem+WEPopover.m in Sources */,
+				D3D764B613CB996600EDF967 /* WEPopoverContainerView.m in Sources */,
+				D3D764B713CB996600EDF967 /* WEPopoverController.m in Sources */,
+				D3D764B813CB996600EDF967 /* WETouchableView.m in Sources */,
+				D3D764E113CB9D3100EDF967 /* DriveTypeSelectorViewController.m in Sources */,
+				D3D764EF13CBBA3C00EDF967 /* RCDriveAlgorithm.m in Sources */,
+				D3D764FC13CFA99F00EDF967 /* JoystickDriveViewController.m in Sources */,
+				D3D7650113CFAA2700EDF967 /* TiltDriveViewController.m in Sources */,
+				D3D7650613CFAA4000EDF967 /* RCDriveViewController.m in Sources */,
+				8152220113DE30D500698253 /* CircularSlider.m in Sources */,
+				8152220713DE3B3D00698253 /* RCDriveViewController_iPad.m in Sources */,
+				815223A813DF324400698253 /* JoystickDriveViewController_iPad.m in Sources */,
+				815224A313DF7AB100698253 /* ColorWandView.m in Sources */,
+				D3479F9D13FC2BC7002D0984 /* TutorialViewController.m in Sources */,
+				D30BB11A14313F8A00F460A2 /* SensitivitySelectorViewController.m in Sources */,
+				814C2F13143D1522004E34F5 /* OXAudioManager.m in Sources */,
+				814C2F14143D1522004E34F5 /* OXAudioPlayer.m in Sources */,
+				814C2F19143D1545004E34F5 /* SpheroDropDownAlertSound.m in Sources */,
+				816CE49C144602010040F097 /* SpheroDriveWheelIn.m in Sources */,
+				816CE4BC14460DA20040F097 /* SpheroButtonPressSound.m in Sources */,
+				816CE4BD14460DA20040F097 /* SpheroItemSelectSound.m in Sources */,
+				81B3236C14609525008EBDB1 /* NoSpheroAlertManager.m in Sources */,
+				81F658021465E6C400CB4402 /* RKCalibrateOverlayView.m in Sources */,
+				81F6580C1465E6F400CB4402 /* CalibrateOverlayStartSound.m in Sources */,
+				81F6580D1465E6F400CB4402 /* CalibrateOverlayLoop.m in Sources */,
+				81F6580E1465E6F400CB4402 /* CalibrateOverlayEnd.m in Sources */,
+				81F7C5651484767200CA696A /* CalibrationTutorialViewController.m in Sources */,
+				81F7C5681484767200CA696A /* CalibrateTutorialView.m in Sources */,
+				D31DC0F614A3FA580041488C /* DriveControlViewController.m in Sources */,
+				815B828314AE537A00CBAA79 /* UserGuideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B5F1295A1EE00B9D9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472D8B601295A1EE00B9D9B7 /* main.m in Sources */,
+				472D8B611295A1EE00B9D9B7 /* DriveAppDelegate.m in Sources */,
+				477F3FA81295F3C200F07BBC /* MainMenuViewController.m in Sources */,
+				476474771296E512003B4524 /* DriveViewController.m in Sources */,
+				47292B0212BA78BA00666564 /* OptionsViewController.m in Sources */,
+				47F56C3312DFB98400C934B3 /* DriveViewController_iPhone.m in Sources */,
+				47F56C3712DFB9BE00C934B3 /* DriveViewController_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		472D8B6E1295A51600B9D9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		472D8B781295A51C00B9D9B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 472D8B711295A51600B9D9B7 /* SpheroDriveTests */;
+			targetProxy = 472D8B771295A51C00B9D9B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D347B86D1373198500E2E382 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D347B86E1373198500E2E382 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_IDENTIFIER = com.orbotix.spherodrive;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroDrive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpheroDrive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Classes/Flurry\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = SpheroDrive;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				BUNDLE_IDENTIFIER = com.orbotix.spherodrive;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orbotix Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroDrive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpheroDrive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Classes/Flurry\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = SpheroDrive;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "48F0C21E-379D-4D4B-9A35-EBC437C3C469";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		472D8B681295A1EE00B9D9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Codework/orbotix/Apps-sourcelib/Sphero/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RobotUIKit/build/Debug-iphonesimulator\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Drive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTesting-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = SpheroDriveTesting;
+			};
+			name = Debug;
+		};
+		472D8B691295A1EE00B9D9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Codework/orbotix/Apps-sourcelib/Sphero/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RobotUIKit/build/Debug-iphonesimulator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Drive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTesting-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = SpheroDriveTesting;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		472D8B741295A51700B9D9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = SpheroDriveTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		472D8B751295A51700B9D9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = SpheroDriveTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		47851E8812C1820E0096C994 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../MOBILE-IOS-ROBOTKIT/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+					"-ObjC",
+				);
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5568AEA0-9213-4C4F-B5EE-BCB41C54BF4A";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Adhoc;
+		};
+		47851E8912C1820E0096C994 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_IDENTIFIER = com.orbotix.brian.SpheroDrive;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroDrive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SpheroDrive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Classes/Flurry\"",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/CoreApps-bnxkcgjkqhbbqrbtdadmjuwbjtao/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = SpheroDrive;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28117F36-577C-4D72-AF57-2D021E0E2453";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		47851E8A12C1820E0096C994 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/Codework/orbotix/Apps-sourcelib/Sphero/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../RobotUIKit/build/Debug-iphonesimulator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Drive_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTesting-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = SpheroDriveTesting;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		47851E8B12C1820E0096C994 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "SpheroDriveTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PRODUCT_NAME = SpheroDriveTests;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Adhoc;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../MOBILE-IOS-ROBOTKIT/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../MOBILE-IOS-ROBOTKIT/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SpheroDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				47851E8912C1820E0096C994 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472D8B671295A1EE00B9D9B7 /* Build configuration list for PBXNativeTarget "SpheroDriveTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472D8B681295A1EE00B9D9B7 /* Debug */,
+				472D8B691295A1EE00B9D9B7 /* Release */,
+				47851E8A12C1820E0096C994 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472D8B761295A51700B9D9B7 /* Build configuration list for PBXNativeTarget "SpheroDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472D8B741295A51700B9D9B7 /* Debug */,
+				472D8B751295A51700B9D9B7 /* Release */,
+				47851E8B12C1820E0096C994 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpheroDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				47851E8812C1820E0096C994 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

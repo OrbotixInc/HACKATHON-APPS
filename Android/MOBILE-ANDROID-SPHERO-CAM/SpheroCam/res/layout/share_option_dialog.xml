@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#aa000000"
+    >
+
+    <!-- Share Picture -->
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/share_picture_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/settings"
+        android:clickable="true"
+        app:icon="@drawable/take_picture_button"
+        app:text="SHARE PICTURE"
+        />
+
+    <!-- Share Video -->
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/share_video_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/share_picture_item"
+        android:clickable="true"
+        app:icon="@drawable/record_video_unpressed"
+        app:text="SHARE VIDEO"
+        />
+
+
+</RelativeLayout>

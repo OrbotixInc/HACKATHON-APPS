@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+
+The layout for ControlSettingsActivity, in which the user can adjust the individual settings for the three
+control speed modes
+
+author: Adam Williams
+
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="#dd444444"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:text="Options"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <!-- Settings Items -->
+    <RelativeLayout
+        android:id="@+id/items_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        >
+
+        <!-- Name -->
+        <RelativeLayout
+            android:id="@+id/name_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/name_label"
+                style="@style/ControlSettingsLabel"
+                android:text="Name"
+                />
+
+            <EditText
+                android:id="@+id/name_input"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/name_label"
+                android:editable="true"
+                android:layout_marginRight="50dp"
+                />
+
+        </RelativeLayout>
+
+        <!-- Max Speed -->
+        <RelativeLayout
+            android:id="@+id/max_speed_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/name_layout"
+            >
+
+            <TextView
+                android:id="@+id/max_speed_label"
+                style="@style/ControlSettingsLabel"
+                android:text="Max. Speed"
+                />
+
+            <SeekBar
+                android:id="@+id/max_speed_input"
+                style="@style/ControlSettingsSeekBar"
+                android:layout_toRightOf="@+id/max_speed_label"
+                android:layout_toLeftOf="@+id/max_speed_value"
+                />
+
+            <TextView
+                android:id="@+id/max_speed_value"
+                style="@style/ControlSettingsValue"
+                android:text="0.8"
+                />
+                
+
+        </RelativeLayout>
+
+        <!-- Rotation Rate -->
+        <RelativeLayout
+            android:id="@+id/rotation_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/max_speed_layout"
+            >
+
+            <TextView
+                android:id="@+id/rotation_label"
+                style="@style/ControlSettingsLabel"
+                android:text="Rotation Rate"
+                />
+
+            <SeekBar
+                android:id="@+id/rotation_input"
+                style="@style/ControlSettingsSeekBar"
+                android:layout_toRightOf="@+id/rotation_label"
+                android:layout_toLeftOf="@+id/rotation_value"
+                />
+
+            <TextView
+                android:id="@+id/rotation_value"
+                style="@style/ControlSettingsValue"
+                android:text="0.8"
+                />
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reset_button"
+        style="@style/ControlSettingsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Reset"
+        android:onClick="onResetClick"
+        />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/ControlSettingsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="30dp"
+        android:text="Done"
+        android:onClick="onDoneClick"
+        />
+
+</RelativeLayout>

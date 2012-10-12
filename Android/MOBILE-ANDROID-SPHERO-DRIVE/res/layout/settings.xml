@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Dialog.Background"
+        android:background="@drawable/menu_bg">
+	<!-- Top Bar - Logo and Title -->
+	<TextView android:id="@+id/SettingsTitle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Settings"
+              android:textSize="30sp"
+              android:textColor="@android:color/white"
+              android:textStyle="bold"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="10dip"/>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onRollButtonClicked"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:paddingTop="15dip"
+            android:paddingRight="10dip"
+            android:paddingBottom="15dip"
+            android:paddingLeft="10dip">
+        <ImageButton
+                android:id="@+id/RollButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/roll_icon"
+                android:background="@null"
+                android:paddingLeft="8dip"/>
+        <TextView
+                android:id="@+id/RollText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ROLL"
+                android:layout_alignLeft="@id/RollButton"
+                android:layout_alignRight="@id/RollButton"
+                android:layout_below="@id/RollButton"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"/>
+    </RelativeLayout>
+	<RelativeLayout android:id="@+id/SensitivityOptions"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/SettingsTitle"
+        android:layout_centerHorizontal="true">
+		<LinearLayout android:id="@+id/ComfortableLayout"
+			android:orientation="vertical"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:background="@drawable/sensitivity_background"
+			android:layout_margin="15dip"
+            android:layout_centerHorizontal="true"
+            android:padding="10dip">
+			<ImageButton android:id="@+id/ComfortableSensitivityImage"
+				android:src="@drawable/sensitivity_comfortable"
+                android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@null"
+				android:layout_marginBottom="5dip"
+				android:tag="@string/sensitivity_button_tag"/>
+			<TextView android:id="@+id/ComfortableSensitivityLabel"
+				android:layout_width="fill_parent"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="1"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"
+                android:focusable="true"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textColor="#FFF"
+				android:textStyle="bold"
+				android:textSize="16sp"
+				android:text="Comfortable"
+				android:tag="@string/sensitivity_text_tag"/>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/CautiousLayout"
+			android:orientation="vertical"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:background="@drawable/sensitivity_background"
+            android:layout_toLeftOf="@id/ComfortableLayout"
+			android:layout_margin="15dip"
+            android:padding="10dip">
+			<ImageButton android:id="@+id/CautiousSensitivityImage"
+				android:src="@drawable/sensitivity_cautious"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@null"
+				android:layout_marginBottom="5dip"
+				android:tag="@string/sensitivity_button_tag"/>
+			<TextView android:id="@+id/CautiousSensitivityLabel"
+				android:layout_width="fill_parent"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="1"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:singleLine="true"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textColor="#FFF"
+				android:textStyle="bold"
+				android:textSize="16sp"
+				android:text="Cautious"
+				android:tag="@string/sensitivity_text_tag"/>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/CrazyLayout"
+			android:orientation="vertical"
+			android:layout_width="120dip"
+			android:layout_height="wrap_content"
+			android:background="@drawable/sensitivity_background"
+            android:layout_toRightOf="@id/ComfortableLayout"
+			android:layout_margin="15dip"
+            android:padding="10dip">
+			<ImageButton android:id="@+id/CrazySensitivityImage"
+				android:src="@drawable/sensitivity_crazy"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:background="@null"
+				android:layout_marginBottom="5dip"
+				android:tag="@string/sensitivity_button_tag"/>
+			<TextView android:id="@+id/CrazySensitivityLabel"
+				android:layout_width="fill_parent"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="1"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+                android:singleLine="true"
+				android:textColor="#FFF"
+				android:textStyle="bold"
+				android:textSize="16sp"
+				android:text="Crazy"
+				android:tag="@string/sensitivity_text_tag"/>
+		</LinearLayout>
+	</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/VolumeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dip">
+        <TextView
+            android:id="@+id/SoundText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/SoundText"/>
+        <SeekBar
+            android:id="@+id/VolumeSlider"
+            android:layout_width="240dip"
+            android:thumb="@drawable/slider_thumb_blue"
+            android:progressDrawable="@drawable/slider_background"
+            android:padding="5dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/SoundText"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>

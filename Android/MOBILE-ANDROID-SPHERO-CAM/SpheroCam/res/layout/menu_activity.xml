@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="#aa000000"
+    >
+
+    <com.orbotix.spherocam.ui.settings.MenuView
+        android:id="@+id/settings_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerVertical="true"
+        />
+
+    <com.orbotix.spherocam.ui.settings.SlideToSleepView
+        android:id="@+id/slide_to_sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        />
+
+    <!-- Sleep button -->
+    <RelativeLayout
+        android:id="@+id/sleep_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:padding="5dp"
+        android:onClick="onSleepClick"
+        >
+        <ImageView
+                android:id="@+id/sleep_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/menu_icon_sleep_white"
+                android:layout_centerHorizontal="true"
+                />
+
+        <TextView
+            style="@style/Label.Settings"
+            android:text="SLEEP"
+            android:layout_below="@+id/sleep_image"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

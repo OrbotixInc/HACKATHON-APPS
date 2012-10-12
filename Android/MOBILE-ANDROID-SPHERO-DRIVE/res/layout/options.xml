@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/OptionsViewAnimator"
+	style="@style/Dialog.ViewAnimator">
+	<include layout="@layout/settings"/>
+	<include layout="@layout/options_sliders"/>
+</ViewAnimator>

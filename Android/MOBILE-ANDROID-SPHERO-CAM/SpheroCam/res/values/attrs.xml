@@ -1,0 +1,25 @@
+<resources>
+    <declare-styleable name="DriveWheelView">
+        <attr name="center_offset" format="dimension"/>
+        <attr name="type">
+            <enum name="joystick" value="0"/>
+            <enum name="tilt" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SettingsListItemView">
+
+        <attr name="icon" format="reference" />
+        <attr name="text" format="string" />
+        
+    </declare-styleable>
+
+    <declare-styleable name="SpeedButtonView">
+
+        <attr name="image" format="reference" />
+        <attr name="text" />
+
+    </declare-styleable>
+
+    
+</resources>

@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		26D26A45130341DA00D8C94B /* AVCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D26A44130341DA00D8C94B /* AVCamUtilities.m */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* AVCamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AVCamViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* AVCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */; };
+		811772E7146DD92600FF3FAD /* Sphero-PopoverItemSelectedBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 811772E6146DD92600FF3FAD /* Sphero-PopoverItemSelectedBlue.png */; };
+		812AD63B1447B6A3002CCE03 /* SpheroDropDownAlert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 812AD62B1447B6A3002CCE03 /* SpheroDropDownAlert.wav */; };
+		812AD63C1447B6A3002CCE03 /* SpheroDriveWheelIn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 812AD62C1447B6A3002CCE03 /* SpheroDriveWheelIn.wav */; };
+		812AD63D1447B6A3002CCE03 /* SpheroButtonPress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 812AD62D1447B6A3002CCE03 /* SpheroButtonPress.wav */; };
+		812AD63E1447B6A3002CCE03 /* SpheroItemSelect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 812AD62E1447B6A3002CCE03 /* SpheroItemSelect.wav */; };
+		812AD63F1447B6A3002CCE03 /* SpheroButtonPressSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6301447B6A3002CCE03 /* SpheroButtonPressSound.m */; };
+		812AD6401447B6A3002CCE03 /* SpheroItemSelectSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6321447B6A3002CCE03 /* SpheroItemSelectSound.m */; };
+		812AD6411447B6A3002CCE03 /* SpheroDriveWheelIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6341447B6A3002CCE03 /* SpheroDriveWheelIn.m */; };
+		812AD6421447B6A3002CCE03 /* SpheroDropDownAlertSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6361447B6A3002CCE03 /* SpheroDropDownAlertSound.m */; };
+		812AD6431447B6A3002CCE03 /* OXAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6381447B6A3002CCE03 /* OXAudioManager.m */; };
+		812AD6441447B6A3002CCE03 /* OXAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD63A1447B6A3002CCE03 /* OXAudioPlayer.m */; };
+		812AD6471447B95D002CCE03 /* DriveAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6461447B95D002CCE03 /* DriveAppSettings.m */; };
+		812AD6501447B992002CCE03 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD6491447B992002CCE03 /* MainMenuViewController.m */; };
+		812AD6511447B992002CCE03 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD64B1447B992002CCE03 /* OptionsViewController.m */; };
+		812AD6521447B992002CCE03 /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812AD64C1447B992002CCE03 /* OptionsViewController.xib */; };
+		812AD6531447B992002CCE03 /* SensitivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812AD64E1447B992002CCE03 /* SensitivityViewController.m */; };
+		812AD6541447B992002CCE03 /* SensitivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812AD64F1447B992002CCE03 /* SensitivityViewController.xib */; };
+		812AD6571447B9BB002CCE03 /* Helvetica Rounded LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6551447B9BB002CCE03 /* Helvetica Rounded LT Bold.ttf */; };
+		812AD65D1447B9F5002CCE03 /* Sphero_Btn_Wide.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD65A1447B9F5002CCE03 /* Sphero_Btn_Wide.png */; };
+		812AD65E1447B9F5002CCE03 /* Sphero_Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD65B1447B9F5002CCE03 /* Sphero_Btn.png */; };
+		812AD65F1447B9F5002CCE03 /* Orbotix-Sphero-Popup-Bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD65C1447B9F5002CCE03 /* Orbotix-Sphero-Popup-Bkg.png */; };
+		812AD6781447BA14002CCE03 /* SpheroDrive-menuBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6601447BA14002CCE03 /* SpheroDrive-menuBackButton.png */; };
+		812AD6791447BA14002CCE03 /* SpheroDrive-menuBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6611447BA14002CCE03 /* SpheroDrive-menuBackButton@2x.png */; };
+		812AD67A1447BA14002CCE03 /* SpheroDrive-menuSleepIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6621447BA14002CCE03 /* SpheroDrive-menuSleepIcon.png */; };
+		812AD67B1447BA14002CCE03 /* SpheroDrive-menuSleepIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6631447BA14002CCE03 /* SpheroDrive-menuSleepIcon@2x.png */; };
+		812AD67C1447BA14002CCE03 /* SpheroDrive-menuSettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6641447BA14002CCE03 /* SpheroDrive-menuSettingsIcon.png */; };
+		812AD67D1447BA14002CCE03 /* SpheroDrive-menuSettingsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6651447BA14002CCE03 /* SpheroDrive-menuSettingsIcon@2x.png */; };
+		812AD67E1447BA14002CCE03 /* SpheroDrive-menuButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6661447BA14002CCE03 /* SpheroDrive-menuButtonBG.png */; };
+		812AD67F1447BA14002CCE03 /* SpheroDrive-menuButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6671447BA14002CCE03 /* SpheroDrive-menuButtonBG@2x.png */; };
+		812AD6801447BA14002CCE03 /* SpheroDrive-menuColorIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6681447BA14002CCE03 /* SpheroDrive-menuColorIcon.png */; };
+		812AD6811447BA14002CCE03 /* SpheroDrive-menuColorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6691447BA14002CCE03 /* SpheroDrive-menuColorIcon@2x.png */; };
+		812AD6821447BA14002CCE03 /* SpheroDrive-menuInfoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66A1447BA14002CCE03 /* SpheroDrive-menuInfoButton.png */; };
+		812AD6831447BA14002CCE03 /* SpheroDrive-menuInfoButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66B1447BA14002CCE03 /* SpheroDrive-menuInfoButton@2x.png */; };
+		812AD6841447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66C1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon.png */; };
+		812AD6851447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66D1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon@2x.png */; };
+		812AD6861447BA14002CCE03 /* SpheroDrive-menuRollButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66E1447BA14002CCE03 /* SpheroDrive-menuRollButton.png */; };
+		812AD6871447BA14002CCE03 /* SpheroDrive-menuRollButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD66F1447BA14002CCE03 /* SpheroDrive-menuRollButton@2x.png */; };
+		812AD6881447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6701447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon.png */; };
+		812AD6891447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6711447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon@2x.png */; };
+		812AD68A1447BA14002CCE03 /* SpheroDrive-menuSettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6721447BA14002CCE03 /* SpheroDrive-menuSettingsButton.png */; };
+		812AD68B1447BA14002CCE03 /* SpheroDrive-menuSettingsButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6731447BA14002CCE03 /* SpheroDrive-menuSettingsButton@2x.png */; };
+		812AD68C1447BA14002CCE03 /* SpheroDrive-menuSpheroLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6741447BA14002CCE03 /* SpheroDrive-menuSpheroLogo.png */; };
+		812AD68D1447BA14002CCE03 /* SpheroDrive-menuSpheroLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6751447BA14002CCE03 /* SpheroDrive-menuSpheroLogo@2x.png */; };
+		812AD68E1447BA14002CCE03 /* SpheroDrive-menuTutorialIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6761447BA14002CCE03 /* SpheroDrive-menuTutorialIcon.png */; };
+		812AD68F1447BA14002CCE03 /* SpheroDrive-menuTutorialIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6771447BA14002CCE03 /* SpheroDrive-menuTutorialIcon@2x.png */; };
+		812AD6911447BBC4002CCE03 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6901447BBC4002CCE03 /* MainMenuViewController.xib */; };
+		812AD6DD1447C3FE002CCE03 /* SliderLeftCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D21447C3FE002CCE03 /* SliderLeftCap.png */; };
+		812AD6DE1447C3FE002CCE03 /* SliderLeftCap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D31447C3FE002CCE03 /* SliderLeftCap@2x.png */; };
+		812AD6DF1447C3FE002CCE03 /* SliderRightCap.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D41447C3FE002CCE03 /* SliderRightCap.png */; };
+		812AD6E01447C3FE002CCE03 /* SliderRightCap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D51447C3FE002CCE03 /* SliderRightCap@2x.png */; };
+		812AD6E11447C3FE002CCE03 /* SliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D61447C3FE002CCE03 /* SliderThumb.png */; };
+		812AD6E21447C3FE002CCE03 /* SliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D71447C3FE002CCE03 /* SliderThumb@2x.png */; };
+		812AD6E31447C3FE002CCE03 /* Orbotix-Sphero-Level1.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D81447C3FE002CCE03 /* Orbotix-Sphero-Level1.png */; };
+		812AD6E41447C3FE002CCE03 /* Orbotix-Sphero-Level2.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6D91447C3FE002CCE03 /* Orbotix-Sphero-Level2.png */; };
+		812AD6E51447C3FE002CCE03 /* Orbotix-Sphero-Level3.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6DA1447C3FE002CCE03 /* Orbotix-Sphero-Level3.png */; };
+		812AD6E61447C3FE002CCE03 /* Sphero_Sensitivity_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6DB1447C3FE002CCE03 /* Sphero_Sensitivity_01.png */; };
+		812AD6E71447C3FE002CCE03 /* Sphero_Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6DC1447C3FE002CCE03 /* Sphero_Title.png */; };
+		812AD6E91447C600002CCE03 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 812AD6E81447C600002CCE03 /* UserDefaults.plist */; };
+		814BB04B14466DF300E237B0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 814BB04A14466DF300E237B0 /* Settings.bundle */; };
+		814C318A144366BB004E34F5 /* SpheroCamButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3182144366BB004E34F5 /* SpheroCamButtonBG.png */; };
+		814C318B144366BB004E34F5 /* SpheroCamDrivePuck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3183144366BB004E34F5 /* SpheroCamDrivePuck@2x.png */; };
+		814C318C144366BB004E34F5 /* SpheroCamJoystickBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3184144366BB004E34F5 /* SpheroCamJoystickBG.png */; };
+		814C318D144366BB004E34F5 /* SpheroCamLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3185144366BB004E34F5 /* SpheroCamLogo.png */; };
+		814C318E144366BB004E34F5 /* SpheroCamShareButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3186144366BB004E34F5 /* SpheroCamShareButton@2x.png */; };
+		814C318F144366BB004E34F5 /* SpheroCamStillCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3187144366BB004E34F5 /* SpheroCamStillCamera@2x.png */; };
+		814C3190144366BB004E34F5 /* SpheroCamVideoCamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3188144366BB004E34F5 /* SpheroCamVideoCamera@2x.png */; };
+		814C3191144366BC004E34F5 /* SpheroCamVideoCameraRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C3189144366BB004E34F5 /* SpheroCamVideoCameraRed@2x.png */; };
+		814C3194144368E1004E34F5 /* CircularUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C3193144368E1004E34F5 /* CircularUIView.m */; };
+		814C319814437B2A004E34F5 /* SpheroCam57.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C319514437B29004E34F5 /* SpheroCam57.png */; };
+		814C319914437B2A004E34F5 /* SpheroCam72.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C319614437B2A004E34F5 /* SpheroCam72.png */; };
+		814C319A14437B2A004E34F5 /* SpheroCam114.png in Resources */ = {isa = PBXBuildFile; fileRef = 814C319714437B2A004E34F5 /* SpheroCam114.png */; };
+		815B82FA14AE88FB00CBAA79 /* settings_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B82F714AE88FB00CBAA79 /* settings_button.png */; };
+		815B82FB14AE88FB00CBAA79 /* SpheroCamUserGuide.html in Resources */ = {isa = PBXBuildFile; fileRef = 815B82F814AE88FB00CBAA79 /* SpheroCamUserGuide.html */; };
+		815B830014AE898300CBAA79 /* UserGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815B82FE14AE898300CBAA79 /* UserGuideViewController.m */; };
+		815B830114AE898300CBAA79 /* UserGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815B82FF14AE898300CBAA79 /* UserGuideViewController.xib */; };
+		815B830714AEC80100CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B830614AEC80100CBAA79 /* Sphero-WhatsNewIcon@2x.png */; };
+		815B830A14AECD1A00CBAA79 /* Sphero-CalibrateReminderClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B830814AECD1800CBAA79 /* Sphero-CalibrateReminderClose.png */; };
+		815B830B14AECD1A00CBAA79 /* Sphero-CalibrateReminderClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 815B830914AECD1800CBAA79 /* Sphero-CalibrateReminderClose@2x.png */; };
+		81A14D8C14636644007DDCC0 /* SpheroCam-Camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D8714636644007DDCC0 /* SpheroCam-Camera@2x.png */; };
+		81A14D8D14636644007DDCC0 /* SpheroCam-Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D8814636644007DDCC0 /* SpheroCam-Logo@2x.png */; };
+		81A14D8E14636644007DDCC0 /* SpheroCam-Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D8914636644007DDCC0 /* SpheroCam-Settings@2x.png */; };
+		81A14D8F14636644007DDCC0 /* SpheroCam-Video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D8A14636644007DDCC0 /* SpheroCam-Video@2x.png */; };
+		81A14D9014636644007DDCC0 /* SpheroCam-VideoRed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A14D8B14636644007DDCC0 /* SpheroCam-VideoRed@2x.png */; };
+		81B322A7146060C7008EBDB1 /* SpheroCamRecordStart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81B322A5146060C7008EBDB1 /* SpheroCamRecordStart.wav */; };
+		81B322A8146060C7008EBDB1 /* SpheroCamRecordStop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81B322A6146060C7008EBDB1 /* SpheroCamRecordStop.wav */; };
+		81B322B414606175008EBDB1 /* SpheroCamRecordStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B322B314606174008EBDB1 /* SpheroCamRecordStart.m */; };
+		81B322B71460618B008EBDB1 /* SpheroCamRecordStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B322B61460618B008EBDB1 /* SpheroCamRecordStop.m */; };
+		81B322D914606432008EBDB1 /* NoSpheroAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B322D814606432008EBDB1 /* NoSpheroAlertManager.m */; };
+		81B322DB146067F7008EBDB1 /* SpheroCamWhiteGear.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322DA146067F7008EBDB1 /* SpheroCamWhiteGear.png */; };
+		81B322DE1460689D008EBDB1 /* SpheroCamStillCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322DC1460689C008EBDB1 /* SpheroCamStillCamera.png */; };
+		81B322DF1460689D008EBDB1 /* SpheroCamVideoCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322DD1460689D008EBDB1 /* SpheroCamVideoCamera.png */; };
+		81B322E11460692A008EBDB1 /* SpheroCamWhiteGear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E01460692A008EBDB1 /* SpheroCamWhiteGear@2x.png */; };
+		81B322E314606B3C008EBDB1 /* SpheroCamVideoCameraRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E214606B3B008EBDB1 /* SpheroCamVideoCameraRed.png */; };
+		81B322E514606C5E008EBDB1 /* SpheroCamButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E414606C5D008EBDB1 /* SpheroCamButtonBG@2x.png */; };
+		81D4E1BC13FED5CC00D77A6D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */; };
+		81D4E1C413FED72F00D77A6D /* Sphero-KittyCam-paw.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1C313FED72F00D77A6D /* Sphero-KittyCam-paw.png */; };
+		81D4E1CA13FED74500D77A6D /* Sphero-KittyCam-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1C713FED74500D77A6D /* Sphero-KittyCam-head.png */; };
+		81D4E1CC13FEDC9800D77A6D /* Sphero-KittyCam-pawLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1CB13FEDC9800D77A6D /* Sphero-KittyCam-pawLeft.png */; };
+		81D4E1CE13FEE9BC00D77A6D /* Sphero-KittyCam-track-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1CD13FEE9BC00D77A6D /* Sphero-KittyCam-track-2.png */; };
+		81D4E1D213FEEBA900D77A6D /* Sphero-KittyCam-paw@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1CF13FEEBA800D77A6D /* Sphero-KittyCam-paw@2x.png */; };
+		81D4E1D313FEEBA900D77A6D /* Sphero-KittyCam-pawLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1D013FEEBA800D77A6D /* Sphero-KittyCam-pawLeft@2x.png */; };
+		81D4E1D413FEEBA900D77A6D /* Sphero-KittyCam-track-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1D113FEEBA800D77A6D /* Sphero-KittyCam-track-2@2x.png */; };
+		81EF991C14464B4100106BA3 /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EF991B14464B4100106BA3 /* libFlurryAnalytics.a */; };
+		81EF993E14464C6B00106BA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EF993D14464C6B00106BA3 /* AppDelegate.m */; };
+		81EF99401446575900106BA3 /* SavingOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 81EF993F1446575900106BA3 /* SavingOverlay.png */; };
+		81EF99431446600000106BA3 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EF99421446600000106BA3 /* MainWindow-iPad.xib */; };
+		81F658561465EE1800CB4402 /* CalibrateOverlayStartSound.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F6584E1465EE1800CB4402 /* CalibrateOverlayStartSound.m */; };
+		81F658571465EE1800CB4402 /* CalibrateOverlayLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658501465EE1800CB4402 /* CalibrateOverlayLoop.m */; };
+		81F658581465EE1800CB4402 /* CalibrateOverlayEnd.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658521465EE1800CB4402 /* CalibrateOverlayEnd.m */; };
+		81F658591465EE1800CB4402 /* 2-finger HUD_hum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F658531465EE1800CB4402 /* 2-finger HUD_hum.wav */; };
+		81F6585A1465EE1800CB4402 /* 2-finger HUD_in.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F658541465EE1800CB4402 /* 2-finger HUD_in.wav */; };
+		81F6585B1465EE1800CB4402 /* 2-finger HUD_out.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81F658551465EE1800CB4402 /* 2-finger HUD_out.wav */; };
+		81F658631465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6585C1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */; };
+		81F658641465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6585D1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */; };
+		81F658651465EE3C00CB4402 /* Sphero-InnerCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6585E1465EE3C00CB4402 /* Sphero-InnerCalibrateRing.png */; };
+		81F658661465EE3C00CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F6585F1465EE3C00CB4402 /* Sphero-MiddleCalibrateRing.png */; };
+		81F658671465EE3C00CB4402 /* Sphero-OuterCalibrateRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F658601465EE3C00CB4402 /* Sphero-OuterCalibrateRing.png */; };
+		81F658681465EE3C00CB4402 /* RKCalibrateOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F658621465EE3C00CB4402 /* RKCalibrateOverlayView.m */; };
+		81FC500413AC03C8007076DB /* RCDriveFatSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC500313AC03C8007076DB /* RCDriveFatSlider.m */; };
+		81FC503513AC065C007076DB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC503413AC065C007076DB /* ExternalAccessory.framework */; };
+		81FC503713AC065C007076DB /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC503613AC065C007076DB /* GameKit.framework */; };
+		81FC503913AC0673007076DB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC503813AC0673007076DB /* CoreMotion.framework */; };
+		81FC503B13AC0688007076DB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FC503A13AC0688007076DB /* AudioToolbox.framework */; };
+		81FC506113AC07F5007076DB /* RCDriveBigSliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC506013AC07F5007076DB /* RCDriveBigSliderThumb.png */; };
+		81FC507413AC0C08007076DB /* kittyCam57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507113AC0C08007076DB /* kittyCam57.png */; };
+		81FC507513AC0C08007076DB /* kittyCam72.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507213AC0C08007076DB /* kittyCam72.png */; };
+		81FC507613AC0C08007076DB /* kittyCam114.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507313AC0C08007076DB /* kittyCam114.png */; };
+		D306804014A23A9E00359AB3 /* libRobotUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306803F14A23A9E00359AB3 /* libRobotUIKit.a */; };
+		D306804314A23ABF00359AB3 /* libRobotKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804214A23ABF00359AB3 /* libRobotKit.a */; };
+		D349AA8614B40A720059A6DD /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8514B40A720059A6DD /* RobotUIKit.bundle */; };
+		D349AA8A14B40C730059A6DD /* camera_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8714B40C730059A6DD /* camera_button.png */; };
+		D349AA8B14B40C730059A6DD /* video_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8814B40C730059A6DD /* video_button.png */; };
+		D349AA8C14B40C730059A6DD /* video_recording_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8914B40C730059A6DD /* video_recording_button.png */; };
+		E942F1DE1165049400F16C8C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E942F1DD1165049400F16C8C /* MediaPlayer.framework */; };
+		E94DFFBE116FE043009B726B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94DFFBD116FE043009B726B /* MobileCoreServices.framework */; };
+		E9515F6511ECFEB40043913F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9515F6411ECFEB40043913F /* ImageIO.framework */; };
+		E96FB2131316DF8C006ADCE0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E96FB2121316DF8C006ADCE0 /* Localizable.strings */; };
+		E98345E311CBEA4800496D2B /* AVCamRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E98345DF11CBEA4800496D2B /* AVCamRecorder.m */; };
+		E99F56421162B5660020042D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99F56411162B5660020042D /* AVFoundation.framework */; };
+		E99F56571162BA130020042D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99F56561162BA130020042D /* QuartzCore.framework */; };
+		E9A3542C116A7C4300CB935D /* AVCamCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A3542B116A7C4300CB935D /* AVCamCaptureManager.m */; };
+		E9ECAEA61166C91E00937DFB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ECAEA51166C91E00937DFB /* CoreMedia.framework */; };
+		E9ECAFC81166CB6600937DFB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9ECAFC71166CB6600937DFB /* CoreVideo.framework */; };
+		E9F5BF5C117E5C5100442489 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F5BF5B117E5C5100442489 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SpheroCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26D26A43130341DA00D8C94B /* AVCamUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamUtilities.h; sourceTree = "<group>"; };
+		26D26A44130341DA00D8C94B /* AVCamUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamUtilities.m; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* AVCamViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AVCamViewController.xib; path = Resources/AVCamViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* AVCamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SpheroCam_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroCam_Prefix.pch; sourceTree = "<group>"; };
+		811772E6146DD92600FF3FAD /* Sphero-PopoverItemSelectedBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-PopoverItemSelectedBlue.png"; sourceTree = "<group>"; };
+		812AD62B1447B6A3002CCE03 /* SpheroDropDownAlert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroDropDownAlert.wav; sourceTree = "<group>"; };
+		812AD62C1447B6A3002CCE03 /* SpheroDriveWheelIn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroDriveWheelIn.wav; sourceTree = "<group>"; };
+		812AD62D1447B6A3002CCE03 /* SpheroButtonPress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroButtonPress.wav; sourceTree = "<group>"; };
+		812AD62E1447B6A3002CCE03 /* SpheroItemSelect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroItemSelect.wav; sourceTree = "<group>"; };
+		812AD62F1447B6A3002CCE03 /* SpheroButtonPressSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroButtonPressSound.h; sourceTree = "<group>"; };
+		812AD6301447B6A3002CCE03 /* SpheroButtonPressSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroButtonPressSound.m; sourceTree = "<group>"; };
+		812AD6311447B6A3002CCE03 /* SpheroItemSelectSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroItemSelectSound.h; sourceTree = "<group>"; };
+		812AD6321447B6A3002CCE03 /* SpheroItemSelectSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroItemSelectSound.m; sourceTree = "<group>"; };
+		812AD6331447B6A3002CCE03 /* SpheroDriveWheelIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroDriveWheelIn.h; sourceTree = "<group>"; };
+		812AD6341447B6A3002CCE03 /* SpheroDriveWheelIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroDriveWheelIn.m; sourceTree = "<group>"; };
+		812AD6351447B6A3002CCE03 /* SpheroDropDownAlertSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroDropDownAlertSound.h; sourceTree = "<group>"; };
+		812AD6361447B6A3002CCE03 /* SpheroDropDownAlertSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroDropDownAlertSound.m; sourceTree = "<group>"; };
+		812AD6371447B6A3002CCE03 /* OXAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioManager.h; sourceTree = "<group>"; };
+		812AD6381447B6A3002CCE03 /* OXAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioManager.m; sourceTree = "<group>"; };
+		812AD6391447B6A3002CCE03 /* OXAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXAudioPlayer.h; sourceTree = "<group>"; };
+		812AD63A1447B6A3002CCE03 /* OXAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXAudioPlayer.m; sourceTree = "<group>"; };
+		812AD6451447B95D002CCE03 /* DriveAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriveAppSettings.h; sourceTree = "<group>"; };
+		812AD6461447B95D002CCE03 /* DriveAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriveAppSettings.m; sourceTree = "<group>"; };
+		812AD6481447B992002CCE03 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		812AD6491447B992002CCE03 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		812AD64A1447B992002CCE03 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		812AD64B1447B992002CCE03 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		812AD64C1447B992002CCE03 /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
+		812AD64D1447B992002CCE03 /* SensitivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensitivityViewController.h; sourceTree = "<group>"; };
+		812AD64E1447B992002CCE03 /* SensitivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensitivityViewController.m; sourceTree = "<group>"; };
+		812AD64F1447B992002CCE03 /* SensitivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensitivityViewController.xib; sourceTree = "<group>"; };
+		812AD6551447B9BB002CCE03 /* Helvetica Rounded LT Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helvetica Rounded LT Bold.ttf"; sourceTree = "<group>"; };
+		812AD65A1447B9F5002CCE03 /* Sphero_Btn_Wide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Btn_Wide.png; sourceTree = "<group>"; };
+		812AD65B1447B9F5002CCE03 /* Sphero_Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Btn.png; sourceTree = "<group>"; };
+		812AD65C1447B9F5002CCE03 /* Orbotix-Sphero-Popup-Bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Popup-Bkg.png"; sourceTree = "<group>"; };
+		812AD6601447BA14002CCE03 /* SpheroDrive-menuBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuBackButton.png"; sourceTree = "<group>"; };
+		812AD6611447BA14002CCE03 /* SpheroDrive-menuBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuBackButton@2x.png"; sourceTree = "<group>"; };
+		812AD6621447BA14002CCE03 /* SpheroDrive-menuSleepIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSleepIcon.png"; sourceTree = "<group>"; };
+		812AD6631447BA14002CCE03 /* SpheroDrive-menuSleepIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSleepIcon@2x.png"; sourceTree = "<group>"; };
+		812AD6641447BA14002CCE03 /* SpheroDrive-menuSettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsIcon.png"; sourceTree = "<group>"; };
+		812AD6651447BA14002CCE03 /* SpheroDrive-menuSettingsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsIcon@2x.png"; sourceTree = "<group>"; };
+		812AD6661447BA14002CCE03 /* SpheroDrive-menuButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuButtonBG.png"; sourceTree = "<group>"; };
+		812AD6671447BA14002CCE03 /* SpheroDrive-menuButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuButtonBG@2x.png"; sourceTree = "<group>"; };
+		812AD6681447BA14002CCE03 /* SpheroDrive-menuColorIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuColorIcon.png"; sourceTree = "<group>"; };
+		812AD6691447BA14002CCE03 /* SpheroDrive-menuColorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuColorIcon@2x.png"; sourceTree = "<group>"; };
+		812AD66A1447BA14002CCE03 /* SpheroDrive-menuInfoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuInfoButton.png"; sourceTree = "<group>"; };
+		812AD66B1447BA14002CCE03 /* SpheroDrive-menuInfoButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuInfoButton@2x.png"; sourceTree = "<group>"; };
+		812AD66C1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuLeaderboardIcon.png"; sourceTree = "<group>"; };
+		812AD66D1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuLeaderboardIcon@2x.png"; sourceTree = "<group>"; };
+		812AD66E1447BA14002CCE03 /* SpheroDrive-menuRollButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuRollButton.png"; sourceTree = "<group>"; };
+		812AD66F1447BA14002CCE03 /* SpheroDrive-menuRollButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuRollButton@2x.png"; sourceTree = "<group>"; };
+		812AD6701447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSensitivityIcon.png"; sourceTree = "<group>"; };
+		812AD6711447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSensitivityIcon@2x.png"; sourceTree = "<group>"; };
+		812AD6721447BA14002CCE03 /* SpheroDrive-menuSettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsButton.png"; sourceTree = "<group>"; };
+		812AD6731447BA14002CCE03 /* SpheroDrive-menuSettingsButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSettingsButton@2x.png"; sourceTree = "<group>"; };
+		812AD6741447BA14002CCE03 /* SpheroDrive-menuSpheroLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSpheroLogo.png"; sourceTree = "<group>"; };
+		812AD6751447BA14002CCE03 /* SpheroDrive-menuSpheroLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuSpheroLogo@2x.png"; sourceTree = "<group>"; };
+		812AD6761447BA14002CCE03 /* SpheroDrive-menuTutorialIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuTutorialIcon.png"; sourceTree = "<group>"; };
+		812AD6771447BA14002CCE03 /* SpheroDrive-menuTutorialIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroDrive-menuTutorialIcon@2x.png"; sourceTree = "<group>"; };
+		812AD6901447BBC4002CCE03 /* MainMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
+		812AD6D21447C3FE002CCE03 /* SliderLeftCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderLeftCap.png; sourceTree = "<group>"; };
+		812AD6D31447C3FE002CCE03 /* SliderLeftCap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderLeftCap@2x.png"; sourceTree = "<group>"; };
+		812AD6D41447C3FE002CCE03 /* SliderRightCap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderRightCap.png; sourceTree = "<group>"; };
+		812AD6D51447C3FE002CCE03 /* SliderRightCap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderRightCap@2x.png"; sourceTree = "<group>"; };
+		812AD6D61447C3FE002CCE03 /* SliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderThumb.png; sourceTree = "<group>"; };
+		812AD6D71447C3FE002CCE03 /* SliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb@2x.png"; sourceTree = "<group>"; };
+		812AD6D81447C3FE002CCE03 /* Orbotix-Sphero-Level1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level1.png"; sourceTree = "<group>"; };
+		812AD6D91447C3FE002CCE03 /* Orbotix-Sphero-Level2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level2.png"; sourceTree = "<group>"; };
+		812AD6DA1447C3FE002CCE03 /* Orbotix-Sphero-Level3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orbotix-Sphero-Level3.png"; sourceTree = "<group>"; };
+		812AD6DB1447C3FE002CCE03 /* Sphero_Sensitivity_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Sensitivity_01.png; sourceTree = "<group>"; };
+		812AD6DC1447C3FE002CCE03 /* Sphero_Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sphero_Title.png; sourceTree = "<group>"; };
+		812AD6E81447C600002CCE03 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
+		814BB04A14466DF300E237B0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		814C3182144366BB004E34F5 /* SpheroCamButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamButtonBG.png; sourceTree = "<group>"; };
+		814C3183144366BB004E34F5 /* SpheroCamDrivePuck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamDrivePuck@2x.png"; sourceTree = "<group>"; };
+		814C3184144366BB004E34F5 /* SpheroCamJoystickBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamJoystickBG.png; sourceTree = "<group>"; };
+		814C3185144366BB004E34F5 /* SpheroCamLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamLogo.png; sourceTree = "<group>"; };
+		814C3186144366BB004E34F5 /* SpheroCamShareButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamShareButton@2x.png"; sourceTree = "<group>"; };
+		814C3187144366BB004E34F5 /* SpheroCamStillCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamStillCamera@2x.png"; sourceTree = "<group>"; };
+		814C3188144366BB004E34F5 /* SpheroCamVideoCamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamVideoCamera@2x.png"; sourceTree = "<group>"; };
+		814C3189144366BB004E34F5 /* SpheroCamVideoCameraRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamVideoCameraRed@2x.png"; sourceTree = "<group>"; };
+		814C3192144368E1004E34F5 /* CircularUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularUIView.h; sourceTree = "<group>"; };
+		814C3193144368E1004E34F5 /* CircularUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularUIView.m; sourceTree = "<group>"; };
+		814C319514437B29004E34F5 /* SpheroCam57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCam57.png; sourceTree = "<group>"; };
+		814C319614437B2A004E34F5 /* SpheroCam72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCam72.png; sourceTree = "<group>"; };
+		814C319714437B2A004E34F5 /* SpheroCam114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCam114.png; sourceTree = "<group>"; };
+		815B82F714AE88FB00CBAA79 /* settings_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_button.png; sourceTree = "<group>"; };
+		815B82F814AE88FB00CBAA79 /* SpheroCamUserGuide.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SpheroCamUserGuide.html; sourceTree = "<group>"; };
+		815B82FD14AE898300CBAA79 /* UserGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGuideViewController.h; sourceTree = "<group>"; };
+		815B82FE14AE898300CBAA79 /* UserGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuideViewController.m; sourceTree = "<group>"; };
+		815B82FF14AE898300CBAA79 /* UserGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserGuideViewController.xib; sourceTree = "<group>"; };
+		815B830614AEC80100CBAA79 /* Sphero-WhatsNewIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-WhatsNewIcon@2x.png"; sourceTree = "<group>"; };
+		815B830814AECD1800CBAA79 /* Sphero-CalibrateReminderClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose.png"; sourceTree = "<group>"; };
+		815B830914AECD1800CBAA79 /* Sphero-CalibrateReminderClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-CalibrateReminderClose@2x.png"; sourceTree = "<group>"; };
+		81A14D8714636644007DDCC0 /* SpheroCam-Camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCam-Camera@2x.png"; sourceTree = "<group>"; };
+		81A14D8814636644007DDCC0 /* SpheroCam-Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCam-Logo@2x.png"; sourceTree = "<group>"; };
+		81A14D8914636644007DDCC0 /* SpheroCam-Settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCam-Settings@2x.png"; sourceTree = "<group>"; };
+		81A14D8A14636644007DDCC0 /* SpheroCam-Video@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCam-Video@2x.png"; sourceTree = "<group>"; };
+		81A14D8B14636644007DDCC0 /* SpheroCam-VideoRed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCam-VideoRed@2x.png"; sourceTree = "<group>"; };
+		81B322A5146060C7008EBDB1 /* SpheroCamRecordStart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroCamRecordStart.wav; sourceTree = "<group>"; };
+		81B322A6146060C7008EBDB1 /* SpheroCamRecordStop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SpheroCamRecordStop.wav; sourceTree = "<group>"; };
+		81B322B214606174008EBDB1 /* SpheroCamRecordStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroCamRecordStart.h; sourceTree = "<group>"; };
+		81B322B314606174008EBDB1 /* SpheroCamRecordStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroCamRecordStart.m; sourceTree = "<group>"; };
+		81B322B51460618B008EBDB1 /* SpheroCamRecordStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpheroCamRecordStop.h; sourceTree = "<group>"; };
+		81B322B61460618B008EBDB1 /* SpheroCamRecordStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpheroCamRecordStop.m; sourceTree = "<group>"; };
+		81B322D714606432008EBDB1 /* NoSpheroAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoSpheroAlertManager.h; sourceTree = "<group>"; };
+		81B322D814606432008EBDB1 /* NoSpheroAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoSpheroAlertManager.m; sourceTree = "<group>"; };
+		81B322DA146067F7008EBDB1 /* SpheroCamWhiteGear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamWhiteGear.png; sourceTree = "<group>"; };
+		81B322DC1460689C008EBDB1 /* SpheroCamStillCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamStillCamera.png; sourceTree = "<group>"; };
+		81B322DD1460689D008EBDB1 /* SpheroCamVideoCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamVideoCamera.png; sourceTree = "<group>"; };
+		81B322E01460692A008EBDB1 /* SpheroCamWhiteGear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamWhiteGear@2x.png"; sourceTree = "<group>"; };
+		81B322E214606B3B008EBDB1 /* SpheroCamVideoCameraRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamVideoCameraRed.png; sourceTree = "<group>"; };
+		81B322E414606C5D008EBDB1 /* SpheroCamButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamButtonBG@2x.png"; sourceTree = "<group>"; };
+		81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		81D4E1C313FED72F00D77A6D /* Sphero-KittyCam-paw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-paw.png"; sourceTree = "<group>"; };
+		81D4E1C713FED74500D77A6D /* Sphero-KittyCam-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-head.png"; sourceTree = "<group>"; };
+		81D4E1CB13FEDC9800D77A6D /* Sphero-KittyCam-pawLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-pawLeft.png"; sourceTree = "<group>"; };
+		81D4E1CD13FEE9BC00D77A6D /* Sphero-KittyCam-track-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-track-2.png"; sourceTree = "<group>"; };
+		81D4E1CF13FEEBA800D77A6D /* Sphero-KittyCam-paw@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-paw@2x.png"; sourceTree = "<group>"; };
+		81D4E1D013FEEBA800D77A6D /* Sphero-KittyCam-pawLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-pawLeft@2x.png"; sourceTree = "<group>"; };
+		81D4E1D113FEEBA800D77A6D /* Sphero-KittyCam-track-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-track-2@2x.png"; sourceTree = "<group>"; };
+		81EF991A14464B4100106BA3 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
+		81EF991B14464B4100106BA3 /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAnalytics.a; sourceTree = "<group>"; };
+		81EF993C14464C6B00106BA3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81EF993D14464C6B00106BA3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81EF993F1446575900106BA3 /* SavingOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SavingOverlay.png; sourceTree = "<group>"; };
+		81EF99421446600000106BA3 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources/iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		81F6584D1465EE1800CB4402 /* CalibrateOverlayStartSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayStartSound.h; sourceTree = "<group>"; };
+		81F6584E1465EE1800CB4402 /* CalibrateOverlayStartSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayStartSound.m; sourceTree = "<group>"; };
+		81F6584F1465EE1800CB4402 /* CalibrateOverlayLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayLoop.h; sourceTree = "<group>"; };
+		81F658501465EE1800CB4402 /* CalibrateOverlayLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayLoop.m; sourceTree = "<group>"; };
+		81F658511465EE1800CB4402 /* CalibrateOverlayEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateOverlayEnd.h; sourceTree = "<group>"; };
+		81F658521465EE1800CB4402 /* CalibrateOverlayEnd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateOverlayEnd.m; sourceTree = "<group>"; };
+		81F658531465EE1800CB4402 /* 2-finger HUD_hum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_hum.wav"; sourceTree = "<group>"; };
+		81F658541465EE1800CB4402 /* 2-finger HUD_in.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_in.wav"; sourceTree = "<group>"; };
+		81F658551465EE1800CB4402 /* 2-finger HUD_out.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-finger HUD_out.wav"; sourceTree = "<group>"; };
+		81F6585C1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowBlue.png"; sourceTree = "<group>"; };
+		81F6585D1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-TwoFingerCalibrateTouchGlowWhite.png"; sourceTree = "<group>"; };
+		81F6585E1465EE3C00CB4402 /* Sphero-InnerCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-InnerCalibrateRing.png"; sourceTree = "<group>"; };
+		81F6585F1465EE3C00CB4402 /* Sphero-MiddleCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-MiddleCalibrateRing.png"; sourceTree = "<group>"; };
+		81F658601465EE3C00CB4402 /* Sphero-OuterCalibrateRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-OuterCalibrateRing.png"; sourceTree = "<group>"; };
+		81F658611465EE3C00CB4402 /* RKCalibrateOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCalibrateOverlayView.h; sourceTree = "<group>"; };
+		81F658621465EE3C00CB4402 /* RKCalibrateOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCalibrateOverlayView.m; sourceTree = "<group>"; };
+		81FC500213AC03C8007076DB /* RCDriveFatSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDriveFatSlider.h; sourceTree = "<group>"; };
+		81FC500313AC03C8007076DB /* RCDriveFatSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDriveFatSlider.m; sourceTree = "<group>"; };
+		81FC503413AC065C007076DB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		81FC503613AC065C007076DB /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		81FC503813AC0673007076DB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		81FC503A13AC0688007076DB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		81FC506013AC07F5007076DB /* RCDriveBigSliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RCDriveBigSliderThumb.png; sourceTree = "<group>"; };
+		81FC507113AC0C08007076DB /* kittyCam57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kittyCam57.png; sourceTree = "<group>"; };
+		81FC507213AC0C08007076DB /* kittyCam72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kittyCam72.png; sourceTree = "<group>"; };
+		81FC507313AC0C08007076DB /* kittyCam114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kittyCam114.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SpheroCam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpheroCam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D306803F14A23A9E00359AB3 /* libRobotUIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotUIKit.a; path = "../../MOBILE-IOS-ROBOTKIT/RobotUIKit/build/Release-iphoneos/libRobotUIKit.a"; sourceTree = "<group>"; };
+		D306804214A23ABF00359AB3 /* libRobotKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotKit.a; path = "../../MOBILE-IOS-ROBOTKIT/RobotKit/build/Release-iphoneos/libRobotKit.a"; sourceTree = "<group>"; };
+		D349AA8514B40A720059A6DD /* RobotUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RobotUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D349AA8714B40C730059A6DD /* camera_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button.png; sourceTree = "<group>"; };
+		D349AA8814B40C730059A6DD /* video_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_button.png; sourceTree = "<group>"; };
+		D349AA8914B40C730059A6DD /* video_recording_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_recording_button.png; sourceTree = "<group>"; };
+		E942F1DD1165049400F16C8C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E94DFFBD116FE043009B726B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E9515F6411ECFEB40043913F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		E96FB2101316DF80006ADCE0 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E98345DF11CBEA4800496D2B /* AVCamRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamRecorder.m; sourceTree = "<group>"; };
+		E98345E011CBEA4800496D2B /* AVCamRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamRecorder.h; sourceTree = "<group>"; };
+		E99F56411162B5660020042D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E99F56561162BA130020042D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E9A3542A116A7C4300CB935D /* AVCamCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCaptureManager.h; sourceTree = "<group>"; };
+		E9A3542B116A7C4300CB935D /* AVCamCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCaptureManager.m; sourceTree = "<group>"; };
+		E9ECAEA51166C91E00937DFB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E9ECAFC71166CB6600937DFB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E9F5BF5B117E5C5100442489 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D306804314A23ABF00359AB3 /* libRobotKit.a in Frameworks */,
+				D306804014A23A9E00359AB3 /* libRobotUIKit.a in Frameworks */,
+				81D4E1BC13FED5CC00D77A6D /* libsqlite3.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				E99F56421162B5660020042D /* AVFoundation.framework in Frameworks */,
+				E99F56571162BA130020042D /* QuartzCore.framework in Frameworks */,
+				E942F1DE1165049400F16C8C /* MediaPlayer.framework in Frameworks */,
+				E9ECAEA61166C91E00937DFB /* CoreMedia.framework in Frameworks */,
+				E9ECAFC81166CB6600937DFB /* CoreVideo.framework in Frameworks */,
+				E94DFFBE116FE043009B726B /* MobileCoreServices.framework in Frameworks */,
+				E9F5BF5C117E5C5100442489 /* AssetsLibrary.framework in Frameworks */,
+				E9515F6511ECFEB40043913F /* ImageIO.framework in Frameworks */,
+				81FC503513AC065C007076DB /* ExternalAccessory.framework in Frameworks */,
+				81FC503713AC065C007076DB /* GameKit.framework in Frameworks */,
+				81FC503913AC0673007076DB /* CoreMotion.framework in Frameworks */,
+				81FC503B13AC0688007076DB /* AudioToolbox.framework in Frameworks */,
+				81EF991C14464B4100106BA3 /* libFlurryAnalytics.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				815B82F414AE88D400CBAA79 /* UserGuide */,
+				81F658431465EDC700CB4402 /* CalibrateOverlay */,
+				812AD6591447B9CC002CCE03 /* Images */,
+				812AD62A1447B686002CCE03 /* Audio */,
+				81EF991914464B3300106BA3 /* Flurry */,
+				81FC506013AC07F5007076DB /* RCDriveBigSliderThumb.png */,
+				81FC500213AC03C8007076DB /* RCDriveFatSlider.h */,
+				812AD6451447B95D002CCE03 /* DriveAppSettings.h */,
+				812AD6461447B95D002CCE03 /* DriveAppSettings.m */,
+				814C3192144368E1004E34F5 /* CircularUIView.h */,
+				814C3193144368E1004E34F5 /* CircularUIView.m */,
+				81FC500313AC03C8007076DB /* RCDriveFatSlider.m */,
+				81B322D714606432008EBDB1 /* NoSpheroAlertManager.h */,
+				81B322D814606432008EBDB1 /* NoSpheroAlertManager.m */,
+				28D7ACF60DDB3853001CB0EB /* AVCamViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */,
+				E9A3542A116A7C4300CB935D /* AVCamCaptureManager.h */,
+				E9A3542B116A7C4300CB935D /* AVCamCaptureManager.m */,
+				E98345E011CBEA4800496D2B /* AVCamRecorder.h */,
+				E98345DF11CBEA4800496D2B /* AVCamRecorder.m */,
+				26D26A43130341DA00D8C94B /* AVCamUtilities.h */,
+				26D26A44130341DA00D8C94B /* AVCamUtilities.m */,
+				81EF993C14464C6B00106BA3 /* AppDelegate.h */,
+				81EF993D14464C6B00106BA3 /* AppDelegate.m */,
+				812AD6901447BBC4002CCE03 /* MainMenuViewController.xib */,
+				812AD6481447B992002CCE03 /* MainMenuViewController.h */,
+				812AD6491447B992002CCE03 /* MainMenuViewController.m */,
+				812AD64A1447B992002CCE03 /* OptionsViewController.h */,
+				812AD64B1447B992002CCE03 /* OptionsViewController.m */,
+				812AD64C1447B992002CCE03 /* OptionsViewController.xib */,
+				812AD64D1447B992002CCE03 /* SensitivityViewController.h */,
+				812AD64E1447B992002CCE03 /* SensitivityViewController.m */,
+				812AD64F1447B992002CCE03 /* SensitivityViewController.xib */,
+				812AD6551447B9BB002CCE03 /* Helvetica Rounded LT Bold.ttf */,
+				812AD6E81447C600002CCE03 /* UserDefaults.plist */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SpheroCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D349AA8514B40A720059A6DD /* RobotUIKit.bundle */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				81EF994114465FFE00106BA3 /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SpheroCam_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				811772E6146DD92600FF3FAD /* Sphero-PopoverItemSelectedBlue.png */,
+				81A14D8714636644007DDCC0 /* SpheroCam-Camera@2x.png */,
+				81A14D8814636644007DDCC0 /* SpheroCam-Logo@2x.png */,
+				81A14D8914636644007DDCC0 /* SpheroCam-Settings@2x.png */,
+				81A14D8A14636644007DDCC0 /* SpheroCam-Video@2x.png */,
+				81A14D8B14636644007DDCC0 /* SpheroCam-VideoRed@2x.png */,
+				814C3182144366BB004E34F5 /* SpheroCamButtonBG.png */,
+				81B322E414606C5D008EBDB1 /* SpheroCamButtonBG@2x.png */,
+				814C3183144366BB004E34F5 /* SpheroCamDrivePuck@2x.png */,
+				814C3184144366BB004E34F5 /* SpheroCamJoystickBG.png */,
+				81EF993F1446575900106BA3 /* SavingOverlay.png */,
+				814C3185144366BB004E34F5 /* SpheroCamLogo.png */,
+				814C3186144366BB004E34F5 /* SpheroCamShareButton@2x.png */,
+				814C3187144366BB004E34F5 /* SpheroCamStillCamera@2x.png */,
+				81B322DC1460689C008EBDB1 /* SpheroCamStillCamera.png */,
+				81B322DD1460689D008EBDB1 /* SpheroCamVideoCamera.png */,
+				814C3188144366BB004E34F5 /* SpheroCamVideoCamera@2x.png */,
+				81B322E214606B3B008EBDB1 /* SpheroCamVideoCameraRed.png */,
+				814C3189144366BB004E34F5 /* SpheroCamVideoCameraRed@2x.png */,
+				81D4E1CF13FEEBA800D77A6D /* Sphero-KittyCam-paw@2x.png */,
+				81D4E1D013FEEBA800D77A6D /* Sphero-KittyCam-pawLeft@2x.png */,
+				81D4E1D113FEEBA800D77A6D /* Sphero-KittyCam-track-2@2x.png */,
+				81D4E1CD13FEE9BC00D77A6D /* Sphero-KittyCam-track-2.png */,
+				81D4E1C713FED74500D77A6D /* Sphero-KittyCam-head.png */,
+				81D4E1CB13FEDC9800D77A6D /* Sphero-KittyCam-pawLeft.png */,
+				81D4E1C313FED72F00D77A6D /* Sphero-KittyCam-paw.png */,
+				81FC507113AC0C08007076DB /* kittyCam57.png */,
+				81FC507213AC0C08007076DB /* kittyCam72.png */,
+				81FC507313AC0C08007076DB /* kittyCam114.png */,
+				814C319514437B29004E34F5 /* SpheroCam57.png */,
+				814C319614437B2A004E34F5 /* SpheroCam72.png */,
+				814C319714437B2A004E34F5 /* SpheroCam114.png */,
+				E96FB2121316DF8C006ADCE0 /* Localizable.strings */,
+				2899E5210DE3E06400AC0155 /* AVCamViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SpheroCam-Info.plist */,
+				814BB04A14466DF300E237B0 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D306803F14A23A9E00359AB3 /* libRobotUIKit.a */,
+				D306804214A23ABF00359AB3 /* libRobotKit.a */,
+				81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				E99F56411162B5660020042D /* AVFoundation.framework */,
+				E99F56561162BA130020042D /* QuartzCore.framework */,
+				E942F1DD1165049400F16C8C /* MediaPlayer.framework */,
+				E9ECAEA51166C91E00937DFB /* CoreMedia.framework */,
+				E9ECAFC71166CB6600937DFB /* CoreVideo.framework */,
+				E94DFFBD116FE043009B726B /* MobileCoreServices.framework */,
+				E9F5BF5B117E5C5100442489 /* AssetsLibrary.framework */,
+				E9515F6411ECFEB40043913F /* ImageIO.framework */,
+				81FC503413AC065C007076DB /* ExternalAccessory.framework */,
+				81FC503613AC065C007076DB /* GameKit.framework */,
+				81FC503813AC0673007076DB /* CoreMotion.framework */,
+				81FC503A13AC0688007076DB /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		812AD62A1447B686002CCE03 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				812AD62B1447B6A3002CCE03 /* SpheroDropDownAlert.wav */,
+				812AD62C1447B6A3002CCE03 /* SpheroDriveWheelIn.wav */,
+				812AD62D1447B6A3002CCE03 /* SpheroButtonPress.wav */,
+				812AD62E1447B6A3002CCE03 /* SpheroItemSelect.wav */,
+				81B322A5146060C7008EBDB1 /* SpheroCamRecordStart.wav */,
+				81B322A6146060C7008EBDB1 /* SpheroCamRecordStop.wav */,
+				812AD62F1447B6A3002CCE03 /* SpheroButtonPressSound.h */,
+				812AD6301447B6A3002CCE03 /* SpheroButtonPressSound.m */,
+				812AD6311447B6A3002CCE03 /* SpheroItemSelectSound.h */,
+				812AD6321447B6A3002CCE03 /* SpheroItemSelectSound.m */,
+				812AD6331447B6A3002CCE03 /* SpheroDriveWheelIn.h */,
+				812AD6341447B6A3002CCE03 /* SpheroDriveWheelIn.m */,
+				812AD6351447B6A3002CCE03 /* SpheroDropDownAlertSound.h */,
+				812AD6361447B6A3002CCE03 /* SpheroDropDownAlertSound.m */,
+				812AD6371447B6A3002CCE03 /* OXAudioManager.h */,
+				812AD6381447B6A3002CCE03 /* OXAudioManager.m */,
+				812AD6391447B6A3002CCE03 /* OXAudioPlayer.h */,
+				812AD63A1447B6A3002CCE03 /* OXAudioPlayer.m */,
+				81B322B214606174008EBDB1 /* SpheroCamRecordStart.h */,
+				81B322B314606174008EBDB1 /* SpheroCamRecordStart.m */,
+				81B322B51460618B008EBDB1 /* SpheroCamRecordStop.h */,
+				81B322B61460618B008EBDB1 /* SpheroCamRecordStop.m */,
+				81F6584D1465EE1800CB4402 /* CalibrateOverlayStartSound.h */,
+				81F6584E1465EE1800CB4402 /* CalibrateOverlayStartSound.m */,
+				81F6584F1465EE1800CB4402 /* CalibrateOverlayLoop.h */,
+				81F658501465EE1800CB4402 /* CalibrateOverlayLoop.m */,
+				81F658511465EE1800CB4402 /* CalibrateOverlayEnd.h */,
+				81F658521465EE1800CB4402 /* CalibrateOverlayEnd.m */,
+				81F658531465EE1800CB4402 /* 2-finger HUD_hum.wav */,
+				81F658541465EE1800CB4402 /* 2-finger HUD_in.wav */,
+				81F658551465EE1800CB4402 /* 2-finger HUD_out.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		812AD6591447B9CC002CCE03 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				812AD6D21447C3FE002CCE03 /* SliderLeftCap.png */,
+				812AD6D31447C3FE002CCE03 /* SliderLeftCap@2x.png */,
+				812AD6D41447C3FE002CCE03 /* SliderRightCap.png */,
+				812AD6D51447C3FE002CCE03 /* SliderRightCap@2x.png */,
+				812AD6D61447C3FE002CCE03 /* SliderThumb.png */,
+				812AD6D71447C3FE002CCE03 /* SliderThumb@2x.png */,
+				81B322DA146067F7008EBDB1 /* SpheroCamWhiteGear.png */,
+				81B322E01460692A008EBDB1 /* SpheroCamWhiteGear@2x.png */,
+				812AD6D81447C3FE002CCE03 /* Orbotix-Sphero-Level1.png */,
+				812AD6D91447C3FE002CCE03 /* Orbotix-Sphero-Level2.png */,
+				812AD6DA1447C3FE002CCE03 /* Orbotix-Sphero-Level3.png */,
+				812AD6DB1447C3FE002CCE03 /* Sphero_Sensitivity_01.png */,
+				812AD6DC1447C3FE002CCE03 /* Sphero_Title.png */,
+				812AD65A1447B9F5002CCE03 /* Sphero_Btn_Wide.png */,
+				812AD65B1447B9F5002CCE03 /* Sphero_Btn.png */,
+				812AD65C1447B9F5002CCE03 /* Orbotix-Sphero-Popup-Bkg.png */,
+				812AD6601447BA14002CCE03 /* SpheroDrive-menuBackButton.png */,
+				812AD6611447BA14002CCE03 /* SpheroDrive-menuBackButton@2x.png */,
+				812AD6621447BA14002CCE03 /* SpheroDrive-menuSleepIcon.png */,
+				812AD6631447BA14002CCE03 /* SpheroDrive-menuSleepIcon@2x.png */,
+				812AD6641447BA14002CCE03 /* SpheroDrive-menuSettingsIcon.png */,
+				812AD6651447BA14002CCE03 /* SpheroDrive-menuSettingsIcon@2x.png */,
+				812AD6661447BA14002CCE03 /* SpheroDrive-menuButtonBG.png */,
+				812AD6671447BA14002CCE03 /* SpheroDrive-menuButtonBG@2x.png */,
+				812AD6681447BA14002CCE03 /* SpheroDrive-menuColorIcon.png */,
+				812AD6691447BA14002CCE03 /* SpheroDrive-menuColorIcon@2x.png */,
+				812AD66A1447BA14002CCE03 /* SpheroDrive-menuInfoButton.png */,
+				812AD66B1447BA14002CCE03 /* SpheroDrive-menuInfoButton@2x.png */,
+				812AD66C1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon.png */,
+				812AD66D1447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon@2x.png */,
+				812AD66E1447BA14002CCE03 /* SpheroDrive-menuRollButton.png */,
+				812AD66F1447BA14002CCE03 /* SpheroDrive-menuRollButton@2x.png */,
+				812AD6701447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon.png */,
+				812AD6711447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon@2x.png */,
+				812AD6721447BA14002CCE03 /* SpheroDrive-menuSettingsButton.png */,
+				812AD6731447BA14002CCE03 /* SpheroDrive-menuSettingsButton@2x.png */,
+				812AD6741447BA14002CCE03 /* SpheroDrive-menuSpheroLogo.png */,
+				812AD6751447BA14002CCE03 /* SpheroDrive-menuSpheroLogo@2x.png */,
+				812AD6761447BA14002CCE03 /* SpheroDrive-menuTutorialIcon.png */,
+				812AD6771447BA14002CCE03 /* SpheroDrive-menuTutorialIcon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		815B82F414AE88D400CBAA79 /* UserGuide */ = {
+			isa = PBXGroup;
+			children = (
+				815B82F614AE88FB00CBAA79 /* images */,
+				815B82F814AE88FB00CBAA79 /* SpheroCamUserGuide.html */,
+				815B830814AECD1800CBAA79 /* Sphero-CalibrateReminderClose.png */,
+				815B830914AECD1800CBAA79 /* Sphero-CalibrateReminderClose@2x.png */,
+				815B830614AEC80100CBAA79 /* Sphero-WhatsNewIcon@2x.png */,
+				815B82FD14AE898300CBAA79 /* UserGuideViewController.h */,
+				815B82FE14AE898300CBAA79 /* UserGuideViewController.m */,
+				815B82FF14AE898300CBAA79 /* UserGuideViewController.xib */,
+			);
+			name = UserGuide;
+			sourceTree = "<group>";
+		};
+		815B82F614AE88FB00CBAA79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D349AA8714B40C730059A6DD /* camera_button.png */,
+				D349AA8814B40C730059A6DD /* video_button.png */,
+				D349AA8914B40C730059A6DD /* video_recording_button.png */,
+				815B82F714AE88FB00CBAA79 /* settings_button.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		81EF991914464B3300106BA3 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				81EF991A14464B4100106BA3 /* FlurryAnalytics.h */,
+				81EF991B14464B4100106BA3 /* libFlurryAnalytics.a */,
+			);
+			name = Flurry;
+			sourceTree = "<group>";
+		};
+		81EF994114465FFE00106BA3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				81EF99421446600000106BA3 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		81F658431465EDC700CB4402 /* CalibrateOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				81F6585C1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png */,
+				81F6585D1465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png */,
+				81F6585E1465EE3C00CB4402 /* Sphero-InnerCalibrateRing.png */,
+				81F6585F1465EE3C00CB4402 /* Sphero-MiddleCalibrateRing.png */,
+				81F658601465EE3C00CB4402 /* Sphero-OuterCalibrateRing.png */,
+				81F658611465EE3C00CB4402 /* RKCalibrateOverlayView.h */,
+				81F658621465EE3C00CB4402 /* RKCalibrateOverlayView.m */,
+			);
+			name = CalibrateOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SpheroCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SpheroCam" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroCam;
+			productName = AVCam;
+			productReference = 1D6058910D05DD3D006BFB54 /* SpheroCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpheroCam" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SpheroCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D349AA8614B40A720059A6DD /* RobotUIKit.bundle in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* AVCamViewController.xib in Resources */,
+				E96FB2131316DF8C006ADCE0 /* Localizable.strings in Resources */,
+				81FC506113AC07F5007076DB /* RCDriveBigSliderThumb.png in Resources */,
+				81FC507413AC0C08007076DB /* kittyCam57.png in Resources */,
+				81FC507513AC0C08007076DB /* kittyCam72.png in Resources */,
+				81FC507613AC0C08007076DB /* kittyCam114.png in Resources */,
+				81D4E1C413FED72F00D77A6D /* Sphero-KittyCam-paw.png in Resources */,
+				81D4E1CA13FED74500D77A6D /* Sphero-KittyCam-head.png in Resources */,
+				81D4E1CC13FEDC9800D77A6D /* Sphero-KittyCam-pawLeft.png in Resources */,
+				81D4E1CE13FEE9BC00D77A6D /* Sphero-KittyCam-track-2.png in Resources */,
+				81D4E1D213FEEBA900D77A6D /* Sphero-KittyCam-paw@2x.png in Resources */,
+				81D4E1D313FEEBA900D77A6D /* Sphero-KittyCam-pawLeft@2x.png in Resources */,
+				81D4E1D413FEEBA900D77A6D /* Sphero-KittyCam-track-2@2x.png in Resources */,
+				814C318A144366BB004E34F5 /* SpheroCamButtonBG.png in Resources */,
+				814C318B144366BB004E34F5 /* SpheroCamDrivePuck@2x.png in Resources */,
+				814C318C144366BB004E34F5 /* SpheroCamJoystickBG.png in Resources */,
+				814C318D144366BB004E34F5 /* SpheroCamLogo.png in Resources */,
+				814C318E144366BB004E34F5 /* SpheroCamShareButton@2x.png in Resources */,
+				814C318F144366BB004E34F5 /* SpheroCamStillCamera@2x.png in Resources */,
+				814C3190144366BB004E34F5 /* SpheroCamVideoCamera@2x.png in Resources */,
+				814C3191144366BC004E34F5 /* SpheroCamVideoCameraRed@2x.png in Resources */,
+				814C319814437B2A004E34F5 /* SpheroCam57.png in Resources */,
+				814C319914437B2A004E34F5 /* SpheroCam72.png in Resources */,
+				814C319A14437B2A004E34F5 /* SpheroCam114.png in Resources */,
+				81EF99401446575900106BA3 /* SavingOverlay.png in Resources */,
+				81EF99431446600000106BA3 /* MainWindow-iPad.xib in Resources */,
+				814BB04B14466DF300E237B0 /* Settings.bundle in Resources */,
+				812AD63B1447B6A3002CCE03 /* SpheroDropDownAlert.wav in Resources */,
+				812AD63C1447B6A3002CCE03 /* SpheroDriveWheelIn.wav in Resources */,
+				812AD63D1447B6A3002CCE03 /* SpheroButtonPress.wav in Resources */,
+				812AD63E1447B6A3002CCE03 /* SpheroItemSelect.wav in Resources */,
+				812AD6521447B992002CCE03 /* OptionsViewController.xib in Resources */,
+				812AD6541447B992002CCE03 /* SensitivityViewController.xib in Resources */,
+				812AD6571447B9BB002CCE03 /* Helvetica Rounded LT Bold.ttf in Resources */,
+				812AD65D1447B9F5002CCE03 /* Sphero_Btn_Wide.png in Resources */,
+				812AD65E1447B9F5002CCE03 /* Sphero_Btn.png in Resources */,
+				812AD65F1447B9F5002CCE03 /* Orbotix-Sphero-Popup-Bkg.png in Resources */,
+				812AD6781447BA14002CCE03 /* SpheroDrive-menuBackButton.png in Resources */,
+				812AD6791447BA14002CCE03 /* SpheroDrive-menuBackButton@2x.png in Resources */,
+				812AD67A1447BA14002CCE03 /* SpheroDrive-menuSleepIcon.png in Resources */,
+				812AD67B1447BA14002CCE03 /* SpheroDrive-menuSleepIcon@2x.png in Resources */,
+				812AD67C1447BA14002CCE03 /* SpheroDrive-menuSettingsIcon.png in Resources */,
+				812AD67D1447BA14002CCE03 /* SpheroDrive-menuSettingsIcon@2x.png in Resources */,
+				812AD67E1447BA14002CCE03 /* SpheroDrive-menuButtonBG.png in Resources */,
+				812AD67F1447BA14002CCE03 /* SpheroDrive-menuButtonBG@2x.png in Resources */,
+				812AD6801447BA14002CCE03 /* SpheroDrive-menuColorIcon.png in Resources */,
+				812AD6811447BA14002CCE03 /* SpheroDrive-menuColorIcon@2x.png in Resources */,
+				812AD6821447BA14002CCE03 /* SpheroDrive-menuInfoButton.png in Resources */,
+				812AD6831447BA14002CCE03 /* SpheroDrive-menuInfoButton@2x.png in Resources */,
+				812AD6841447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon.png in Resources */,
+				812AD6851447BA14002CCE03 /* SpheroDrive-menuLeaderboardIcon@2x.png in Resources */,
+				812AD6861447BA14002CCE03 /* SpheroDrive-menuRollButton.png in Resources */,
+				812AD6871447BA14002CCE03 /* SpheroDrive-menuRollButton@2x.png in Resources */,
+				812AD6881447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon.png in Resources */,
+				812AD6891447BA14002CCE03 /* SpheroDrive-menuSensitivityIcon@2x.png in Resources */,
+				812AD68A1447BA14002CCE03 /* SpheroDrive-menuSettingsButton.png in Resources */,
+				812AD68B1447BA14002CCE03 /* SpheroDrive-menuSettingsButton@2x.png in Resources */,
+				812AD68C1447BA14002CCE03 /* SpheroDrive-menuSpheroLogo.png in Resources */,
+				812AD68D1447BA14002CCE03 /* SpheroDrive-menuSpheroLogo@2x.png in Resources */,
+				812AD68E1447BA14002CCE03 /* SpheroDrive-menuTutorialIcon.png in Resources */,
+				812AD68F1447BA14002CCE03 /* SpheroDrive-menuTutorialIcon@2x.png in Resources */,
+				812AD6911447BBC4002CCE03 /* MainMenuViewController.xib in Resources */,
+				812AD6DD1447C3FE002CCE03 /* SliderLeftCap.png in Resources */,
+				812AD6DE1447C3FE002CCE03 /* SliderLeftCap@2x.png in Resources */,
+				812AD6DF1447C3FE002CCE03 /* SliderRightCap.png in Resources */,
+				812AD6E01447C3FE002CCE03 /* SliderRightCap@2x.png in Resources */,
+				812AD6E11447C3FE002CCE03 /* SliderThumb.png in Resources */,
+				812AD6E21447C3FE002CCE03 /* SliderThumb@2x.png in Resources */,
+				812AD6E31447C3FE002CCE03 /* Orbotix-Sphero-Level1.png in Resources */,
+				812AD6E41447C3FE002CCE03 /* Orbotix-Sphero-Level2.png in Resources */,
+				812AD6E51447C3FE002CCE03 /* Orbotix-Sphero-Level3.png in Resources */,
+				812AD6E61447C3FE002CCE03 /* Sphero_Sensitivity_01.png in Resources */,
+				812AD6E71447C3FE002CCE03 /* Sphero_Title.png in Resources */,
+				812AD6E91447C600002CCE03 /* UserDefaults.plist in Resources */,
+				81B322A7146060C7008EBDB1 /* SpheroCamRecordStart.wav in Resources */,
+				81B322A8146060C7008EBDB1 /* SpheroCamRecordStop.wav in Resources */,
+				81B322DB146067F7008EBDB1 /* SpheroCamWhiteGear.png in Resources */,
+				81B322DE1460689D008EBDB1 /* SpheroCamStillCamera.png in Resources */,
+				81B322DF1460689D008EBDB1 /* SpheroCamVideoCamera.png in Resources */,
+				81B322E11460692A008EBDB1 /* SpheroCamWhiteGear@2x.png in Resources */,
+				81B322E314606B3C008EBDB1 /* SpheroCamVideoCameraRed.png in Resources */,
+				81B322E514606C5E008EBDB1 /* SpheroCamButtonBG@2x.png in Resources */,
+				81A14D8C14636644007DDCC0 /* SpheroCam-Camera@2x.png in Resources */,
+				81A14D8D14636644007DDCC0 /* SpheroCam-Logo@2x.png in Resources */,
+				81A14D8E14636644007DDCC0 /* SpheroCam-Settings@2x.png in Resources */,
+				81A14D8F14636644007DDCC0 /* SpheroCam-Video@2x.png in Resources */,
+				81A14D9014636644007DDCC0 /* SpheroCam-VideoRed@2x.png in Resources */,
+				81F658591465EE1800CB4402 /* 2-finger HUD_hum.wav in Resources */,
+				81F6585A1465EE1800CB4402 /* 2-finger HUD_in.wav in Resources */,
+				81F6585B1465EE1800CB4402 /* 2-finger HUD_out.wav in Resources */,
+				81F658631465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowBlue.png in Resources */,
+				81F658641465EE3C00CB4402 /* Sphero-TwoFingerCalibrateTouchGlowWhite.png in Resources */,
+				81F658651465EE3C00CB4402 /* Sphero-InnerCalibrateRing.png in Resources */,
+				81F658661465EE3C00CB4402 /* Sphero-MiddleCalibrateRing.png in Resources */,
+				81F658671465EE3C00CB4402 /* Sphero-OuterCalibrateRing.png in Resources */,
+				811772E7146DD92600FF3FAD /* Sphero-PopoverItemSelectedBlue.png in Resources */,
+				815B82FA14AE88FB00CBAA79 /* settings_button.png in Resources */,
+				815B82FB14AE88FB00CBAA79 /* SpheroCamUserGuide.html in Resources */,
+				815B830114AE898300CBAA79 /* UserGuideViewController.xib in Resources */,
+				815B830714AEC80100CBAA79 /* Sphero-WhatsNewIcon@2x.png in Resources */,
+				815B830A14AECD1A00CBAA79 /* Sphero-CalibrateReminderClose.png in Resources */,
+				815B830B14AECD1A00CBAA79 /* Sphero-CalibrateReminderClose@2x.png in Resources */,
+				D349AA8A14B40C730059A6DD /* camera_button.png in Resources */,
+				D349AA8B14B40C730059A6DD /* video_button.png in Resources */,
+				D349AA8C14B40C730059A6DD /* video_recording_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* AVCamViewController.m in Sources */,
+				E9A3542C116A7C4300CB935D /* AVCamCaptureManager.m in Sources */,
+				E98345E311CBEA4800496D2B /* AVCamRecorder.m in Sources */,
+				26D26A45130341DA00D8C94B /* AVCamUtilities.m in Sources */,
+				81FC500413AC03C8007076DB /* RCDriveFatSlider.m in Sources */,
+				814C3194144368E1004E34F5 /* CircularUIView.m in Sources */,
+				81EF993E14464C6B00106BA3 /* AppDelegate.m in Sources */,
+				812AD63F1447B6A3002CCE03 /* SpheroButtonPressSound.m in Sources */,
+				812AD6401447B6A3002CCE03 /* SpheroItemSelectSound.m in Sources */,
+				812AD6411447B6A3002CCE03 /* SpheroDriveWheelIn.m in Sources */,
+				812AD6421447B6A3002CCE03 /* SpheroDropDownAlertSound.m in Sources */,
+				812AD6431447B6A3002CCE03 /* OXAudioManager.m in Sources */,
+				812AD6441447B6A3002CCE03 /* OXAudioPlayer.m in Sources */,
+				812AD6471447B95D002CCE03 /* DriveAppSettings.m in Sources */,
+				812AD6501447B992002CCE03 /* MainMenuViewController.m in Sources */,
+				812AD6511447B992002CCE03 /* OptionsViewController.m in Sources */,
+				812AD6531447B992002CCE03 /* SensitivityViewController.m in Sources */,
+				81B322B414606175008EBDB1 /* SpheroCamRecordStart.m in Sources */,
+				81B322B71460618B008EBDB1 /* SpheroCamRecordStop.m in Sources */,
+				81B322D914606432008EBDB1 /* NoSpheroAlertManager.m in Sources */,
+				81F658561465EE1800CB4402 /* CalibrateOverlayStartSound.m in Sources */,
+				81F658571465EE1800CB4402 /* CalibrateOverlayLoop.m in Sources */,
+				81F658581465EE1800CB4402 /* CalibrateOverlayEnd.m in Sources */,
+				81F658681465EE3C00CB4402 /* RKCalibrateOverlayView.m in Sources */,
+				815B830014AE898300CBAA79 /* UserGuideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E96FB2121316DF8C006ADCE0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96FB2101316DF80006ADCE0 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_IDENTIFIER = com.orbotix.SpheroCam;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroCam_Prefix.pch;
+				INFOPLIST_FILE = "SpheroCam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SpheroCam;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				BUNDLE_IDENTIFIER = com.orbotix.SpheroCam;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Orbotix Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orbotix Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroCam_Prefix.pch;
+				INFOPLIST_FILE = "SpheroCam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SpheroCam;
+				PROVISIONING_PROFILE = "9487CBDD-16B6-421C-B701-00E62340F34C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9487CBDD-16B6-421C-B701-00E62340F34C";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Orbotix Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orbotix Inc.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "9487CBDD-16B6-421C-B701-00E62340F34C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9487CBDD-16B6-421C-B701-00E62340F34C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		D3BE3B0C144A79FF00159252 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Brian Smith";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../MOBILE-IOS-ROBOTKIT\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "46FE6997-DB46-438A-8AC0-D44DBEA2B5B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "46FE6997-DB46-438A-8AC0-D44DBEA2B5B2";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Adhoc;
+		};
+		D3BE3B0D144A79FF00159252 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_IDENTIFIER = com.orbotix.brian.SpheroCam;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SpheroCam_Prefix.pch;
+				INFOPLIST_FILE = "SpheroCam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SpheroCam;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4CBBFB67-7280-461E-9A46-61A46BB84796";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SpheroCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D3BE3B0D144A79FF00159252 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpheroCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				D3BE3B0C144A79FF00159252 /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

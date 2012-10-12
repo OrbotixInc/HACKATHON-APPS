@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:drive="http://schemas.android.com/apk/res/orbotix.drive"
+    android:background="@drawable/drive_bg"
+    android:id="@+id/DriveBackground"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+	android:longClickable="true">
+	<ImageButton android:id="@+id/MenuButton"
+        style="@style/Menu.Button.ImageButton.Left"
+        android:src="@drawable/icon_menu_white"
+        android:onClick="showMainMenu"/>
+	<ImageButton android:id="@+id/DriveSelectButton"
+        style="@style/Menu.Button.ImageButton.Right"
+        android:src="@drawable/icon_joystick_white"
+        android:onClick="showDriveSelector"/>
+    <!--<ImageButton android:id="@+id/CalibrateButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@id/MenuButton"
+                 android:layout_alignBottom="@id/MenuButton"
+                 android:layout_toRightOf="@id/MenuButton"
+                 android:onClick="onCalibrateButtonClicked"
+                 android:background="@drawable/main_button_background"
+                 android:src="@drawable/icon_calibrate_button"/>-->
+
+    <ViewAnimator
+        android:id="@+id/DriveViewAnimator"
+        style="@style/Drive"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:drawingCacheQuality="high"
+        android:alwaysDrawnWithCache="true"
+        android:inAnimation="@anim/control_system_in"
+        android:outAnimation="@anim/control_system_out">
+
+        <!--Joy Stick Drive-->
+        <RelativeLayout
+            android:id="@+id/JoystickLayout"
+            style="@style/Drive">
+            <orbotix.drive.DriveWheelView
+                android:id="@+id/JoystickWheelView" android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content" android:layout_width="wrap_content"
+                android:layout_alignParentBottom="true"/>
+            <orbotix.drive.ColorIndicatorView
+                    android:id="@+id/JoystickColorIndicatorView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignTop="@id/JoystickWheelView"
+                    android:layout_marginTop="2dip"/>
+            <Button android:id="@+id/JoystickColorPickerCallout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/color_callout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/JoystickColorIndicatorView"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="@string/ChangeColor"
+                    android:layout_marginTop="-10dip"
+                    android:clickable="false"
+                    android:visibility="gone"/>
+        </RelativeLayout>
+
+        <!--Tilt Drive-->
+        <RelativeLayout
+                android:id="@+id/TiltLayout"
+                style="@style/Drive">
+            <orbotix.drive.DriveWheelView
+                    android:id="@+id/TiltWheelView" android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content" android:layout_width="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    drive:center_offset="17dip"
+                    drive:type="tilt"/>
+            <orbotix.drive.ColorIndicatorView
+                    android:id="@+id/TiltColorIndicatorView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignTop="@id/TiltWheelView"
+                    android:layout_marginTop="2dip"/>
+            <Button android:id="@+id/TiltColorPickerCallout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/color_callout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/TiltColorIndicatorView"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="@string/ChangeColor"
+                    android:layout_marginTop="-10dip"
+                    android:clickable="false"
+                    android:visibility="gone"/>
+        </RelativeLayout>
+
+        <!--RC Drive-->
+        <RelativeLayout
+                android:id="@+id/RcLayout"
+                style="@style/Drive">
+            <orbotix.drive.RcControlView
+                    android:id="@+id/RCView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dip"/>
+            <orbotix.drive.ColorIndicatorView
+                    android:id="@+id/RcColorIndicatorView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignTop="@id/RCView"
+                    android:layout_marginTop="22dip"/>
+            <Button android:id="@+id/RCColorPickerCallout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/color_callout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/RcColorIndicatorView"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="@string/ChangeColor"
+                    android:layout_marginTop="-10dip"
+                    android:clickable="false"
+                    android:visibility="gone"/>
+        </RelativeLayout>
+    </ViewAnimator>
+    <ImageButton android:id="@+id/SettingsButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignTop="@id/DriveSelectButton"
+                 android:layout_alignBottom="@id/DriveSelectButton"
+                 android:layout_toLeftOf="@id/DriveSelectButton"
+                 android:onClick="onSensitivityButtonClicked"
+                 android:background="@drawable/main_button_selector"
+                 android:longClickable="true"
+                 android:src="@drawable/icon_sensitivity_button"/>
+    <Button android:id="@+id/SpeedCallout"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/speed_callout"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentRight="true"
+               android:textSize="26sp"
+               android:textStyle="bold"
+               android:textColor="@android:color/white"
+               android:text="@string/ChangeSpeed"
+               android:layout_marginTop="54dip"
+               android:layout_marginRight="60dip"
+               android:clickable="false"
+               android:visibility="gone"/>
+    <Button android:id="@+id/DriveCallout"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/drive_callout"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentRight="true"
+               android:textSize="26sp"
+               android:textStyle="bold"
+               android:textColor="@android:color/white"
+               android:text="@string/ChangeDriveStyle"
+               android:layout_marginTop="54dip"
+               android:clickable="false"
+               android:visibility="gone"/>
+    <orbotix.robot.widgets.calibration.CalibrationView android:id="@+id/CalibrationView"
+                                                       android:layout_width="fill_parent"
+                                                       android:layout_height="fill_parent"/>
+</RelativeLayout>

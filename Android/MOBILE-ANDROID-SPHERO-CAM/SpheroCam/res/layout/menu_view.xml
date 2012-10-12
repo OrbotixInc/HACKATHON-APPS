@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+    >
+
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/color"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        app:icon="@drawable/menu_icon_color_blue"
+        app:text="COLOR"
+        android:onClick="onColorClick"
+        />
+
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/settings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/color"
+        android:clickable="true"
+        app:icon="@drawable/menu_icon_settings_blue"
+        app:text="SETTINGS"
+        android:onClick="onSettingsClick"
+        />
+
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/share"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/settings"
+        android:clickable="true"
+        app:icon="@drawable/menu_icon_share_blue"
+        app:text="SHARE VIDEO/PICS"
+        android:onClick="onShareClick"
+        />
+
+    <com.orbotix.spherocam.ui.settings.MenuListItemView
+        android:id="@+id/guide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/share"
+        android:clickable="true"
+        app:icon="@drawable/menu_icon_guide_blue"
+        app:text="USER GUIDE"
+        android:onClick="onGuideClick"
+        />
+
+</merge>

@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'Drive' target in the 'Drive' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#define kDebug YES
+#endif
+
+#ifdef DEBUG
+#define D_LOG(...) NSLog(@"%s - %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__]);
+#else
+#define D_LOG(...)
+#endif

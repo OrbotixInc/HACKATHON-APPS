@@ -1,0 +1,3 @@
+#Ignore the gen folders
+gen/
+.DS_Store

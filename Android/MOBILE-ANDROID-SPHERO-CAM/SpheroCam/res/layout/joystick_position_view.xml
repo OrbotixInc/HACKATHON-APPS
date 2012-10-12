@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/slider_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/slider_background"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/left_position_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/button_joystick"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        style="@style/Label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/left_position_image"
+        android:layout_toLeftOf="@+id/right_position_image"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="RIGHT"
+        />
+
+    <ImageView
+        android:id="@+id/right_position_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/button_joystick"
+        android:visibility="visible"
+        />
+
+</merge>

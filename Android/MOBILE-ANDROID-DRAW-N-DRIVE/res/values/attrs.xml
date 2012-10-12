@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="orbotix.draw.DrawingView">
+        <attr name="type">
+            <enum name="fullscreen" value="0"/>
+            <enum name="window" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

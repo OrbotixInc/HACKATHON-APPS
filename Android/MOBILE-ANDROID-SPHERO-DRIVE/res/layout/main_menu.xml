@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MenuViewAnimator"
+    style="@style/Dialog.ViewAnimator">
+    <RelativeLayout
+            style="@style/Dialog.Background"
+            android:background="@drawable/menu_bg">
+        <!--Sphero's Name-->
+        <TextView
+                android:id="@+id/NameText"
+                style="@style/Menu.Button.NameText"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dip"/>
+        <LinearLayout android:id="@+id/MenuButtonsLayout"
+            style="@style/Menu.Button.Layout"
+            android:layout_centerInParent="true">
+            <!-- Settings Button -->
+            <RelativeLayout android:id="@+id/SettingsButton"
+                style="@style/Menu.Button.Background"
+                android:clickable="true">
+                <ImageView android:id="@+id/SettingsButtonBackground"
+                    style="@style/Menu.Button.LongButton"
+                    android:clickable="true"
+                    android:onClick="onSettingsButtonClicked"/>
+                <ImageView android:id="@+id/SettingsButtonIcon"
+                    android:layout_alignLeft="@id/SettingsButtonBackground"
+                    style="@style/Menu.Button.Content.Icon"
+                    android:src="@drawable/icon_settings_blue"/>
+                <TextView android:id="@+id/SettingsButtonText"
+                    android:layout_alignLeft="@id/SettingsButtonBackground"
+                    style="@style/Menu.Button.Content.Text"
+                    android:text="@string/SETTINGS"/>
+                <ImageView android:id="@+id/SettingsButtonArrow"
+                    android:layout_alignRight="@id/SettingsButtonBackground"
+                    style="@style/Menu.Button.Content.Arrow"/>
+            </RelativeLayout>
+            <!-- Sphero World Button -->
+            <RelativeLayout android:id="@+id/SpheroWorldButton"
+                style="@style/Menu.Button.Background">
+                <ImageView android:id="@+id/SpheroWorldButtonBackground"
+                    style="@style/Menu.Button.LongButton"
+                    android:clickable="true"
+                    android:onClick="onSpheroWorldButtonClicked"/>
+                <ImageView android:id="@+id/SpheroWorldButtonIcon"
+                    android:layout_alignLeft="@id/SpheroWorldButtonBackground"
+                    style="@style/Menu.Button.Content.Icon"
+                    android:src="@drawable/icon_spheroworld_blue"/>
+                <TextView android:id="@+id/SpheroWorldButtonText"
+                    android:layout_alignLeft="@id/SpheroWorldButtonBackground"
+                    style="@style/Menu.Button.Content.Text"
+                    android:text="@string/SPHEROWORLD"/>
+                <ImageView android:id="@+id/SpheroWorldButtonArrow"
+                    android:layout_alignRight="@id/SpheroWorldButtonBackground"
+                    style="@style/Menu.Button.Content.Arrow"/>
+            </RelativeLayout>
+            <!-- User Guide Button -->
+            <RelativeLayout android:id="@+id/UserGuideButton"
+                            style="@style/Menu.Button.Background"
+                            android:clickable="true">
+                <ImageView android:id="@+id/SleepButtonBackground"
+                           style="@style/Menu.Button.LongButton"
+                           android:clickable="true"
+                           android:onClick="onUserGuideClicked"/>
+                <ImageView android:id="@+id/UserGuideButtonIcon"
+                           android:layout_alignLeft="@id/SleepButtonBackground"
+                           style="@style/Menu.Button.Content.Icon"
+                           android:src="@drawable/icon_whatsnew_blue"/>
+                <TextView android:id="@+id/SleepButtonText"
+                          android:layout_alignLeft="@id/SleepButtonBackground"
+                          style="@style/Menu.Button.Content.Text"
+                          android:text="@string/UserGuide"/>
+                <ImageView android:id="@+id/SleepButtonArrow"
+                           android:layout_alignRight="@id/SleepButtonBackground"
+                           style="@style/Menu.Button.Content.Arrow"/>
+            </RelativeLayout>
+            <!-- Tutorial Button -->
+            <RelativeLayout android:id="@+id/TutorialButton"
+                style="@style/Menu.Button.Background"
+                android:clickable="true">
+                <ImageView android:id="@+id/TutorialButtonBackground"
+                    style="@style/Menu.Button.LongButton"
+                    android:clickable="true"
+                    android:onClick="onTutorialButtonClicked"/>
+                <ImageView android:id="@+id/TutorialButtonIcon"
+                    android:layout_alignLeft="@id/TutorialButtonBackground"
+                    style="@style/Menu.Button.Content.Icon"
+                    android:src="@drawable/icon_tutorial_blue"/>
+                <TextView android:id="@+id/TutorialButtonText"
+                    android:layout_alignLeft="@id/TutorialButtonBackground"
+                    style="@style/Menu.Button.Content.Text"
+                    android:text="@string/TUTORIAL"/>
+                <ImageView android:id="@+id/TutorialButtonArrow"
+                    android:layout_alignRight="@id/TutorialButtonBackground"
+                    style="@style/Menu.Button.Content.Arrow"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/SleepText"
+            style="@style/Menu.Button.Text.Bottom"
+            android:text="@string/SLEEP"
+            />
+        <ImageButton android:id="@+id/InfoButton"
+            style="@style/Menu.Button.InfoButton"
+            android:onClick="onSleepButtonClicked"
+            android:layout_above="@id/SleepText"
+            android:layout_alignLeft="@id/SleepText"
+            android:layout_alignRight="@id/SleepText"
+            android:layout_marginBottom="-3dip"/>
+
+        <orbotix.drive.SlideToSleepView
+                android:id="@+id/SlideToSleepView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"/>
+    </RelativeLayout>
+</ViewAnimator>

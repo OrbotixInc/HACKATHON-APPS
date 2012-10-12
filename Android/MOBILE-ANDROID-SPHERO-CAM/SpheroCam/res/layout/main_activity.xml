@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff999999"
+    android:keepScreenOn="true"
+    >
+
+    <!-- The MediaRecorder Preview Background -->
+    <com.orbotix.spherocam.ui.camera.MediaRecorderView
+        android:id="@+id/media_recorder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <!-- The Camera Preview Background -->
+    <com.orbotix.spherocam.ui.camera.CameraView
+        android:id="@+id/camera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <!-- Calibration WidgetGraphic -->
+    <orbotix.robot.widgets.calibration.CalibrationView
+        android:id="@+id/calibration"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <!-- Logo in the upper left corner -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sphero_cam_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <!-- Settings Button -->
+    <ImageView
+        android:id="@+id/settings_button"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/menu_icon_settings_white"
+        android:background="@drawable/menu_list_item_bg_state"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onSettingsClick"
+        />
+
+    <!-- Take Picture Button -->
+    <ImageView
+        android:id="@+id/take_picture_button"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/take_picture_button"
+        android:background="@drawable/menu_list_item_bg_state"
+        android:layout_toLeftOf="@+id/settings_button"
+        android:onClick="onTakePictureClick"
+        />
+
+    <!-- Record Video Button -->
+
+    <ImageView
+        android:id="@+id/record_video_button"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/record_video_button"
+        android:background="@drawable/menu_list_item_bg_state"
+        android:layout_toLeftOf="@+id/take_picture_button"
+        android:onClick="onRecordVideoClick"
+        />
+    
+    <!-- The Joystick -->
+    <com.orbotix.spherocam.ui.joystick.JoystickView
+        android:id="@+id/joystick"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:puck_radius="25dp"
+        app:alpha="0.7"
+        />
+
+
+    
+</RelativeLayout>

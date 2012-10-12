@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/menu_bg">
+    <RelativeLayout android:id="@+id/LeftPane"
+                    android:layout_width="200dip"
+                    android:layout_height="fill_parent">
+        <ImageView android:id="@+id/BluePane"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent"
+                   android:scaleType="fitXY"
+                   android:layout_alignParentLeft="true"
+                   android:src="@drawable/aim_tutorial_blue_pane"/>
+        <ImageView android:id="@+id/VerticalLine"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_alignRight="@id/BluePane"
+                   android:src="@drawable/aim_tutorial_vertical_line"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_toRightOf="@id/LeftPane"
+                    android:background="@null">
+        <TextView android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="60dip"
+                  android:layout_marginRight="60dip"
+                  android:textSize="28sp"
+                  android:textColor="@android:color/white"
+                  android:textStyle="bold"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="100dip"
+                  android:gravity="center"
+                  android:text="@string/PlaceSphero"/>
+        <Button android:id="@+id/PlaceNextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/next_button"
+                android:text="@string/Next"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dip"
+                android:onClick="onNextClicked"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/Arm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/aim_tutorial_arm"/>
+</RelativeLayout>

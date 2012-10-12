@@ -1,0 +1,45 @@
+Thumbs.db
+ehthumbs.db
+
+## Compiled source
+##################################
+.class
+.o
+
+## Generated files
+##################################
+
+## OS generated files
+##################################
+.DS_Store
+Icon?
+
+## Android
+##################################
+bin/
+gen/
+*.apk
+*.ap_
+
+## Xcode
+##################################
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+
+## IntelliJ
+#################################
+.idea/
+*.iml
+out/

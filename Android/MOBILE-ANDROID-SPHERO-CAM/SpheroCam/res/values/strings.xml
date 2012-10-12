@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpheroCam</string>
+    <string name="RobotDisconnected">Lost Connection to Sphero</string>
+    <string name="ConnectionLost">The connection with Sphero has been lost. Restart the app to connect to Sphero again.</string>
+    <string name="OK">OK</string>
+    
+    <string name="CameraConnectFailedTitle">Failed to Connect to Camera Service</string>
+    <string name="CameraConnectFailedMessage">
+        Failed to connect to the camera service. The camera may be busy. Close any open camera apps,
+        or restart the phone, and try again.
+    </string>
+</resources>

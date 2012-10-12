@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name"><![CDATA[Draw&Drive]]></string>
+    <string name="RobotDisconnected">Lost Connection to Sphero</string>
+    <string name="ConnectionLost">The connection with Sphero has been lost. Restart the app to connect to Sphero again.</string>
+    <string name="OK">OK</string>
+</resources>

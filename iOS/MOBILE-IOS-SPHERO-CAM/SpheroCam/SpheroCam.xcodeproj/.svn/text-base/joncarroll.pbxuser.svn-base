@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* AVCam */ = {
+		activeExec = 0;
+		executables = (
+			81FC4F9413ABFC07007076DB /* AVCam */,
+		);
+	};
+	26D26A43130341DA00D8C94B /* AVCamUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1354, 767}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1226, 1565}";
+		};
+	};
+	26D26A44130341DA00D8C94B /* AVCamUtilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1354, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1642, 1362}";
+		};
+	};
+	28D7ACF60DDB3853001CB0EB /* AVCamViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 1144}}";
+			sepNavSelRange = "{3628, 0}";
+			sepNavVisRange = "{2955, 681}";
+			sepNavWindowFrame = "{{2621, 455}, {1117, 646}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1279, 7410}}";
+			sepNavSelRange = "{21162, 0}";
+			sepNavVisRange = "{19554, 1825}";
+			sepNavWindowFrame = "{{2644, 434}, {1117, 646}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 81FC4F9413ABFC07007076DB /* AVCam */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* AVCam */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* AVCam */,
+		);
+		codeSenseManager = 81FC4FB313ABFC1A007076DB /* Code sense */;
+		executables = (
+			81FC4F9413ABFC07007076DB /* AVCam */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1176,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1136,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330043556;
+			PBXWorkspaceStateSaveDate = 330043556;
+		};
+		perUserProjectItems = {
+			81FC504013AC06CC007076DB /* PBXTextBookmark */ = 81FC504013AC06CC007076DB /* PBXTextBookmark */;
+			81FC504113AC06CC007076DB /* PBXTextBookmark */ = 81FC504113AC06CC007076DB /* PBXTextBookmark */;
+			81FC504213AC06CC007076DB /* PBXTextBookmark */ = 81FC504213AC06CC007076DB /* PBXTextBookmark */;
+			81FC504413AC06CC007076DB /* PBXTextBookmark */ = 81FC504413AC06CC007076DB /* PBXTextBookmark */;
+			81FC504613AC06CC007076DB /* PBXTextBookmark */ = 81FC504613AC06CC007076DB /* PBXTextBookmark */;
+			81FC504813AC06CC007076DB /* PBXTextBookmark */ = 81FC504813AC06CC007076DB /* PBXTextBookmark */;
+			81FC506713AC0811007076DB /* PBXTextBookmark */ = 81FC506713AC0811007076DB /* PBXTextBookmark */;
+			81FC506813AC0811007076DB /* PBXTextBookmark */ = 81FC506813AC0811007076DB /* PBXTextBookmark */;
+			81FC507E13AC0DE5007076DB /* PBXTextBookmark */ = 81FC507E13AC0DE5007076DB /* PBXTextBookmark */;
+			81FC507F13AC0DE5007076DB /* PlistBookmark */ = 81FC507F13AC0DE5007076DB /* PlistBookmark */;
+			81FC508413AC0DE5007076DB /* PBXTextBookmark */ = 81FC508413AC0DE5007076DB /* PBXTextBookmark */;
+			81FC509613AC10B3007076DB /* PBXTextBookmark */ = 81FC509613AC10B3007076DB /* PBXTextBookmark */;
+			81FC509713AC10B3007076DB /* PBXBookmark */ = 81FC509713AC10B3007076DB /* PBXBookmark */;
+			81FC50A313AC1155007076DB /* PBXBookmark */ = 81FC50A313AC1155007076DB /* PBXBookmark */;
+			81FC50A413AC1155007076DB /* PBXTextBookmark */ = 81FC50A413AC1155007076DB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 81FC4FB213ABFC1A007076DB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	81FC4F9413ABFC07007076DB /* AVCam */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AVCam;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	81FC4FB213ABFC1A007076DB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	81FC4FB313ABFC1A007076DB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	81FC500213AC03C8007076DB /* RCDriveFatSlider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1354, 493}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 224}";
+		};
+	};
+	81FC500313AC03C8007076DB /* RCDriveFatSlider.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1354, 493}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 440}";
+		};
+	};
+	81FC504013AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26D26A44130341DA00D8C94B /* AVCamUtilities.m */;
+		name = "AVCamUtilities.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 1642;
+	};
+	81FC504113AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 26D26A43130341DA00D8C94B /* AVCamUtilities.h */;
+		name = "AVCamUtilities.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 1226;
+	};
+	81FC504213AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 81FC504313AC06CC007076DB /* AVCaptureSession.h */;
+		name = "AVCaptureSession.h: 116";
+		rLen = 45;
+		rLoc = 4453;
+		rType = 0;
+		vrLen = 1596;
+		vrLoc = 3754;
+	};
+	81FC504313AC06CC007076DB /* AVCaptureSession.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AVCaptureSession.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureSession.h;
+		sourceTree = "<absolute>";
+	};
+	81FC504413AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 81FC504513AC06CC007076DB /* AVCaptureVideoPreviewLayer.h */;
+		name = "AVCaptureVideoPreviewLayer.h: 107";
+		rLen = 25;
+		rLoc = 3262;
+		rType = 0;
+		vrLen = 1431;
+		vrLoc = 2179;
+	};
+	81FC504513AC06CC007076DB /* AVCaptureVideoPreviewLayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AVCaptureVideoPreviewLayer.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureVideoPreviewLayer.h;
+		sourceTree = "<absolute>";
+	};
+	81FC504613AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E9A3542A116A7C4300CB935D /* AVCamCaptureManager.h */;
+		name = "AVCamCaptureManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2341;
+		vrLoc = 0;
+	};
+	81FC504813AC06CC007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* AVCamViewController.h */;
+		name = "AVCamViewController.h: 76";
+		rLen = 0;
+		rLoc = 3630;
+		rType = 0;
+		vrLen = 1382;
+		vrLoc = 2254;
+	};
+	81FC506713AC0811007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 81FC500213AC03C8007076DB /* RCDriveFatSlider.h */;
+		name = "RCDriveFatSlider.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 224;
+		vrLoc = 0;
+	};
+	81FC506813AC0811007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 81FC500313AC03C8007076DB /* RCDriveFatSlider.m */;
+		name = "RCDriveFatSlider.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 0;
+	};
+	81FC507E13AC0DE5007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E96FB2101316DF80006ADCE0 /* English */;
+		name = "Localizable.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1320;
+		vrLoc = 0;
+	};
+	81FC507F13AC0DE5007076DB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* AVCam-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/joncarroll/Documents/ProjectCheckout/Sphero/KittyCam/AVCam-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	81FC508413AC0DE5007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */;
+		name = "AVCamViewController.m: 514";
+		rLen = 0;
+		rLoc = 21162;
+		rType = 0;
+		vrLen = 1825;
+		vrLoc = 19554;
+	};
+	81FC509613AC10B3007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */;
+		name = "AVCamViewController.m: 330";
+		rLen = 0;
+		rLoc = 12708;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 11934;
+	};
+	81FC509713AC10B3007076DB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 81FC506013AC07F5007076DB /* RCDriveBigSliderThumb.png */;
+	};
+	81FC50A313AC1155007076DB /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 81FC506013AC07F5007076DB /* RCDriveBigSliderThumb.png */;
+	};
+	81FC50A413AC1155007076DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AVCamViewController.m */;
+		name = "AVCamViewController.m: 514";
+		rLen = 0;
+		rLoc = 21162;
+		rType = 0;
+		vrLen = 1825;
+		vrLoc = 19554;
+	};
+	E96FB2101316DF80006ADCE0 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3155, 516}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1320}";
+			sepNavWindowFrame = "{{2598, 476}, {1117, 646}}";
+		};
+	};
+	E9A3542A116A7C4300CB935D /* AVCamCaptureManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1354, 1053}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2341}";
+		};
+	};
+}

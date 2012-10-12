@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    "Settings" Activity launched from the MenuActivity that gives the user additional settings to adjust.
+
+    Author: Adam Williams
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.orbotix.spherocam"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    style="@style/Dialog.Background"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        android:layout_marginTop="10dp"
+        android:text="Settings"
+        android:layout_centerHorizontal="true"
+        />
+
+    <!-- Roll Button -->
+    <RelativeLayout
+        android:id="@+id/roll_button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onRollClick"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/roll_button_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/roll_button"
+            />
+
+        <TextView
+            android:id="@+id/roll_button_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/roll_button_image"
+            android:text="ROLL"
+            />
+    </RelativeLayout>
+
+    <!-- Speed Adjustment Buttons -->
+    <RelativeLayout
+        android:id="@+id/speed_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        >
+
+        <com.orbotix.spherocam.ui.settings.ControlButtonView
+            android:id="@+id/speed_cautious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/menu_list_item_bg_solid"
+            app:image="@drawable/speed_cautious"
+            app:text="Cautious"
+            android:onClick="onControlButtonClick"
+            />
+
+        <com.orbotix.spherocam.ui.settings.ControlButtonView
+            android:id="@+id/speed_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@+id/speed_cautious"
+            android:background="@drawable/menu_list_item_bg_solid"
+            app:image="@drawable/speed_normal"
+            app:text="Comfort"
+            android:onClick="onControlButtonClick"
+            />
+
+        <com.orbotix.spherocam.ui.settings.ControlButtonView
+            android:id="@+id/speed_crazy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/speed_normal"
+            android:background="@drawable/menu_list_item_bg_solid"
+            app:image="@drawable/speed_crazy"
+            app:text="Crazy"
+            android:onClick="onControlButtonClick"
+            />
+
+    </RelativeLayout>
+
+
+    <!-- Volume Control -->
+    <RelativeLayout
+        android:id="@+id/volume_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/joystick_position_layout"
+        >
+
+        <TextView
+            android:id="@+id/volume_label"
+            style="@style/Label.Settings"
+            android:text="SOUND EFFECTS VOLUME"
+            android:layout_centerHorizontal="true"
+            />
+            
+
+        <SeekBar
+            android:id="@+id/volume"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/volume_label"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:thumb="@drawable/slider_thumb_blue"
+            android:progressDrawable="@drawable/slider_background"
+            />
+
+    </RelativeLayout>
+
+
+    <!-- Joystick Position -->
+    <RelativeLayout
+        android:id="@+id/joystick_position_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:id="@+id/joystick_position_label"
+            style="@style/Label.Settings"
+            android:text="JOYSTICK POSITION"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.orbotix.spherocam.ui.settings.JoystickPositionView
+            android:id="@+id/joystick_position"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/joystick_position_label"
+            android:onClick="onJoystickClick"
+            />
+
+    </RelativeLayout>
+
+        
+
+
+</RelativeLayout>
