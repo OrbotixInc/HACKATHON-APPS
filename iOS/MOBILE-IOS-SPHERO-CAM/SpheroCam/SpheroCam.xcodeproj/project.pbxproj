@@ -109,6 +109,9 @@
 		81B322E11460692A008EBDB1 /* SpheroCamWhiteGear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E01460692A008EBDB1 /* SpheroCamWhiteGear@2x.png */; };
 		81B322E314606B3C008EBDB1 /* SpheroCamVideoCameraRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E214606B3B008EBDB1 /* SpheroCamVideoCameraRed.png */; };
 		81B322E514606C5E008EBDB1 /* SpheroCamButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B322E414606C5D008EBDB1 /* SpheroCamButtonBG@2x.png */; };
+		81C52C3B162A028B0020B2C8 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C52C38162A028B0020B2C8 /* RobotKit.framework */; };
+		81C52C3C162A028C0020B2C8 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81C52C39162A028B0020B2C8 /* RobotUIKit.bundle */; };
+		81C52C3D162A028C0020B2C8 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C52C3A162A028B0020B2C8 /* RobotUIKit.framework */; };
 		81D4E1BC13FED5CC00D77A6D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */; };
 		81D4E1C413FED72F00D77A6D /* Sphero-KittyCam-paw.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1C313FED72F00D77A6D /* Sphero-KittyCam-paw.png */; };
 		81D4E1CA13FED74500D77A6D /* Sphero-KittyCam-head.png in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E1C713FED74500D77A6D /* Sphero-KittyCam-head.png */; };
@@ -142,9 +145,6 @@
 		81FC507413AC0C08007076DB /* kittyCam57.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507113AC0C08007076DB /* kittyCam57.png */; };
 		81FC507513AC0C08007076DB /* kittyCam72.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507213AC0C08007076DB /* kittyCam72.png */; };
 		81FC507613AC0C08007076DB /* kittyCam114.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC507313AC0C08007076DB /* kittyCam114.png */; };
-		D306804014A23A9E00359AB3 /* libRobotUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306803F14A23A9E00359AB3 /* libRobotUIKit.a */; };
-		D306804314A23ABF00359AB3 /* libRobotKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D306804214A23ABF00359AB3 /* libRobotKit.a */; };
-		D349AA8614B40A720059A6DD /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8514B40A720059A6DD /* RobotUIKit.bundle */; };
 		D349AA8A14B40C730059A6DD /* camera_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8714B40C730059A6DD /* camera_button.png */; };
 		D349AA8B14B40C730059A6DD /* video_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8814B40C730059A6DD /* video_button.png */; };
 		D349AA8C14B40C730059A6DD /* video_recording_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D349AA8914B40C730059A6DD /* video_recording_button.png */; };
@@ -283,6 +283,9 @@
 		81B322E01460692A008EBDB1 /* SpheroCamWhiteGear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamWhiteGear@2x.png"; sourceTree = "<group>"; };
 		81B322E214606B3B008EBDB1 /* SpheroCamVideoCameraRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroCamVideoCameraRed.png; sourceTree = "<group>"; };
 		81B322E414606C5D008EBDB1 /* SpheroCamButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SpheroCamButtonBG@2x.png"; sourceTree = "<group>"; };
+		81C52C38162A028B0020B2C8 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotKit.framework; sourceTree = "<group>"; };
+		81C52C39162A028B0020B2C8 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
+		81C52C3A162A028B0020B2C8 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotUIKit.framework; sourceTree = "<group>"; };
 		81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		81D4E1C313FED72F00D77A6D /* Sphero-KittyCam-paw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-paw.png"; sourceTree = "<group>"; };
 		81D4E1C713FED74500D77A6D /* Sphero-KittyCam-head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sphero-KittyCam-head.png"; sourceTree = "<group>"; };
@@ -324,9 +327,6 @@
 		81FC507213AC0C08007076DB /* kittyCam72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kittyCam72.png; sourceTree = "<group>"; };
 		81FC507313AC0C08007076DB /* kittyCam114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kittyCam114.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SpheroCam-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SpheroCam-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		D306803F14A23A9E00359AB3 /* libRobotUIKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotUIKit.a; path = "../../MOBILE-IOS-ROBOTKIT/RobotUIKit/build/Release-iphoneos/libRobotUIKit.a"; sourceTree = "<group>"; };
-		D306804214A23ABF00359AB3 /* libRobotKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRobotKit.a; path = "../../MOBILE-IOS-ROBOTKIT/RobotKit/build/Release-iphoneos/libRobotKit.a"; sourceTree = "<group>"; };
-		D349AA8514B40A720059A6DD /* RobotUIKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = RobotUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D349AA8714B40C730059A6DD /* camera_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button.png; sourceTree = "<group>"; };
 		D349AA8814B40C730059A6DD /* video_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_button.png; sourceTree = "<group>"; };
 		D349AA8914B40C730059A6DD /* video_recording_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_recording_button.png; sourceTree = "<group>"; };
@@ -350,8 +350,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D306804314A23ABF00359AB3 /* libRobotKit.a in Frameworks */,
-				D306804014A23A9E00359AB3 /* libRobotUIKit.a in Frameworks */,
 				81D4E1BC13FED5CC00D77A6D /* libsqlite3.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -369,6 +367,8 @@
 				81FC503913AC0673007076DB /* CoreMotion.framework in Frameworks */,
 				81FC503B13AC0688007076DB /* AudioToolbox.framework in Frameworks */,
 				81EF991C14464B4100106BA3 /* libFlurryAnalytics.a in Frameworks */,
+				81C52C3B162A028B0020B2C8 /* RobotKit.framework in Frameworks */,
+				81C52C3D162A028C0020B2C8 /* RobotUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +428,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D349AA8514B40A720059A6DD /* RobotUIKit.bundle */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -495,8 +494,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D306803F14A23A9E00359AB3 /* libRobotUIKit.a */,
-				D306804214A23ABF00359AB3 /* libRobotKit.a */,
+				81C52C38162A028B0020B2C8 /* RobotKit.framework */,
+				81C52C39162A028B0020B2C8 /* RobotUIKit.bundle */,
+				81C52C3A162A028B0020B2C8 /* RobotUIKit.framework */,
 				81D4E1BB13FED5CC00D77A6D /* libsqlite3.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -708,7 +708,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D349AA8614B40A720059A6DD /* RobotUIKit.bundle in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* AVCamViewController.xib in Resources */,
 				E96FB2131316DF8C006ADCE0 /* Localizable.strings in Resources */,
@@ -815,6 +814,7 @@
 				D349AA8A14B40C730059A6DD /* camera_button.png in Resources */,
 				D349AA8B14B40C730059A6DD /* video_button.png in Resources */,
 				D349AA8C14B40C730059A6DD /* video_recording_button.png in Resources */,
+				81C52C3C162A028C0020B2C8 /* RobotUIKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,6 +874,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				BUNDLE_IDENTIFIER = com.orbotix.SpheroCam;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -887,6 +891,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = SpheroCam;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -902,6 +907,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Orbotix Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Orbotix Inc.";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SpheroCam_Prefix.pch;
 				INFOPLIST_FILE = "SpheroCam-Info.plist";
@@ -916,6 +925,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9487CBDD-16B6-421C-B701-00E62340F34C";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -995,6 +1005,10 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Brian Smith";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SpheroCam_Prefix.pch;
 				INFOPLIST_FILE = "SpheroCam-Info.plist";
@@ -1008,6 +1022,7 @@
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4CBBFB67-7280-461E-9A46-61A46BB84796";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = armv7;
 			};
 			name = Adhoc;
 		};
